@@ -136,6 +136,19 @@ public class MainActivity extends Activity {
     private final java.util.HashMap<Integer, String> qpName = new java.util.HashMap<>();  // name from get_info
     private final java.util.HashMap<Integer, String> qpDefault = new java.util.HashMap<>(); // default from get_info
 
+    // ---- per-model catalog (assets/quick_index.json): resolve quick params by NAME → index per model.
+    // Indices differ wildly per model (gps_enable: 53 on Neo 2 … 1403 on Flip), so the quick toggles
+    // can't use one fixed index — we look each name up in the catalog of the active model.
+    private static final class ModelCat {
+        final String name; final int table;
+        final List<String> codenames = new ArrayList<>();        // acModel values that auto-select this
+        final java.util.HashMap<String, Integer> idx = new java.util.HashMap<>();  // param name → index
+        ModelCat(String name, int table) { this.name = name; this.table = table; }
+    }
+    private final List<ModelCat> models = new ArrayList<>();
+    private boolean modelsLoaded = false;
+    private String manualModel = null;   // null = авто-определение по кодовому имени борта
+
     // ---- tab "Все параметры": bundled table, searchable, grouped, value read on tap ----
     /** One row of the bundled index→name→type table (assets/params.json, from the litox1 dump). */
     private static final class P {
@@ -346,6 +359,22 @@ public class MainActivity extends Activity {
         clp.leftMargin = dp(10); clp.rightMargin = dp(6);
         bar.addView(conn, clp);
 
+        // Модель — авто-определение по кодовому имени борта, с ручным выбором. Индексы параметров
+        // у каждой модели свои, поэтому от выбора зависит, куда пишут быстрые тумблеры.
+        loadModelsIfNeeded();
+        Button mdl = new Button(this);
+        mdl.setText("Модель: " + modelLabel() + "  ▾");
+        mdl.setAllCaps(false);
+        mdl.setTextSize(13);
+        mdl.setTextColor(TXT);
+        mdl.setBackground(pillOutline(DIVIDER));
+        mdl.setPadding(dp(12), dp(7), dp(12), dp(7));
+        mdl.setOnClickListener(v -> showModelMenu(mdl));
+        LinearLayout.LayoutParams mlp = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        mlp.rightMargin = dp(6);
+        bar.addView(mdl, mlp);
+
         // Стоп DJI Fly — opens App-Info (user taps "Остановить"); only if Fly is installed
         String pkg = DjiFly.installedPackage(this);
         if (pkg != null) {
@@ -405,6 +434,7 @@ public class MainActivity extends Activity {
         connPhase = "Подключение…";
         qpValue.clear();
         qpName.clear();
+        qpDefault.clear();
         Logger.i("connect: starting DUML session");
         render();
         new Thread(() -> {
@@ -434,6 +464,7 @@ public class MainActivity extends Activity {
         duml.stop();
         qpValue.clear();
         qpName.clear();
+        qpDefault.clear();
         allText.clear();
         allBool.clear();
         allReading.clear();
@@ -446,28 +477,106 @@ public class MainActivity extends Activity {
      * on this FC it often doesn't answer, so we don't depend on it — a successful read_value already
      * proves the index is a real param. Both are retried once (reads are timing-sensitive here).
      */
+    // ---- per-model catalog resolution ----
+
+    private void loadModelsIfNeeded() {
+        if (modelsLoaded) return;
+        modelsLoaded = true;
+        try {
+            InputStream in = getAssets().open("quick_index.json");
+            java.io.ByteArrayOutputStream bo = new java.io.ByteArrayOutputStream();
+            byte[] buf = new byte[8192]; int nb;
+            while ((nb = in.read(buf)) > 0) bo.write(buf, 0, nb);
+            in.close();
+            JSONObject root = new JSONObject(bo.toString("UTF-8"));
+            JSONArray ms = root.getJSONArray("models");
+            for (int i = 0; i < ms.length(); i++) {
+                JSONObject mo = ms.getJSONObject(i);
+                ModelCat mc = new ModelCat(mo.getString("name"), mo.optInt("table", 0));
+                JSONArray cn = mo.optJSONArray("codenames");
+                for (int j = 0; cn != null && j < cn.length(); j++) mc.codenames.add(cn.getString(j).toLowerCase());
+                JSONObject idx = mo.getJSONObject("idx");
+                java.util.Iterator<String> it = idx.keys();
+                while (it.hasNext()) { String k = it.next(); mc.idx.put(k, idx.getInt(k)); }
+                models.add(mc);
+            }
+            Logger.i("[model] loaded " + models.size() + " catalogs");
+        } catch (Exception e) { Logger.w("[model] load quick_index.json: " + e); }
+    }
+
+    /** Active catalog: manual choice if set, else auto by aircraft codename, else null (unknown). */
+    private ModelCat effectiveModel() {
+        if (manualModel != null) { loadModelsIfNeeded(); for (ModelCat m : models) if (m.name.equals(manualModel)) return m; }
+        return detectedModel();
+    }
+    private ModelCat detectedModel() {
+        loadModelsIfNeeded();
+        String ac = duml.acModel();
+        if (ac == null || ac.isEmpty()) return null;
+        String acl = ac.toLowerCase();
+        for (ModelCat m : models) for (String c : m.codenames) if (acl.equals(c)) return m;
+        return null;
+    }
+    /** On-board index of a quick param for the active model, or -1 if unknown/unavailable. */
+    private int idxOf(QuickParam q) {
+        ModelCat m = effectiveModel();
+        if (m == null) return -1;
+        Integer i = m.idx.get(q.name);
+        return i == null ? -1 : i;
+    }
+    private String modelLabel() {
+        ModelCat m = effectiveModel();
+        String base = m != null ? m.name : "не определена";
+        return manualModel == null ? base + " · авто" : base;
+    }
+    private void showModelMenu(View anchor) {
+        loadModelsIfNeeded();
+        android.widget.PopupMenu pm = new android.widget.PopupMenu(this, anchor);
+        ModelCat det = detectedModel();
+        pm.getMenu().add(0, 0, 0, "Авто" + (det != null ? " (" + det.name + ")" : " (не определена)"));
+        for (int i = 0; i < models.size(); i++) pm.getMenu().add(0, i + 1, i + 1, models.get(i).name);
+        pm.setOnMenuItemClickListener(item -> {
+            int id = item.getItemId();
+            String prev = manualModel;
+            manualModel = (id == 0) ? null : models.get(id - 1).name;
+            if (!java.util.Objects.equals(prev, manualModel)) onModelChanged();
+            return true;
+        });
+        pm.show();
+    }
+    /** Model changed → cached reads are keyed by the old model's indices, drop them and re-read. */
+    private void onModelChanged() {
+        qpValue.clear(); qpName.clear(); qpDefault.clear();
+        Logger.i("[model] -> " + (manualModel == null ? "авто" : manualModel));
+        render();
+        if (duml.isUp()) new Thread(this::readQuickParams).start();
+    }
+
     private void readQuickParams() {
         if (!duml.isUp()) return;
         loadTableIfNeeded();
+        loadModelsIfNeeded();
         int n = 0;
         for (QuickParam q : QUICK) {
             if (!duml.isUp()) break;
+            int ix = idxOf(q);
+            if (ix < 0) continue;                      // нет в каталоге активной модели — пропускаем
             connPhase = "Чтение " + (++n) + "…";
             ui.post(this::render);
             // one read_value (proves the index) + one getInfoRaw (name + default in a single reply).
             // NOTE: use getInfoRaw, NOT getInfoName — the latter's 6-byte payload is silently ignored
             // by this FC and always times out (that was the quick-tab slowness).
-            Long v = duml.readParam(q.table, q.index, q.type, 1000);
-            if (v != null) qpValue.put(q.index, v);
+            Long v = duml.readParam(q.table, ix, q.type, 1000);
+            if (v != null) qpValue.put(ix, v);
             sleepMs(QP_PACE_MS);                       // разнести запросы во времени: вплотную роутер роняет ответы
-            byte[] info = duml.getInfoRaw(q.table, q.index, 800);
+            byte[] info = duml.getInfoRaw(q.table, ix, 800);
             String name = infoName(info);
-            if (name != null && !name.isEmpty()) qpName.put(q.index, name);
-            if (!qpDefault.containsKey(q.index)) {
+            if (name != null && !name.isEmpty()) qpName.put(ix, name);
+            if (!qpDefault.containsKey(ix)) {
                 String def = infoDefault(info, q.type);
-                if (def != null) qpDefault.put(q.index, def);
+                if (def != null) qpDefault.put(ix, def);
             }
-            Logger.i("[qp] " + q.name + " idx=" + q.index + " name=" + name + " value=" + v);
+            Logger.i("[qp] " + q.name + " idx=" + ix + " name=" + name + " value=" + v);
             sleepMs(QP_PACE_MS);
         }
         // also read the user-starred params so the quick tab shows their current values
@@ -488,29 +597,36 @@ public class MainActivity extends Activity {
 
     private void buildQuick(LinearLayout b) {
         boolean connected = duml.isUp() && !duml.acModel().isEmpty();
+        ModelCat model = effectiveModel();
         addSectionCaption(b, "БЫСТРЫЕ ПАРАМЕТРЫ");
         if (!connected) {
             addNote(b, "Подключитесь к дрону — нажмите индикатор ● в левом верхнем углу. "
                     + "Приложение прочитает текущие значения и позволит их переключить.");
+        } else if (model == null) {
+            addNote(b, "Модель дрона не определена автоматически. Выберите её кнопкой «Модель» вверху — "
+                    + "у каждой модели свои индексы параметров, поэтому без выбора тумблеры недоступны.");
         }
 
         for (final QuickParam q : QUICK) {
-            String seenName = qpName.get(q.index);        // null if get_info didn't answer
-            Long cur = qpValue.get(q.index);
+            int ix = idxOf(q);
+            String seenName = ix < 0 ? null : qpName.get(ix);   // null if get_info didn't answer
+            Long cur = ix < 0 ? null : qpValue.get(ix);
             boolean haveName = seenName != null && !seenName.isEmpty();
             boolean nameMismatch = haveName && !q.matches(seenName);   // get_info answered a DIFFERENT name
 
             String status;
             if (!connected) {
                 status = q.name + " · нет данных";
+            } else if (ix < 0) {
+                status = q.name + " · нет в каталоге выбранной модели";
             } else if (cur == null) {
                 status = q.name + " · не прочитан (нет ответа)";
             } else if (nameMismatch) {
-                status = "⚠ на этой прошивке idx " + q.index + " = " + seenName + " — запись заблокирована";
+                status = "⚠ на этой прошивке idx " + ix + " = " + seenName + " — запись заблокирована";
             } else {
                 String now = cur == q.onValue ? q.onLabel
                         : cur == q.offValue ? q.offLabel : String.valueOf(cur);
-                String def = qpDefault.get(q.index);
+                String def = qpDefault.get(ix);
                 status = q.name + " · сейчас: " + now + (def != null ? " · по умолч. " + def : "")
                         + (haveName ? "" : " · имя не проверено");
             }
@@ -519,7 +635,7 @@ public class MainActivity extends Activity {
             Switch sw = addSwitchRow(b, q.title, sub);
             sw.setChecked(cur != null && cur == q.onValue);   // set before attaching listener — no callback
             // editable once we have a real value and get_info hasn't positively contradicted the name
-            boolean editable = connected && cur != null && !nameMismatch && !paramsBusy;
+            boolean editable = connected && ix >= 0 && cur != null && !nameMismatch && !paramsBusy;
             sw.setEnabled(editable);
             if (editable) {
                 sw.setOnCheckedChangeListener((v, checked) -> onQuickToggle(q, checked));
@@ -626,24 +742,26 @@ public class MainActivity extends Activity {
     /** Write a quick param (re-verifying the name first), read it back, then refresh the UI. */
     private void onQuickToggle(QuickParam q, boolean checked) {
         if (paramsBusy) return;
+        final int ix = idxOf(q);
+        if (ix < 0) { toast("Параметр недоступен для выбранной модели"); render(); return; }
         paramsBusy = true;
         final long target = checked ? q.onValue : q.offValue;
-        Logger.i("[qp] toggle " + q.name + " -> " + target);
+        Logger.i("[qp] toggle " + q.name + " idx=" + ix + " -> " + target);
         render();                                   // disables all switches while busy
         toast(q.title + ": запись " + target + "…");
         new Thread(() -> {
             // re-verify the on-board name right before writing — but only BLOCK on a positive
             // mismatch. Use getInfoRaw (working 4-byte payload); a null just means "unverified",
             // not "wrong param" — same rule as the display gate in buildQuick.
-            String name = infoName(duml.getInfoRaw(q.table, q.index, 900));
+            String name = infoName(duml.getInfoRaw(q.table, ix, 900));
             boolean mismatch = name != null && !name.isEmpty() && !q.matches(name);
             if (mismatch) {
-                Logger.w("[qp] name mismatch, abort write: idx=" + q.index + " name=" + name);
+                Logger.w("[qp] name mismatch, abort write: idx=" + ix + " name=" + name);
                 ui.post(() -> toast("Отмена: имя параметра не совпало (" + name + ")"));
             } else {
-                final long status = duml.writeParam(q.table, q.index, q.type, target, 1600);
-                final Long rb = duml.readParam(q.table, q.index, q.type, 1400);
-                if (rb != null) qpValue.put(q.index, rb);
+                final long status = duml.writeParam(q.table, ix, q.type, target, 1600);
+                final Long rb = duml.readParam(q.table, ix, q.type, 1400);
+                if (rb != null) qpValue.put(ix, rb);
                 final boolean ok = status == 0 && rb != null && rb == target;
                 ui.post(() -> toast(q.title + (ok
                         ? " · записано (" + rb + ")"

@@ -1,0 +1,100 @@
+{
+  "quick": [
+    "fswitch_selection",
+    "forearm_led_ctrl",
+    "gps_enable",
+    "vps_func_en"
+  ],
+  "models": [
+    {
+      "name": "Lito X1",
+      "codenames": [
+        "wa151"
+      ],
+      "table": 0,
+      "idx": {
+        "forearm_led_ctrl": 23,
+        "fswitch_selection": 146,
+        "gps_enable": 650,
+        "vps_func_en": 1314
+      }
+    },
+    {
+      "name": "DJI Neo",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "forearm_led_ctrl": 45,
+        "gps_enable": 312,
+        "fswitch_selection": 786,
+        "vps_func_en": 1027
+      }
+    },
+    {
+      "name": "DJI Neo 2",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "forearm_led_ctrl": 4,
+        "gps_enable": 53,
+        "fswitch_selection": 466,
+        "vps_func_en": 1079
+      }
+    },
+    {
+      "name": "DJI Flip",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "forearm_led_ctrl": 26,
+        "fswitch_selection": 460,
+        "gps_enable": 1403,
+        "vps_func_en": 1477
+      }
+    },
+    {
+      "name": "DJI Avata 360",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "gps_enable": 310,
+        "fswitch_selection": 1285,
+        "vps_func_en": 1382,
+        "forearm_led_ctrl": 1527
+      }
+    },
+    {
+      "name": "DJI Mini 4 Pro",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "vps_func_en": 295,
+        "fswitch_selection": 419,
+        "gps_enable": 941,
+        "forearm_led_ctrl": 1396
+      }
+    },
+    {
+      "name": "DJI Air 3",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "vps_func_en": 316,
+        "fswitch_selection": 440,
+        "gps_enable": 960,
+        "forearm_led_ctrl": 1426
+      }
+    },
+    {
+      "name": "DJI Air 3S",
+      "codenames": [],
+      "table": 0,
+      "idx": {
+        "forearm_led_ctrl": 362,
+        "fswitch_selection": 593,
+        "gps_enable": 918,
+        "vps_func_en": 1428
+      }
+    }
+  ]
+}
