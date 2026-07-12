@@ -164,6 +164,13 @@ keytool -genkeypair -v -keystore debug.keystore -storepass android -keypass andr
 
 ## Деплой на пульт
 
+> ⚠️ **Требуется разблокированный пульт.** Установка опирается на системный shell с правами
+> `system` (telnet-мост, `pm install -r -g`) и на **SELinux в режиме permissive** (иначе
+> `pm install` не прочитает APK с FUSE `/sdcard`). На стоковом заблокированном пульте этого нет —
+> сначала нужно разблокировать RC (например, комплектом от **Drone Tweaks** или аналогичным),
+> получив системный shell и permissive-SELinux. Разблокировка пульта — вне рамок этого проекта;
+> делаете на свой риск.
+
 На пульте **нет adb** (USB-debugging выключён, Developer Options спрятаны, root отсутствует).
 Обмен файлами — по **MTP**; установка — через системный shell пульта по **telnet** (busybox
 `telnetd` под system-uid).
