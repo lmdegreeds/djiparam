@@ -50,14 +50,20 @@ UI нативный, в тёмной теме DJI Fly. Приложение мо
 
 <table>
   <tr>
-    <td width="33%"><img src="docs/screenshots/quick-params.png" alt="Быстрые параметры"></td>
-    <td width="33%"><img src="docs/screenshots/all-params.png" alt="Все параметры"></td>
-    <td width="33%"><img src="docs/screenshots/categories.png" alt="Категории параметров"></td>
+    <td width="50%"><img src="docs/screenshots/quick-params.png" alt="Быстрые параметры"></td>
+    <td width="50%"><img src="docs/screenshots/all-params.png" alt="Все параметры"></td>
   </tr>
   <tr>
-    <td align="center">Быстрые параметры — переключатели с текущими значениями и readback</td>
-    <td align="center">Все параметры — поиск, избранное (★), чтение по тапу</td>
+    <td align="center">Быстрые переключатели — ATTI / LED / GPS</td>
+    <td align="center">Все параметры — поиск, избранное (★), значение по тапу</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/categories.png" alt="Категории параметров"></td>
+    <td width="50%"><img src="docs/screenshots/overlay.png" alt="Меню поверх DJI Fly"></td>
+  </tr>
+  <tr>
     <td align="center">Фильтр по категориям параметров</td>
+    <td align="center">Плавающее меню поверх DJI Fly — переключение без выхода из Fly</td>
   </tr>
 </table>
 
