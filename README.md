@@ -41,6 +41,25 @@ UI нативный, в тёмной теме DJI Fly. Приложение мо
 
 ---
 
+## Скриншоты
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/screenshots/quick-params.png" alt="Быстрые параметры"></td>
+    <td width="33%"><img src="docs/screenshots/all-params.png" alt="Все параметры"></td>
+    <td width="33%"><img src="docs/screenshots/categories.png" alt="Категории параметров"></td>
+  </tr>
+  <tr>
+    <td align="center">Быстрые параметры — переключатели с текущими значениями и readback</td>
+    <td align="center">Все параметры — поиск, избранное (★), чтение по тапу</td>
+    <td align="center">Фильтр по категориям параметров</td>
+  </tr>
+</table>
+
+_Экран пульта DJI RC 2 (1920×1080, ландшафт), тёмная тема в стиле DJI Fly._
+
+---
+
 ## Как это работает
 
 У борта нет своего USB/Wi-Fi — единственный путь к нему идёт **через пульт**: системный
