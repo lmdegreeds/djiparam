@@ -24,7 +24,7 @@ import java.util.List;
 public final class Duml {
 
     public static final int SET = 0x03, APP = 0x02, FC = 0x03;
-    public static final int GET_INFO = 0xE1, READ_VAL = 0xE2, WRITE_VAL = 0xE3;
+    public static final int GET_TABLE = 0xE0, GET_INFO = 0xE1, READ_VAL = 0xE2, WRITE_VAL = 0xE3;
 
     // Collected replies, tagged with a monotonic seq. request() snapshots the current seq high-water
     // mark and later matches only replies with a GREATER seq — so the reader's ready.remove(0) at the
@@ -232,6 +232,20 @@ public final class Duml {
     public byte[] getInfoRaw(int table, int index, int timeoutMs) {
         byte[] pl = new byte[]{ (byte) table, (byte) (table >> 8), (byte) index, (byte) (index >> 8) };
         return request(SET, GET_INFO, pl, index, timeoutMs);   // single-shot (best-effort default)
+    }
+
+    /**
+     * get_table_attributes (0xE0): firmware param-table identity for `table`. Returns {crc, count}
+     * (u32 each) or null. CRC identifies the model reliably (see model_tables/README); count breaks
+     * the wa150/wa151 CRC tie. Request payload is just &lt;table:u16&gt; (no unknown1); reply is
+     * &lt;status:u16&gt;&lt;table:u16&gt;&lt;crc:u32&gt;&lt;count:u32&gt;.
+     */
+    public long[] tableInfo(int table, int timeoutMs) {
+        byte[] pl = requestRead(SET, GET_TABLE, new byte[]{ (byte) table, (byte) (table >> 8) }, -1, timeoutMs);
+        if (pl == null || pl.length < 12) return null;
+        long status = (pl[0] & 0xFFL) | ((pl[1] & 0xFFL) << 8);
+        if (status != 0) { Logger.w("[duml] 0xE0 status=" + status); return null; }
+        return new long[]{ u32(pl, 4), u32(pl, 8) };
     }
 
     /** read_value (0xE2): current integer value at index, decoded by type. null if no reply / status!=0. */

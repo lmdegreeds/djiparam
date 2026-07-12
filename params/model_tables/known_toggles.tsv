@@ -1,0 +1,8 @@
+feature	param_name	on_value	off_value	value_type	only_models	restore_on_off	source	notes
+LED (arm lights)	forearm_led_ctrl	239	0	int	-	no	ledgps.Feat	передние LED рычагов; 239=on / 0=off
+Front LED (ext)	ext_led_ctrl	<learned>	0	int(type2/u16)	-	no	ledgps.Feat	dynamicOn: "on"-значение выучивается с борта (onLearned), off=0
+GPS	gps_enable	1	0	int	-	no	ledgps.Feat	включение/выключение GPS
+Attitude mode (ATTI)	fswitch_selection	3	12	int	-	no	ledgps.Feat + fcc default	3=ATTI / 12=Cine(normal); fcc element1 дефолт enable=3 disable=12
+Max speed (27 m/s)	g_config.mode_sport_cfg.horiz_max_speed	27	<original>	float(type8/F32)	WA234	yes	ledgps.Feat	restore=true: при off восстанавливается исходное; gated только на Air 3S
+CE/region (FCC)	ce_country_type	840(US)	344(HK)/643(RU)	u32	-	-	CLAUDE.md	table0 idx 239; ISO-3166 numeric; регион/FCC на уровне прошивки
+Max height (снятие лимита)	max_height	<raised>	<default>	int	-	-	CLAUDE.md	снятие лимита высоты

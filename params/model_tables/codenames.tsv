@@ -1,0 +1,11 @@
+codename	model_full	friendly	crc	count	params	file
+WM162	WM162_Mini3Pro	Mini 3 Pro	0	1220	649	paramtable_wm162.txt
+WA140	WA140_Mini4Pro	Mini 4 Pro	b9b2b16e	1433	804	paramtable_wa140.txt
+WA150	WA150_Mini5Pro	Mini 5 Pro	5f8b2ae1	1557	926	paramtable_wa150.txt
+WA151	WA151_LitoX1	Lito X1	5f8b2ae1	1593	926	paramtable_wa151.txt
+WM232	WM232_Air2S	Air 2S	0	1375	700	paramtable_wm232.txt
+WM233	WM233_Air3	Air 3	0	1463	821	paramtable_wm233.txt
+WA234	WA234_Air3S	Air 3S	0	1513	876	paramtable_wa234.txt
+WM260	WM260_Mavic3	Mavic 3	0	1311	647	paramtable_wm260.txt
+WM261	WM261_Mavic3Pro	Mavic 3 Pro	0	1415	784	paramtable_wm261.txt
+WA341	WA341_Mavic4	Mavic 4	ddb5b586	1550	890	paramtable_wa341.txt

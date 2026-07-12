@@ -1,0 +1,16 @@
+{
+  "_comment": "DJI codename -> param-table index. Sources: app.paramedit (parameditv5v6) + app.ledgps (ledgpsforcefly) for the 9 DJI models; fcc.apk (com.djifcc.dronecontrol) additionally supplied WA151_LitoX1. Detection order used by those apps: (1) read FC table CRC via DUML cmd_set=0x03 cmd_id=0xE0, match to crc below; (2) fallback probe param NAMES via 0xE1 get_info at sampled indices, pick table with >=2 name matches. Codename/friendly are labels, NOT lookup keys. crc=0 means the source app had no CRC baked in for that model (probe-only). NOTE: WA150 and WA151 share CRC 5f8b2ae1 -- CRC alone cannot separate Mini 5 Pro from Lito X1; disambiguate by count (1557 vs 1593) or by probing the ~12 differing rows.",
+  "row_format": "TSV per line: index<TAB>type<TAB>default<TAB>min<TAB>max<TAB>name . type 6/8 = float(F32), else little-endian int of size derived from get_info. name may be short|g_config.full.path (pipe-separated).",
+  "models": [
+    { "codename": "WM162", "model_full": "WM162_Mini3Pro",  "friendly": "Mini 3 Pro",   "crc": "0",        "count": 1220, "params": 649, "file": "paramtable_wm162.txt" },
+    { "codename": "WA140", "model_full": "WA140_Mini4Pro",  "friendly": "Mini 4 Pro",   "crc": "b9b2b16e", "count": 1433, "params": 804, "file": "paramtable_wa140.txt" },
+    { "codename": "WA150", "model_full": "WA150_Mini5Pro",  "friendly": "Mini 5 Pro",   "crc": "5f8b2ae1", "count": 1557, "params": 926, "file": "paramtable_wa150.txt" },
+    { "codename": "WA151", "model_full": "WA151_LitoX1",    "friendly": "Lito X1",      "crc": "5f8b2ae1", "count": 1593, "params": 926, "file": "paramtable_wa151.txt", "source": "fcc.apk", "note": "target drone; ~12 rows differ from WA150; fswitch_selection idx 146 (vs 138 on WA150)" },
+    { "codename": "WM232", "model_full": "WM232_Air2S",     "friendly": "Air 2S",       "crc": "0",        "count": 1375, "params": 700, "file": "paramtable_wm232.txt" },
+    { "codename": "WM233", "model_full": "WM233_Air3",      "friendly": "Air 3",        "crc": "0",        "count": 1463, "params": 821, "file": "paramtable_wm233.txt" },
+    { "codename": "WA234", "model_full": "WA234_Air3S",     "friendly": "Air 3S",       "crc": "0",        "count": 1513, "params": 876, "file": "paramtable_wa234.txt" },
+    { "codename": "WM260", "model_full": "WM260_Mavic3",    "friendly": "Mavic 3",      "crc": "0",        "count": 1311, "params": 647, "file": "paramtable_wm260.txt" },
+    { "codename": "WM261", "model_full": "WM261_Mavic3Pro", "friendly": "Mavic 3 Pro",  "crc": "0",        "count": 1415, "params": 784, "file": "paramtable_wm261.txt" },
+    { "codename": "WA341", "model_full": "WA341_Mavic4",    "friendly": "Mavic 4",      "crc": "ddb5b586", "count": 1550, "params": 890, "file": "paramtable_wa341.txt" }
+  ]
+}

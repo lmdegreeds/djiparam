@@ -11,7 +11,8 @@
       "codenames": [
         "wa151"
       ],
-      "table": 0,
+      "crc": "5f8b2ae1",
+      "count": 1593,
       "catalog": "params.json",
       "idx": {
         "forearm_led_ctrl": 23,
@@ -23,7 +24,8 @@
     {
       "name": "DJI Neo",
       "codenames": [],
-      "table": 0,
+      "crc": "0",
+      "count": 0,
       "catalog": "params_neo.json",
       "idx": {
         "forearm_led_ctrl": 45,
@@ -35,7 +37,8 @@
     {
       "name": "DJI Neo 2",
       "codenames": [],
-      "table": 0,
+      "crc": "0",
+      "count": 0,
       "catalog": "params_neo2.json",
       "idx": {
         "forearm_led_ctrl": 4,
@@ -47,7 +50,8 @@
     {
       "name": "DJI Flip",
       "codenames": [],
-      "table": 0,
+      "crc": "0",
+      "count": 0,
       "catalog": "params_flip.json",
       "idx": {
         "forearm_led_ctrl": 26,
@@ -59,7 +63,8 @@
     {
       "name": "DJI Avata 360",
       "codenames": [],
-      "table": 0,
+      "crc": "0",
+      "count": 0,
       "catalog": "params_avata360.json",
       "idx": {
         "gps_enable": 310,
@@ -70,8 +75,11 @@
     },
     {
       "name": "DJI Mini 4 Pro",
-      "codenames": [],
-      "table": 0,
+      "codenames": [
+        "wa140"
+      ],
+      "crc": "b9b2b16e",
+      "count": 1433,
       "catalog": "params_mini4pro.json",
       "idx": {
         "vps_func_en": 295,
@@ -82,8 +90,11 @@
     },
     {
       "name": "DJI Air 3",
-      "codenames": [],
-      "table": 0,
+      "codenames": [
+        "wm233"
+      ],
+      "crc": "0",
+      "count": 1463,
       "catalog": "params_air3.json",
       "idx": {
         "vps_func_en": 316,
@@ -94,14 +105,107 @@
     },
     {
       "name": "DJI Air 3S",
-      "codenames": [],
-      "table": 0,
+      "codenames": [
+        "wa234"
+      ],
+      "crc": "0",
+      "count": 1513,
       "catalog": "params_air3s.json",
       "idx": {
         "forearm_led_ctrl": 362,
         "fswitch_selection": 593,
         "gps_enable": 918,
         "vps_func_en": 1428
+      }
+    },
+    {
+      "name": "DJI Mini 3 Pro",
+      "codenames": [
+        "wm162"
+      ],
+      "crc": "0",
+      "count": 1220,
+      "catalog": "params_mini3pro.json",
+      "idx": {
+        "fswitch_selection": 143,
+        "gps_enable": 523,
+        "vps_func_en": 926,
+        "forearm_led_ctrl": 930
+      }
+    },
+    {
+      "name": "DJI Mini 5 Pro",
+      "codenames": [
+        "wa150"
+      ],
+      "crc": "5f8b2ae1",
+      "count": 1557,
+      "catalog": "params_mini5pro.json",
+      "idx": {
+        "forearm_led_ctrl": 23,
+        "fswitch_selection": 138,
+        "gps_enable": 640,
+        "vps_func_en": 1281
+      }
+    },
+    {
+      "name": "DJI Air 2S",
+      "codenames": [
+        "wm232"
+      ],
+      "crc": "0",
+      "count": 1375,
+      "catalog": "params_air2s.json",
+      "idx": {
+        "vps_func_en": 193,
+        "fswitch_selection": 659,
+        "gps_enable": 733,
+        "forearm_led_ctrl": 758
+      }
+    },
+    {
+      "name": "DJI Mavic 3",
+      "codenames": [
+        "wm260"
+      ],
+      "crc": "0",
+      "count": 1311,
+      "catalog": "params_mavic3.json",
+      "idx": {
+        "vps_func_en": 0,
+        "fswitch_selection": 287,
+        "gps_enable": 372,
+        "forearm_led_ctrl": 398
+      }
+    },
+    {
+      "name": "DJI Mavic 3 Pro",
+      "codenames": [
+        "wm261"
+      ],
+      "crc": "0",
+      "count": 1415,
+      "catalog": "params_mavic3pro.json",
+      "idx": {
+        "vps_func_en": 298,
+        "fswitch_selection": 471,
+        "gps_enable": 848,
+        "forearm_led_ctrl": 1383
+      }
+    },
+    {
+      "name": "DJI Mavic 4",
+      "codenames": [
+        "wa341"
+      ],
+      "crc": "ddb5b586",
+      "count": 1550,
+      "catalog": "params_mavic4.json",
+      "idx": {
+        "vps_func_en": 341,
+        "fswitch_selection": 476,
+        "gps_enable": 1422,
+        "forearm_led_ctrl": 1510
       }
     }
   ]

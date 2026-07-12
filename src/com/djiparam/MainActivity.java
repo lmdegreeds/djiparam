@@ -141,13 +141,17 @@ public class MainActivity extends Activity {
     // can't use one fixed index — we look each name up in the catalog of the active model.
     private static final class ModelCat {
         final String name; final int table; final String catalog;  // assets file with the full param table
+        final long crc, count;                                   // firmware-table CRC + slot count (0xE0)
         final List<String> codenames = new ArrayList<>();        // acModel values that auto-select this
         final java.util.HashMap<String, Integer> idx = new java.util.HashMap<>();  // param name → index (quick)
-        ModelCat(String name, int table, String catalog) { this.name = name; this.table = table; this.catalog = catalog; }
+        ModelCat(String name, int table, String catalog, long crc, long count) {
+            this.name = name; this.table = table; this.catalog = catalog; this.crc = crc; this.count = count;
+        }
     }
     private final List<ModelCat> models = new ArrayList<>();
     private boolean modelsLoaded = false;
-    private String manualModel = null;   // null = авто-определение по кодовому имени борта
+    private String manualModel = null;   // null = авто-определение (CRC 0xE0 → codename)
+    private volatile long boardCrc = 0, boardCount = 0;   // from 0xE0 on connect; identifies the model
 
     // ---- tab "Все параметры": bundled table, searchable, grouped, value read on tap ----
     /** One row of the bundled index→name→type table (assets/params.json, from the litox1 dump). */
@@ -436,6 +440,7 @@ public class MainActivity extends Activity {
         qpValue.clear();
         qpName.clear();
         qpDefault.clear();
+        boardCrc = 0; boardCount = 0;
         Logger.i("connect: starting DUML session");
         render();
         new Thread(() -> {
@@ -447,8 +452,12 @@ public class MainActivity extends Activity {
                     && !(duml.isUp() && !duml.acModel().isEmpty())) {
                 sleepMs(50);
             }
+            // firmware-table CRC (0xE0) — this identifies the model reliably for auto-select
+            long[] ti = duml.tableInfo(0, 1200);
+            if (ti != null) { boardCrc = ti[0]; boardCount = ti[1]; }
             Logger.i("connect: up=" + duml.isUp() + " ac=" + duml.acModel()
-                    + " sn=" + duml.acSerial() + " rc=" + duml.rcModel());
+                    + " sn=" + duml.acSerial() + " rc=" + duml.rcModel()
+                    + " crc=" + Long.toHexString(boardCrc) + " count=" + boardCount);
             connPhase = "Чтение…";       // фаза чтения быстрых параметров
             ui.post(this::render);
             readQuickParams();           // pull current toggle state (verify names, read values)
@@ -466,6 +475,7 @@ public class MainActivity extends Activity {
         qpValue.clear();
         qpName.clear();
         qpDefault.clear();
+        boardCrc = 0; boardCount = 0;
         allText.clear();
         allBool.clear();
         allReading.clear();
@@ -493,8 +503,10 @@ public class MainActivity extends Activity {
             JSONArray ms = root.getJSONArray("models");
             for (int i = 0; i < ms.length(); i++) {
                 JSONObject mo = ms.getJSONObject(i);
+                long crc = 0;
+                try { crc = Long.parseLong(mo.optString("crc", "0"), 16); } catch (Exception ignore) {}
                 ModelCat mc = new ModelCat(mo.getString("name"), mo.optInt("table", 0),
-                        mo.optString("catalog", "params.json"));
+                        mo.optString("catalog", "params.json"), crc, mo.optLong("count", 0));
                 JSONArray cn = mo.optJSONArray("codenames");
                 for (int j = 0; cn != null && j < cn.length(); j++) mc.codenames.add(cn.getString(j).toLowerCase());
                 JSONObject idx = mo.getJSONObject("idx");
@@ -513,10 +525,19 @@ public class MainActivity extends Activity {
     }
     private ModelCat detectedModel() {
         loadModelsIfNeeded();
+        // 1. firmware-table CRC (0xE0) — reliable. count breaks the wa150/wa151 shared-CRC tie.
+        if (boardCrc != 0) {
+            ModelCat hit = null; int n = 0;
+            for (ModelCat m : models) if (m.crc != 0 && m.crc == boardCrc) { hit = m; n++; }
+            if (n == 1) return hit;
+            if (n > 1) { for (ModelCat m : models) if (m.crc == boardCrc && m.count == boardCount) return m; }
+        }
+        // 2. fallback: aircraft codename (a label, less reliable than CRC)
         String ac = duml.acModel();
-        if (ac == null || ac.isEmpty()) return null;
-        String acl = ac.toLowerCase();
-        for (ModelCat m : models) for (String c : m.codenames) if (acl.equals(c)) return m;
+        if (ac != null && !ac.isEmpty()) {
+            String acl = ac.toLowerCase();
+            for (ModelCat m : models) for (String c : m.codenames) if (acl.equals(c)) return m;
+        }
         return null;
     }
     /** On-board index of a quick param for the active model, or -1 if unknown/unavailable. */
