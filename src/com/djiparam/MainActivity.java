@@ -140,10 +140,10 @@ public class MainActivity extends Activity {
     // Indices differ wildly per model (gps_enable: 53 on Neo 2 … 1403 on Flip), so the quick toggles
     // can't use one fixed index — we look each name up in the catalog of the active model.
     private static final class ModelCat {
-        final String name; final int table;
+        final String name; final int table; final String catalog;  // assets file with the full param table
         final List<String> codenames = new ArrayList<>();        // acModel values that auto-select this
-        final java.util.HashMap<String, Integer> idx = new java.util.HashMap<>();  // param name → index
-        ModelCat(String name, int table) { this.name = name; this.table = table; }
+        final java.util.HashMap<String, Integer> idx = new java.util.HashMap<>();  // param name → index (quick)
+        ModelCat(String name, int table, String catalog) { this.name = name; this.table = table; this.catalog = catalog; }
     }
     private final List<ModelCat> models = new ArrayList<>();
     private boolean modelsLoaded = false;
@@ -208,7 +208,8 @@ public class MainActivity extends Activity {
         CAT_DESC.put("Прочие внутренние", "поля, назначение которых нельзя надёжно вывести из имени");
     }
 
-    private List<P> table;                                     // loaded once from assets
+    private List<P> table;                                     // loaded from the active model's catalog
+    private String loadedCatalog = null;                       // assets file currently in `table`
     private final java.util.HashMap<Integer, P> tableByKey = new java.util.HashMap<>();   // key -> P
     private final List<Object> rows = new ArrayList<>();       // display list: String (header) | P (param)
     private final java.util.HashMap<Integer, String> allText = new java.util.HashMap<>(); // key -> display value
@@ -492,7 +493,8 @@ public class MainActivity extends Activity {
             JSONArray ms = root.getJSONArray("models");
             for (int i = 0; i < ms.length(); i++) {
                 JSONObject mo = ms.getJSONObject(i);
-                ModelCat mc = new ModelCat(mo.getString("name"), mo.optInt("table", 0));
+                ModelCat mc = new ModelCat(mo.getString("name"), mo.optInt("table", 0),
+                        mo.optString("catalog", "params.json"));
                 JSONArray cn = mo.optJSONArray("codenames");
                 for (int j = 0; cn != null && j < cn.length(); j++) mc.codenames.add(cn.getString(j).toLowerCase());
                 JSONObject idx = mo.getJSONObject("idx");
@@ -544,11 +546,14 @@ public class MainActivity extends Activity {
         });
         pm.show();
     }
-    /** Model changed → cached reads are keyed by the old model's indices, drop them and re-read. */
+    /** Model changed → indices/catalog differ, drop all cached reads and the loaded table, then re-read. */
     private void onModelChanged() {
         qpValue.clear(); qpName.clear(); qpDefault.clear();
+        stopLoading();                       // cancel in-flight all-params reads (old model's indices)
+        table = null; loadedCatalog = null; tableByKey.clear(); rows.clear();
+        allText.clear(); allBool.clear(); allDefault.clear(); allReading.clear(); expanded.clear();
         Logger.i("[model] -> " + (manualModel == null ? "авто" : manualModel));
-        render();
+        render();                            // rebuilds; buildAll/loadTableIfNeeded pulls the new catalog
         if (duml.isUp()) new Thread(this::readQuickParams).start();
     }
 
@@ -1014,11 +1019,15 @@ public class MainActivity extends Activity {
     }
 
     /** Parse assets/params.json (index→name→type→min/max) into the in-memory table, once. */
+    /** Load the full parameter table for the ACTIVE model's catalog (reloads when the model changes). */
     private void loadTableIfNeeded() {
-        if (table != null) return;
+        ModelCat m = effectiveModel();
+        String catalog = (m != null && m.catalog != null && !m.catalog.isEmpty()) ? m.catalog : "params.json";
+        if (table != null && catalog.equals(loadedCatalog)) return;
         List<P> t = new ArrayList<>();
+        tableByKey.clear();
         try {
-            InputStream in = getAssets().open("params.json");
+            InputStream in = getAssets().open(catalog);
             java.io.ByteArrayOutputStream bo = new java.io.ByteArrayOutputStream();
             byte[] buf = new byte[16384]; int n;
             while ((n = in.read(buf)) > 0) bo.write(buf, 0, n);
@@ -1037,11 +1046,12 @@ public class MainActivity extends Activity {
                 t.add(p);
                 tableByKey.put(key(p.table, p.index), p);
             }
-            Logger.i("[all] table loaded: " + t.size() + " params");
+            Logger.i("[all] catalog '" + catalog + "' loaded: " + t.size() + " params");
         } catch (Throwable e) {
-            Logger.e("[all] table load failed", e);
+            Logger.e("[all] table load failed (" + catalog + ")", e);
         }
         table = t;
+        loadedCatalog = catalog;
     }
 
     private static String fmtFloat(double d) {

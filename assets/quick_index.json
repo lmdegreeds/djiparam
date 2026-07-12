@@ -12,6 +12,7 @@
         "wa151"
       ],
       "table": 0,
+      "catalog": "params.json",
       "idx": {
         "forearm_led_ctrl": 23,
         "fswitch_selection": 146,
@@ -23,6 +24,7 @@
       "name": "DJI Neo",
       "codenames": [],
       "table": 0,
+      "catalog": "params_neo.json",
       "idx": {
         "forearm_led_ctrl": 45,
         "gps_enable": 312,
@@ -34,6 +36,7 @@
       "name": "DJI Neo 2",
       "codenames": [],
       "table": 0,
+      "catalog": "params_neo2.json",
       "idx": {
         "forearm_led_ctrl": 4,
         "gps_enable": 53,
@@ -45,6 +48,7 @@
       "name": "DJI Flip",
       "codenames": [],
       "table": 0,
+      "catalog": "params_flip.json",
       "idx": {
         "forearm_led_ctrl": 26,
         "fswitch_selection": 460,
@@ -56,6 +60,7 @@
       "name": "DJI Avata 360",
       "codenames": [],
       "table": 0,
+      "catalog": "params_avata360.json",
       "idx": {
         "gps_enable": 310,
         "fswitch_selection": 1285,
@@ -67,6 +72,7 @@
       "name": "DJI Mini 4 Pro",
       "codenames": [],
       "table": 0,
+      "catalog": "params_mini4pro.json",
       "idx": {
         "vps_func_en": 295,
         "fswitch_selection": 419,
@@ -78,6 +84,7 @@
       "name": "DJI Air 3",
       "codenames": [],
       "table": 0,
+      "catalog": "params_air3.json",
       "idx": {
         "vps_func_en": 316,
         "fswitch_selection": 440,
@@ -89,6 +96,7 @@
       "name": "DJI Air 3S",
       "codenames": [],
       "table": 0,
+      "catalog": "params_air3s.json",
       "idx": {
         "forearm_led_ctrl": 362,
         "fswitch_selection": 593,
