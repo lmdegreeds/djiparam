@@ -84,13 +84,17 @@ public class MainActivity extends Activity {
             this.type = type; this.onValue = onValue; this.onLabel = onLabel;
             this.offValue = offValue; this.offLabel = offLabel; this.desc = desc;
         }
-        /** The board can report the short name OR the full dotted path — accept either (substring, ci). */
+        /**
+         * The board reports the name as "short" or "short|g_config.full.path". Match a segment
+         * EXACTLY (case-insensitive) against an alias. Exact only — substring matching wrongly
+         * accepted "enable" for "gps_enable" and the different-enum "fswitch_selection_b" for
+         * "fswitch_selection", defeating the write-mismatch guard.
+         */
         boolean matches(String boardName) {
-            if (boardName == null) return false;
-            String b = boardName.toLowerCase();
-            for (String a : aliases) {
-                String x = a.toLowerCase();
-                if (b.equals(x) || b.contains(x) || x.contains(b)) return true;
+            if (boardName == null || boardName.isEmpty()) return false;
+            for (String seg : boardName.split("\\|")) {
+                String s = seg.trim().toLowerCase();
+                for (String a : aliases) if (s.equals(a.toLowerCase())) return true;
             }
             return false;
         }
