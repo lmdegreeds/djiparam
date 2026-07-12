@@ -1,0 +1,826 @@
+﻿model,category,semantic_name,raw_name,default,value,min,max,interpretation
+DJI Air 3,Battery & power,battery_type,battery_type,1,0,0,4,configuration_or_persistent_state
+DJI Air 3,Flight limits & regulation,ce_country_type,ce_country_type,0,643,0,2000,configuration_or_persistent_state
+DJI Air 3,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.064575,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,-0.0156915,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.00101,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,0.00986191,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.000222596,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,0.00206569,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,65.1117,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",device_gyr_acc.busy.temp_ready,device_gyr_acc.busy.temp_ready,0,1,0,0,runtime_or_read_only
+DJI Air 3,Flight modes & handling,disable_hover_mode_check,disable_hover_mode_check,0,1,0,1,configuration_or_persistent_state
+DJI Air 3,"IMU, compass & calibration controls",fault_sum_history.acc_noise0,fault_sum_history.acc_noise0,0,1,0,65535,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",fault_sum_history.baro_drift0,fault_sum_history.baro_drift0,0,1,0,65535,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",fault_sum_history.fusion_switch,fault_sum_history.fusion_switch,0,13,0,65535,runtime_or_read_only
+DJI Air 3,"Navigation, GNSS & positioning",fault_sum_history.gps,fault_sum_history.gps,0,6,0,65535,runtime_or_read_only
+DJI Air 3,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Air 3,"RTH, takeoff, landing & failsafe",g_config.fail_safe.protect_action,rc_lost_action|g_config.fail_safe.protect_action,2,0,0,3,configuration_or_persistent_state
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.00175953,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.0092797,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,170.434,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,5,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Air 3,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Air 3,Flight limits & regulation,g_config.flying_limit.user_set_max_height,g_config.flying_limit.user_set_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Air 3,"RTH, takeoff, landing & failsafe",g_config.go_home.fixed_go_home_altitude,go_home_height|g_config.go_home.fixed_go_home_altitude,100,120,20,1500,configuration_or_persistent_state
+DJI Air 3,"RC, radio, lights & interfaces",g_config.misc_cfg.forearm_lamp_ctrl,forearm_led_ctrl|g_config.misc_cfg.forearm_lamp_ctrl,239,0,0,255,configuration_or_persistent_state
+DJI Air 3,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.9622,0.962207,1e-07,1.5,configuration_or_persistent_state
+DJI Air 3,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.16779,0.167795,0.01,1,configuration_or_persistent_state
+DJI Air 3,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,1366,0,0,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,684300,0,0,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,129,0,0,runtime_or_read_only
+DJI Air 3,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,93560.4,0,0,runtime_or_read_only
+DJI Air 3,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,308,0,0,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,680493,0,0,runtime_or_read_only
+DJI Air 3,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,129,0,0,runtime_or_read_only
+DJI Air 3,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,90819.1,0,0,runtime_or_read_only
+DJI Air 3,"RTH, takeoff, landing & failsafe",gear_landing_abnormal_exit,gear_landing_abnormal_exit,0,1,0,100,configuration_or_persistent_state
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,0.00982335,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,-0.00450791,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,-0.00347519,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.0656782,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,-0.0153992,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-1.00116,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,182.802,0,0,runtime_or_read_only
+DJI Air 3,"Navigation, GNSS & positioning",imu0.gps_svn,imu0.gps_svn,0,4,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,0.0092852,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.000746054,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,0.00149502,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,252,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-250,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,1304,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,182.651,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.949478,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.00256134,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.0333603,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,0.312046,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,6501,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,700,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3020,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,0.000848848,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-0.000522621,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-9.23832e-06,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.0032605,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,-0.00620784,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,0.00460243,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,182.802,0,0,runtime_or_read_only
+DJI Air 3,"Navigation, GNSS & positioning",imu1.gps_svn,imu1.gps_svn,0,4,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,257,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-235,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,1293,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,181.857,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.94199,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.00339455,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.0332782,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.333966,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,6500,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,700,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3021,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,-0.00289649,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,-0.00145389,0,0,runtime_or_read_only
+DJI Air 3,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.00110778,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,65.1117,0,0,runtime_or_read_only
+DJI Air 3,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].temp_ready,imu_cali_0.acc_gyro[0].temp_ready,0,1,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Air 3,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,50540,0,0,runtime_or_read_only
+DJI Air 3,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Air 3,"RTH, takeoff, landing & failsafe",sdr_lost_prevent_has_takeoff_en,sdr_lost_prevent_has_takeoff_en,1,0,0,1,configuration_or_persistent_state
+DJI Air 3,"RTH, takeoff, landing & failsafe",sdr_lost_prevent_never_takeoff_en,sdr_lost_prevent_never_takeoff_en,1,0,0,1,configuration_or_persistent_state
+DJI Air 3S,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,EU_CE_Reg_GeoSense_Enable,EU_CE_Reg_GeoSense_Enable,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,EU_CE_Reg_Level,EU_CE_Reg_Level,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,EU_CE_Reg_RID_Enable,EU_CE_Reg_RID_Enable,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,ce_country_type,ce_country_type,0,36,0,2000,configuration_or_persistent_state
+DJI Air 3S,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.0744072,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.000209351,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.0003,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,-0.00364585,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,-0.000293946,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,0.000895193,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,65.006,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",device_gyr_acc.busy.temp_ready,device_gyr_acc.busy.temp_ready,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Air 3S,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Air 3S,"RTH, takeoff, landing & failsafe",fscap_presice_homing_s,fscap_presice_homing_s,0,1,0,1,configuration_or_persistent_state
+DJI Air 3S,"Obstacle sensing, vision & terrain",g_config.avoid_obstacle_limit_cfg.user_avoid_enable,user_avoid_enable|g_config.avoid_obstacle_limit_cfg.user_avoid_enable,1,2,0,2,configuration_or_persistent_state
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.00122523,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.00381303,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,14.5211,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,5,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Air 3S,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Air 3S,Flight limits & regulation,g_config.flying_limit.user_set_max_height,g_config.flying_limit.user_set_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Air 3S,"RTH, takeoff, landing & failsafe",g_config.go_home.fixed_go_home_altitude,go_home_height|g_config.go_home.fixed_go_home_altitude,100,205,20,1500,configuration_or_persistent_state
+DJI Air 3S,"RC, radio, lights & interfaces",g_config.misc_cfg.forearm_lamp_ctrl,forearm_led_ctrl|g_config.misc_cfg.forearm_lamp_ctrl,239,0,0,255,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.47973,0.718567,1e-07,1,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_sport_cfg.horiz_cur_speed,g_config.mode_sport_cfg.horiz_cur_speed,21,18.5,1,27,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.9622,0.810486,1e-07,3,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_tripod_cfg.horiz_cur_speed,g_config.mode_tripod_cfg.horiz_cur_speed,5,7.1,1,12,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.16779,0.264731,0.01,1,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_tripod_cfg.vert_vel_down,g_config.mode_tripod_cfg.vert_vel_down,-3,-6,-6,-1,configuration_or_persistent_state
+DJI Air 3S,Flight modes & handling,g_config.mode_tripod_cfg.vert_vel_up,g_config.mode_tripod_cfg.vert_vel_up,3,6,1,6,configuration_or_persistent_state
+DJI Air 3S,Battery & power,g_config.voltage2.user_set_smart_bat,enSmartBatGH|g_config.voltage2.user_set_smart_bat,2,1,0,2,configuration_or_persistent_state
+DJI Air 3S,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,9558,0,0,runtime_or_read_only
+DJI Air 3S,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,1.6308e+06,0,0,runtime_or_read_only
+DJI Air 3S,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,192,0,0,runtime_or_read_only
+DJI Air 3S,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,197568,0,0,runtime_or_read_only
+DJI Air 3S,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,826,0,0,runtime_or_read_only
+DJI Air 3S,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,1.67836e+06,0,0,runtime_or_read_only
+DJI Air 3S,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,192,0,0,runtime_or_read_only
+DJI Air 3S,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,207943,0,0,runtime_or_read_only
+DJI Air 3S,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,1,0,255,configuration_or_persistent_state
+DJI Air 3S,"Navigation, GNSS & positioning",gnss_chip_type,gnss_chip_type,0,1,0,255,configuration_or_persistent_state
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,-0.0100787,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,-0.00799848,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,0.00362873,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.0741005,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.00139525,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-1.00036,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,186.373,0,0,runtime_or_read_only
+DJI Air 3S,"Navigation, GNSS & positioning",imu0.gps_svn,imu0.gps_svn,0,4,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,-0.00401258,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,-6.86975e-05,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,0.000344222,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,206,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-282,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,1478,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,186.266,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.977343,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.00840047,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.0361887,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,0.208371,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,6496,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,900,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3253,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,-0.000502655,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-0.000805832,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-0.000300112,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.0133607,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,0.0051075,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,-0.00178051,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,186.363,0,0,runtime_or_read_only
+DJI Air 3S,"Navigation, GNSS & positioning",imu1.gps_svn,imu1.gps_svn,0,4,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,203,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-285,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,1475,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,186.224,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.933556,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.0136629,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.0345408,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.3565,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,6497,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,900,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3252,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,-0.00343383,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,0.00240697,0,0,runtime_or_read_only
+DJI Air 3S,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.00224453,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,65.006,0,0,runtime_or_read_only
+DJI Air 3S,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].temp_ready,imu_cali_0.acc_gyro[0].temp_ready,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,36961,0,0,runtime_or_read_only
+DJI Air 3S,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Air 3S,"Obstacle sensing, vision & terrain",user_all_avoid_enable,user_all_avoid_enable,1,0,0,1,configuration_or_persistent_state
+DJI Mini 4 Pro,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Mini 4 Pro,Flight limits & regulation,ce_country_type,ce_country_type,0,124,0,2000,configuration_or_persistent_state
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,772,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,compass1.status_data,compass1.status_data,0,768,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,-0.220213,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.028763,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-0.977521,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,0.005333,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.00302,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,-0.001664,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,37.2736,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Flight modes & handling,disable_hover_mode_check,disable_hover_mode_check,0,1,0,1,configuration_or_persistent_state
+DJI Mini 4 Pro,"Diagnostics, service & simulator",fault_sum_history.fusion_switch,fault_sum_history.fusion_switch,0,18,0,65535,runtime_or_read_only
+DJI Mini 4 Pro,"Navigation, GNSS & positioning",fault_sum_history.gps,fault_sum_history.gps,0,110,0,65535,runtime_or_read_only
+DJI Mini 4 Pro,"RTH, takeoff, landing & failsafe",first_takeoff_warning,first_takeoff_warning,1,0,0,1,configuration_or_persistent_state
+DJI Mini 4 Pro,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.000629,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.006344,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,736.899,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Mini 4 Pro,"RTH, takeoff, landing & failsafe",g_config.go_home.fixed_go_home_altitude,go_home_height|g_config.go_home.fixed_go_home_altitude,100,25,20,1500,configuration_or_persistent_state
+DJI Mini 4 Pro,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.462366,0.791449,1e-07,1,configuration_or_persistent_state
+DJI Mini 4 Pro,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.562121,1,1e-07,1,configuration_or_persistent_state
+DJI Mini 4 Pro,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.205128,0.321933,0.01,1,configuration_or_persistent_state
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,1366,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,4943.92,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,48,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,15021.9,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,133,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,4944.15,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,48,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,15178.4,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,0.009986,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,0.005399,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,-0.00405,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,-0.220426,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.028472,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-0.977552,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,56.6662,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Navigation, GNSS & positioning",imu0.gps_svn,imu0.gps_svn,0,24,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,0.005138,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.004104,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,-0.001303,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.lati,imu0.lati,0,1.02974,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.longti,imu0.longti,0,-2.0944,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,318,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-452,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,2163,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,56.7196,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.377941,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.107351,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,-0.028804,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,-0.919134,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,3755,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,500,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3969,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,0.005634,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,0.004039,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-0.000422,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,0.002551,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,-0.009799,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,-0.004996,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,56.6705,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"Navigation, GNSS & positioning",imu1.gps_svn,imu1.gps_svn,0,24,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.lati,imu1.lati,0,1.02974,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.longti,imu1.longti,0,-2.0944,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,322,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-448,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,2162,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,56.8106,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.500767,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,0.088055,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,-0.06773,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.858422,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,3758,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,500,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3978,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,0.004064,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,-0.011655,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.001635,0,0,runtime_or_read_only
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,37.3641,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,6197,0,0,runtime_or_read_only
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Neo,Flight limits & regulation,EU_CE_Reg_120Height_Enable,EU_CE_Reg_120Height_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Neo,Flight limits & regulation,ce_country_type,ce_country_type,0,643,0,2000,configuration_or_persistent_state
+DJI Neo,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.022662,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.00677,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.00313,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,-0.001468,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.002235,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,0.000202,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,28.6232,0,0,runtime_or_read_only
+DJI Neo,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Neo,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.control.control_mode[0],fswitch_selection|g_config.control.control_mode[0],12,7,0,21,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.control.control_mode[2],fswitch_selection_2|g_config.control.control_mode[2],7,8,0,21,configuration_or_persistent_state
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.00192,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.002612,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,2005.21,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Neo,"Navigation, GNSS & positioning",g_config.gps_cfg.gps_enable,gps_enable|g_config.gps_cfg.gps_enable,1,0,0,1,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.mode_atti_normal_cfg.tilt_atti_range,g_config.mode_atti_normal_cfg.tilt_atti_range,25,20,5,55,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.mode_atti_normal_cfg.tors_exp_mid_point,g_config.mode_atti_normal_cfg.tors_exp_mid_point,0.37,0.2,0.1,0.9,configuration_or_persistent_state
+DJI Neo,"IMU, compass & calibration controls",g_config.mode_atti_normal_cfg.tors_gyro_range,g_config.mode_atti_normal_cfg.tors_gyro_range,120,50,20,120,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.539,0.34965,1e-07,1,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.8,0.631005,1e-07,1,configuration_or_persistent_state
+DJI Neo,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.3233,0.203871,0.05,1,configuration_or_persistent_state
+DJI Neo,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,34390,0,0,runtime_or_read_only
+DJI Neo,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Neo,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,5.87842,0,0,runtime_or_read_only
+DJI Neo,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,1,0,0,runtime_or_read_only
+DJI Neo,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,60.7012,0,0,runtime_or_read_only
+DJI Neo,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,15,0,0,runtime_or_read_only
+DJI Neo,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,5.87842,0,0,runtime_or_read_only
+DJI Neo,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,1,0,0,runtime_or_read_only
+DJI Neo,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,60.7,0,0,runtime_or_read_only
+DJI Neo,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,3,0,255,configuration_or_persistent_state
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,-0.001754,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,-0.005755,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,0.001929,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.024149,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.007009,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-1.00336,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,50.957,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,0.001906,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.001315,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,0.000699,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,-2144,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-1787,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,2077,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,50.9056,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.131253,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,0.011108,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.004884,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,-0.991275,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,2853,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,700,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3119,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,0.001186,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-0.000647,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-0.000187,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,0.005012,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,0.009717,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,0.002037,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,50.9518,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,-2144,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-1791,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,2111,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,51.1789,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.297009,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.012118,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,-0.000128,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.9548,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,2855,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,700,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3119,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,0.000519,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,0.004469,0,0,runtime_or_read_only
+DJI Neo,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.00045,0,0,runtime_or_read_only
+DJI Neo,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,28.6534,0,0,runtime_or_read_only
+DJI Neo,Flight modes & handling,mode_gentle_cfg_tilt_atti_range,mode_gentle_cfg_tilt_atti_range,20,10,10,60,configuration_or_persistent_state
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Neo,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,676,0,0,runtime_or_read_only
+DJI Neo,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Neo 2,Flight limits & regulation,EU_CE_Reg_120Height_Enable,EU_CE_Reg_120Height_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo 2,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo 2,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Neo 2,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Neo 2,Flight limits & regulation,ce_country_type,ce_country_type,0,643,0,2000,configuration_or_persistent_state
+DJI Neo 2,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.016367,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.010753,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-0.999136,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,0.00102,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,-0.000505,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,-0.000965,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,26.4644,0,0,runtime_or_read_only
+DJI Neo 2,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Neo 2,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Neo 2,"Obstacle sensing, vision & terrain",g_config.avoid_obstacle_limit_cfg.user_avoid_enable,user_avoid_enable|g_config.avoid_obstacle_limit_cfg.user_avoid_enable,1,2,0,2,configuration_or_persistent_state
+DJI Neo 2,"RTH, takeoff, landing & failsafe",g_config.fail_safe.protect_action,rc_lost_action|g_config.fail_safe.protect_action,2,0,0,3,configuration_or_persistent_state
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.000439,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.001336,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,698.593,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Neo 2,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.597,0.633333,1e-07,1,configuration_or_persistent_state
+DJI Neo 2,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.8,0.987941,1e-07,1,configuration_or_persistent_state
+DJI Neo 2,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.3233,0.24878,0.05,1,configuration_or_persistent_state
+DJI Neo 2,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,1366,0,0,runtime_or_read_only
+DJI Neo 2,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Neo 2,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,1517.83,0,0,runtime_or_read_only
+DJI Neo 2,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,37,0,0,runtime_or_read_only
+DJI Neo 2,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,7027.85,0,0,runtime_or_read_only
+DJI Neo 2,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,38,0,0,runtime_or_read_only
+DJI Neo 2,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,1517.82,0,0,runtime_or_read_only
+DJI Neo 2,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,37,0,0,runtime_or_read_only
+DJI Neo 2,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,7021.62,0,0,runtime_or_read_only
+DJI Neo 2,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,2,0,255,configuration_or_persistent_state
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,-0.00324,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,0.001884,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,0.00695,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.017432,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.01075,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-0.999154,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,-31.7833,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,0.001455,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.000354,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,-0.000329,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,324,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.my,imu0.my,0,516,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,2108,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,-31.7993,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.886998,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.000707,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.010235,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,-0.461661,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,2637,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,200,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,2835,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,5e-06,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-8.4e-05,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-0.000607,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.005583,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,0.003538,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,-0.018161,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,-31.7964,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,324,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.my,imu1.my,0,519,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,2119,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,-31.0958,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.886368,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.000612,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.010133,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,-0.4629,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,2640,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,200,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,2838,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,0.000754,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,0.002327,0,0,runtime_or_read_only
+DJI Neo 2,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.002023,0,0,runtime_or_read_only
+DJI Neo 2,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,26.5097,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Neo 2,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,2877,0,0,runtime_or_read_only
+DJI Neo 2,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Flip,Flight limits & regulation,EU_CE_Reg_120Height_Enable,EU_CE_Reg_120Height_Enable,0,1,0,0,runtime_or_read_only
+DJI Flip,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Flip,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Flip,Battery & power,battery_auth_status,battery_auth_status,0,1,0,3,runtime_or_read_only
+DJI Flip,Battery & power,battery_auth_succeed_cnt,battery_auth_succeed_cnt,0,2,0,65535,configuration_or_persistent_state
+DJI Flip,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Flip,Flight limits & regulation,ce_country_type,ce_country_type,0,643,0,2000,configuration_or_persistent_state
+DJI Flip,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.054061,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.050212,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.00603,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,-0.000282,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.00067,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,0.001612,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,28.442,0,0,runtime_or_read_only
+DJI Flip,"RTH, takeoff, landing & failsafe",first_takeoff_warning,first_takeoff_warning,1,0,0,1,configuration_or_persistent_state
+DJI Flip,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Flip,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Flip,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Flip,"RTH, takeoff, landing & failsafe",g_config.fail_safe.protect_action,rc_lost_action|g_config.fail_safe.protect_action,2,0,0,3,configuration_or_persistent_state
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.006901,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.000913,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,454.186,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,6,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Flip,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Flip,"RTH, takeoff, landing & failsafe",g_config.go_home.fixed_go_home_altitude,go_home_height|g_config.go_home.fixed_go_home_altitude,100,30,20,1500,configuration_or_persistent_state
+DJI Flip,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.462366,0.705882,1e-07,1,configuration_or_persistent_state
+DJI Flip,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,1.12,0.956104,1e-07,1.12,configuration_or_persistent_state
+DJI Flip,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.205128,0.484346,0.01,1,configuration_or_persistent_state
+DJI Flip,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,34134,0,0,runtime_or_read_only
+DJI Flip,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Flip,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,361.407,0,0,runtime_or_read_only
+DJI Flip,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,13,0,0,runtime_or_read_only
+DJI Flip,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,3154.33,0,0,runtime_or_read_only
+DJI Flip,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,34,0,0,runtime_or_read_only
+DJI Flip,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,361.409,0,0,runtime_or_read_only
+DJI Flip,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,13,0,0,runtime_or_read_only
+DJI Flip,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,3151.88,0,0,runtime_or_read_only
+DJI Flip,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,1,0,255,configuration_or_persistent_state
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,0.009657,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,-0.017734,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,-0.002117,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.052951,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.050322,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-1.00632,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,-35.8439,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,-5.4e-05,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.000658,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,-0.003739,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,-95,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.my,imu0.my,0,443,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,1909,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,-35.8634,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.541482,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,0.008501,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.035113,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,-0.83995,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,2836,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,900,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3014,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,-0.001955,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-0.006905,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,0.000138,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.010173,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,-0.010028,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,-0.009672,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,-35.8287,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,-90,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.my,imu1.my,0,440,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,1912,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,-46.8876,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.760342,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.001691,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.036107,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,-0.648549,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,2839,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,900,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3014,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,0.00067,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,-0.004619,0,0,runtime_or_read_only
+DJI Flip,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,0.000473,0,0,runtime_or_read_only
+DJI Flip,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,28.2911,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Flip,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,1431,0,0,runtime_or_read_only
+DJI Flip,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,EU_CE_Reg_GeoSense_Enable,EU_CE_Reg_GeoSense_Enable,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,EU_CE_Reg_Level,EU_CE_Reg_Level,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,EU_CE_Reg_RID_Enable,EU_CE_Reg_RID_Enable,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"RTH, takeoff, landing & failsafe",base_station_prevent_landing,base_station_prevent_landing,0,1,0,1,configuration_or_persistent_state
+DJI Avata 360,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,ce_country_type,ce_country_type,0,643,0,2000,configuration_or_persistent_state
+DJI Avata 360,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.18785,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,-0.021779,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.00061,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,-0.001228,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.000505,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,-0.001421,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,65.0664,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",device_gyr_acc.busy.temp_ready,device_gyr_acc.busy.temp_ready,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Other / opaque internal,fl_head_follow_enable,fl_head_follow_enable,0,1,0,1,configuration_or_persistent_state
+DJI Avata 360,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Avata 360,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Avata 360,"Obstacle sensing, vision & terrain",g_config.avoid_obstacle_limit_cfg.user_avoid_enable,user_avoid_enable|g_config.avoid_obstacle_limit_cfg.user_avoid_enable,1,0,0,2,configuration_or_persistent_state
+DJI Avata 360,"RTH, takeoff, landing & failsafe",g_config.fail_safe.protect_action,rc_lost_action|g_config.fail_safe.protect_action,2,0,0,3,configuration_or_persistent_state
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.016762,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.001636,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,588.861,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Avata 360,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Avata 360,"RTH, takeoff, landing & failsafe",g_config.go_home.fixed_go_home_altitude,go_home_height|g_config.go_home.fixed_go_home_altitude,100,30,20,1500,configuration_or_persistent_state
+DJI Avata 360,"Navigation, GNSS & positioning",g_config.gps_cfg.gps_enable,gps_enable|g_config.gps_cfg.gps_enable,1,0,0,1,configuration_or_persistent_state
+DJI Avata 360,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.462366,0.644258,1e-07,1,configuration_or_persistent_state
+DJI Avata 360,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,0.562121,0.9375,1e-07,1,configuration_or_persistent_state
+DJI Avata 360,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.205128,0.393939,0.01,1,configuration_or_persistent_state
+DJI Avata 360,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,1366,0,0,runtime_or_read_only
+DJI Avata 360,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,91.6981,0,0,runtime_or_read_only
+DJI Avata 360,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,10,0,0,runtime_or_read_only
+DJI Avata 360,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,1131.64,0,0,runtime_or_read_only
+DJI Avata 360,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,20,0,0,runtime_or_read_only
+DJI Avata 360,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,91.698,0,0,runtime_or_read_only
+DJI Avata 360,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,10,0,0,runtime_or_read_only
+DJI Avata 360,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,1131.16,0,0,runtime_or_read_only
+DJI Avata 360,Gimbal & camera,gimbal_is_pano_locked,gimbal_is_pano_locked,0,1,0,1,configuration_or_persistent_state
+DJI Avata 360,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,2,0,255,configuration_or_persistent_state
+DJI Avata 360,"Navigation, GNSS & positioning",gnss_chip_type,gnss_chip_type,0,32,0,255,configuration_or_persistent_state
+DJI Avata 360,"Navigation, GNSS & positioning",gnss_cloudctrl_mode,gnss_cloudctrl_mode,255,0,0,255,configuration_or_persistent_state
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,0.030523,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,0.000375,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,-0.001141,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.187426,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,-0.021426,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-0.99947,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,110.56,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,-0.001714,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.000728,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,-0.001357,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,-30,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-163,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,2086,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,110.5,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.987537,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.001464,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.092829,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,0.127094,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,6497,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,800,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,3405,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,0.01889,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,0.001382,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,0.000459,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.001748,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,-0.004869,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,-0.005703,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,110.514,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,-27,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-159,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,2082,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,110.613,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.987621,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.001217,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.093046,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.126282,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,6499,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,800,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,3406,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,0.000777,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,-0.001327,0,0,runtime_or_read_only
+DJI Avata 360,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,-0.000309,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,65.006,0,0,runtime_or_read_only
+DJI Avata 360,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].temp_ready,imu_cali_0.acc_gyro[0].temp_ready,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,1045,0,0,runtime_or_read_only
+DJI Avata 360,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Avata 360,"Obstacle sensing, vision & terrain",user_all_avoid_enable,user_all_avoid_enable,1,0,0,2,configuration_or_persistent_state
+DJI Lito X1,Other / opaque internal,ETD6405_SN_Checked,ETD6405_SN_Checked,0,1,0,1,configuration_or_persistent_state
+DJI Lito X1,Flight limits & regulation,EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,EU_CE_Reg_GeoSense_Enable,EU_CE_Reg_GeoSense_Enable,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,EU_CE_Reg_Level,EU_CE_Reg_Level,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,EU_CE_Reg_RID_Enable,EU_CE_Reg_RID_Enable,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Battery & power,battery_status,battery_status,0,65552,0,4294967295,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,ce_country_type,ce_country_type,0,344,0,2000,configuration_or_persistent_state
+DJI Lito X1,Per-aircraft calibration & bias state,compass0.status_data,compass0.status_data,0,4,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,0,0.0434756,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,0,0.00401456,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,0,-1.00161,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],0,-0.00289435,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],0,0.0204249,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],0,-0.00478256,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,0,28.6232,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,fscap_EU_CE_Support,fscap_EU_CE_Support,0,1,0,0,runtime_or_read_only
+DJI Lito X1,"RTH, takeoff, landing & failsafe",fscap_enable_homing_s,fscap_enable_homing_s,1,0,0,1,configuration_or_persistent_state
+DJI Lito X1,Flight limits & regulation,fscap_max_height,fscap_max_height,120,500,20,65535,configuration_or_persistent_state
+DJI Lito X1,"Obstacle sensing, vision & terrain",g_config.avoid_obstacle_limit_cfg.user_avoid_enable,user_avoid_enable,1,2,0,2,configuration_or_persistent_state
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,0,0.00242019,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,0,0.0194142,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,0,8,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,0,38.3109,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,0,5,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,0,7,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,0,7,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,0,1,0,0,runtime_or_read_only
+DJI Lito X1,Flight limits & regulation,g_config.flying_limit.max_height,g_config.flying_limit.max_height,120,500,20,500,configuration_or_persistent_state
+DJI Lito X1,Flight modes & handling,g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,0.462366,0.668934,1e-07,1,configuration_or_persistent_state
+DJI Lito X1,Flight modes & handling,g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,1.12,1.0898,1e-07,1.12,configuration_or_persistent_state
+DJI Lito X1,Flight modes & handling,g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,0.205128,0.333333,0.01,1,configuration_or_persistent_state
+DJI Lito X1,Battery & power,g_config.voltage.level_2_protect,raw_bat_level_2,3370,3006,2800,3800,configuration_or_persistent_state
+DJI Lito X1,"Diagnostics, service & simulator",g_status.ns_busy_dev,g_status.ns_busy_dev,0,1366,0,0,runtime_or_read_only
+DJI Lito X1,"Diagnostics, service & simulator",g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,0,1,0,0,runtime_or_read_only
+DJI Lito X1,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,0,27052.3,0,0,runtime_or_read_only
+DJI Lito X1,"Diagnostics, service & simulator",g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,0,18,0,0,runtime_or_read_only
+DJI Lito X1,"Motors, ESC & propulsion",g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,0,6379.9,0,0,runtime_or_read_only
+DJI Lito X1,Battery & power,g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,0,31,0,0,runtime_or_read_only
+DJI Lito X1,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,0,27047.6,0,0,runtime_or_read_only
+DJI Lito X1,"Diagnostics, service & simulator",g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,0,18,0,0,runtime_or_read_only
+DJI Lito X1,"Motors, ESC & propulsion",g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,0,6374.3,0,0,runtime_or_read_only
+DJI Lito X1,"Navigation, GNSS & positioning",gnss_assist_type,gnss_assist_type,0,2,0,255,configuration_or_persistent_state
+DJI Lito X1,"Navigation, GNSS & positioning",gnss_chip_type,gnss_chip_type,255,32,0,255,configuration_or_persistent_state
+DJI Lito X1,"Navigation, GNSS & positioning",gnss_cloudctrl_mode,gnss_cloudctrl_mode,255,1,0,255,configuration_or_persistent_state
+DJI Lito X1,"Navigation, GNSS & positioning",gnss_source_mode,gnss_source_mode,1,0,0,1,configuration_or_persistent_state
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_ground_x,imu0.acc_ground_x,0,-0.0125755,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_ground_y,imu0.acc_ground_y,0,0.00240777,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_ground_z,imu0.acc_ground_z,0,0.00584888,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_x,imu0.acc_x,0,0.0455928,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_y,imu0.acc_y,0,0.00371533,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.acc_z,imu0.acc_z,0,-1.00052,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.alti,imu0.alti,0,230.962,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.gyracc_status,imu0.gyracc_status,0,16384,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.gyro_x,imu0.gyro_x,0,-0.00229934,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.gyro_y,imu0.gyro_y,0,0.0203613,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.gyro_z,imu0.gyro_z,0,-0.0026446,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.mx,imu0.mx,0,673,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.my,imu0.my,0,-52,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.mz,imu0.mz,0,1297,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.press_alti,imu0.press_alti,0,231.172,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.q[0],imu0.q[0],0,0.996447,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.q[1],imu0.q[1],0,-0.003436,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.q[2],imu0.q[2],0,0.0234479,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.q[3],imu0.q[3],0,0.0807933,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.temperature[0],imu0.temperature[0],0,2862,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.temperature[1],imu0.temperature[1],0,500,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.temperature[2],imu0.temperature[2],0,2996,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.vel_ground_x,imu0.vel_ground_x,0,-0.0145046,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.vel_ground_y,imu0.vel_ground_y,0,-0.000265568,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu0.vel_ground_z,imu0.vel_ground_z,0,-0.000963545,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.acc_ground_x,imu1.acc_ground_x,0,-0.0250482,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.acc_ground_y,imu1.acc_ground_y,0,-0.00285884,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.acc_ground_z,imu1.acc_ground_z,0,0.00332069,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.alti,imu1.alti,0,231.027,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.mx,imu1.mx,0,673,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.my,imu1.my,0,-52,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.mz,imu1.mz,0,1297,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.press_alti,imu1.press_alti,0,231.196,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.q[0],imu1.q[0],0,0.996637,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.q[1],imu1.q[1],0,-0.00408143,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.q[2],imu1.q[2],0,0.024065,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.q[3],imu1.q[3],0,0.0782265,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.temperature[0],imu1.temperature[0],0,2862,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.temperature[1],imu1.temperature[1],0,500,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.temperature[2],imu1.temperature[2],0,2996,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.vel_ground_x,imu1.vel_ground_x,0,-0.0161658,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.vel_ground_y,imu1.vel_ground_y,0,-0.00241109,0,0,runtime_or_read_only
+DJI Lito X1,"IMU, compass & calibration controls",imu1.vel_ground_z,imu1.vel_ground_z,0,9.40595e-05,0,0,runtime_or_read_only
+DJI Lito X1,Per-aircraft calibration & bias state,imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,0,28.6232,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_0_A_roll,rc_sbus_0_A_roll,0,1024,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,0,1024,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,0,1024,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,0,1024,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_6_mode,rc_sbus_6_mode,0,1024,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_app_connected,rc_sbus_app_connected,0,1,0,0,runtime_or_read_only
+DJI Lito X1,"RTH, takeoff, landing & failsafe",rc_sbus_failsafe,rc_sbus_failsafe,0,1,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_packet_cnt,rc_sbus_packet_cnt,0,5142,0,0,runtime_or_read_only
+DJI Lito X1,"RC, radio, lights & interfaces",rc_sbus_send_id,rc_sbus_send_id,0,14,0,0,runtime_or_read_only
+DJI Lito X1,"Obstacle sensing, vision & terrain",user_all_avoid_enable,user_all_avoid_enable,1,0,0,2,configuration_or_persistent_state

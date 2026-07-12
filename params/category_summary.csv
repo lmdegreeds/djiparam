@@ -1,0 +1,121 @@
+﻿model,category,parameter_count,unique_parameter_count
+DJI Air 3,Battery & power,17,2
+DJI Air 3,"Diagnostics, service & simulator",22,0
+DJI Air 3,Flight limits & regulation,19,0
+DJI Air 3,Flight modes & handling,118,0
+DJI Air 3,Gimbal & camera,3,0
+DJI Air 3,"IMU, compass & calibration controls",165,0
+DJI Air 3,"Motors, ESC & propulsion",27,0
+DJI Air 3,"Navigation, GNSS & positioning",51,0
+DJI Air 3,"Obstacle sensing, vision & terrain",28,0
+DJI Air 3,Other / opaque internal,80,1
+DJI Air 3,Per-aircraft calibration & bias state,46,0
+DJI Air 3,"RC, radio, lights & interfaces",28,0
+DJI Air 3,"RTH, takeoff, landing & failsafe",29,0
+DJI Air 3,Sensor installation geometry (model),57,0
+DJI Air 3,"Stabilization, gains & filters",131,0
+DJI Air 3S,Battery & power,13,0
+DJI Air 3S,"Diagnostics, service & simulator",19,0
+DJI Air 3S,Flight limits & regulation,32,0
+DJI Air 3S,Flight modes & handling,147,10
+DJI Air 3S,Gimbal & camera,4,0
+DJI Air 3S,"IMU, compass & calibration controls",157,0
+DJI Air 3S,"Motors, ESC & propulsion",26,0
+DJI Air 3S,"Navigation, GNSS & positioning",55,0
+DJI Air 3S,"Obstacle sensing, vision & terrain",26,0
+DJI Air 3S,Other / opaque internal,90,0
+DJI Air 3S,Per-aircraft calibration & bias state,45,0
+DJI Air 3S,"RC, radio, lights & interfaces",29,0
+DJI Air 3S,"RTH, takeoff, landing & failsafe",33,1
+DJI Air 3S,Sensor installation geometry (model),57,0
+DJI Air 3S,"Stabilization, gains & filters",143,0
+DJI Mini 4 Pro,Battery & power,15,0
+DJI Mini 4 Pro,"Diagnostics, service & simulator",22,0
+DJI Mini 4 Pro,Flight limits & regulation,19,0
+DJI Mini 4 Pro,Flight modes & handling,118,0
+DJI Mini 4 Pro,Gimbal & camera,4,0
+DJI Mini 4 Pro,"IMU, compass & calibration controls",165,0
+DJI Mini 4 Pro,"Motors, ESC & propulsion",27,0
+DJI Mini 4 Pro,"Navigation, GNSS & positioning",51,0
+DJI Mini 4 Pro,"Obstacle sensing, vision & terrain",28,0
+DJI Mini 4 Pro,Other / opaque internal,79,0
+DJI Mini 4 Pro,Per-aircraft calibration & bias state,48,2
+DJI Mini 4 Pro,"RC, radio, lights & interfaces",28,0
+DJI Mini 4 Pro,"RTH, takeoff, landing & failsafe",29,0
+DJI Mini 4 Pro,Sensor installation geometry (model),57,0
+DJI Mini 4 Pro,"Stabilization, gains & filters",114,0
+DJI Neo,Battery & power,13,0
+DJI Neo,"Diagnostics, service & simulator",19,0
+DJI Neo,Flight limits & regulation,31,0
+DJI Neo,Flight modes & handling,124,0
+DJI Neo,Gimbal & camera,4,0
+DJI Neo,"IMU, compass & calibration controls",157,0
+DJI Neo,"Motors, ESC & propulsion",26,0
+DJI Neo,"Navigation, GNSS & positioning",52,0
+DJI Neo,"Obstacle sensing, vision & terrain",26,0
+DJI Neo,Other / opaque internal,98,0
+DJI Neo,Per-aircraft calibration & bias state,45,0
+DJI Neo,"RC, radio, lights & interfaces",29,0
+DJI Neo,"RTH, takeoff, landing & failsafe",32,0
+DJI Neo,Sensor installation geometry (model),57,0
+DJI Neo,"Stabilization, gains & filters",127,0
+DJI Neo 2,Battery & power,26,0
+DJI Neo 2,"Diagnostics, service & simulator",18,0
+DJI Neo 2,Flight limits & regulation,33,0
+DJI Neo 2,Flight modes & handling,128,0
+DJI Neo 2,Gimbal & camera,4,0
+DJI Neo 2,"IMU, compass & calibration controls",161,0
+DJI Neo 2,"Motors, ESC & propulsion",35,4
+DJI Neo 2,"Navigation, GNSS & positioning",59,0
+DJI Neo 2,"Obstacle sensing, vision & terrain",30,0
+DJI Neo 2,Other / opaque internal,118,0
+DJI Neo 2,Per-aircraft calibration & bias state,45,0
+DJI Neo 2,"RC, radio, lights & interfaces",30,0
+DJI Neo 2,"RTH, takeoff, landing & failsafe",37,0
+DJI Neo 2,Sensor installation geometry (model),57,0
+DJI Neo 2,"Stabilization, gains & filters",146,2
+DJI Flip,Battery & power,16,3
+DJI Flip,"Diagnostics, service & simulator",19,0
+DJI Flip,Flight limits & regulation,31,0
+DJI Flip,Flight modes & handling,137,0
+DJI Flip,Gimbal & camera,4,0
+DJI Flip,"IMU, compass & calibration controls",157,0
+DJI Flip,"Motors, ESC & propulsion",26,0
+DJI Flip,"Navigation, GNSS & positioning",52,0
+DJI Flip,"Obstacle sensing, vision & terrain",26,0
+DJI Flip,Other / opaque internal,85,0
+DJI Flip,Per-aircraft calibration & bias state,45,0
+DJI Flip,"RC, radio, lights & interfaces",28,0
+DJI Flip,"RTH, takeoff, landing & failsafe",32,0
+DJI Flip,Sensor installation geometry (model),57,0
+DJI Flip,"Stabilization, gains & filters",131,0
+DJI Avata 360,Battery & power,26,0
+DJI Avata 360,"Diagnostics, service & simulator",22,2
+DJI Avata 360,Flight limits & regulation,34,0
+DJI Avata 360,Flight modes & handling,125,0
+DJI Avata 360,Gimbal & camera,6,0
+DJI Avata 360,"IMU, compass & calibration controls",161,0
+DJI Avata 360,"Motors, ESC & propulsion",31,1
+DJI Avata 360,"Navigation, GNSS & positioning",65,0
+DJI Avata 360,"Obstacle sensing, vision & terrain",33,1
+DJI Avata 360,Other / opaque internal,110,8
+DJI Avata 360,Per-aircraft calibration & bias state,45,0
+DJI Avata 360,"RC, radio, lights & interfaces",30,0
+DJI Avata 360,"RTH, takeoff, landing & failsafe",41,2
+DJI Avata 360,Sensor installation geometry (model),57,0
+DJI Avata 360,"Stabilization, gains & filters",141,3
+DJI Lito X1,Battery & power,26,0
+DJI Lito X1,"Diagnostics, service & simulator",20,0
+DJI Lito X1,Flight limits & regulation,35,1
+DJI Lito X1,Flight modes & handling,129,0
+DJI Lito X1,Gimbal & camera,6,0
+DJI Lito X1,"IMU, compass & calibration controls",161,0
+DJI Lito X1,"Motors, ESC & propulsion",31,1
+DJI Lito X1,"Navigation, GNSS & positioning",65,1
+DJI Lito X1,"Obstacle sensing, vision & terrain",32,0
+DJI Lito X1,Other / opaque internal,124,4
+DJI Lito X1,Per-aircraft calibration & bias state,45,0
+DJI Lito X1,"RC, radio, lights & interfaces",31,1
+DJI Lito X1,"RTH, takeoff, landing & failsafe",39,0
+DJI Lito X1,Sensor installation geometry (model),57,0
+DJI Lito X1,"Stabilization, gains & filters",151,7

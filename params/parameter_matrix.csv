@@ -1,0 +1,1092 @@
+﻿semantic_name,aliases,category,calibration_scope,transferability,present_in_profiles,DJI Air 3 | value,DJI Air 3 | default,DJI Air 3 | min,DJI Air 3 | max,DJI Air 3S | value,DJI Air 3S | default,DJI Air 3S | min,DJI Air 3S | max,DJI Mini 4 Pro | value,DJI Mini 4 Pro | default,DJI Mini 4 Pro | min,DJI Mini 4 Pro | max,DJI Neo | value,DJI Neo | default,DJI Neo | min,DJI Neo | max,DJI Neo 2 | value,DJI Neo 2 | default,DJI Neo 2 | min,DJI Neo 2 | max,DJI Flip | value,DJI Flip | default,DJI Flip | min,DJI Flip | max,DJI Avata 360 | value,DJI Avata 360 | default,DJI Avata 360 | min,DJI Avata 360 | max,DJI Lito X1 | value,DJI Lito X1 | default,DJI Lito X1 | min,DJI Lito X1 | max
+ETD6405_SN_Checked,ETD6405_SN_Checked,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,1
+ETD6405_SN_Matched,ETD6405_SN_Matched,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1
+ETD6405_SN_No_Check,ETD6405_SN_No_Check,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1
+EU_CE_Reg_120Height_Enable,EU_CE_Reg_120Height_Enable,Flight limits & regulation,,,6,,,,,0,0,0,0,,,,,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+EU_CE_Reg_FollowMe_Enable,EU_CE_Reg_FollowMe_Enable,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+EU_CE_Reg_GeoSense_Enable,EU_CE_Reg_GeoSense_Enable,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+EU_CE_Reg_Level,EU_CE_Reg_Level,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+EU_CE_Reg_LowSpeedMode_Enable,EU_CE_Reg_LowSpeedMode_Enable,Flight limits & regulation,,,6,,,,,0,0,0,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EU_CE_Reg_MxSpeedLimit_Enable,EU_CE_Reg_MxSpeedLimit_Enable,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+EU_CE_Reg_RID_Enable,EU_CE_Reg_RID_Enable,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+EU_CE_enable_c0_rid,EU_CE_enable_c0_rid,Flight limits & regulation,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1
+RC_EMERGENCY_STOP_ENABLE,RC_EMERGENCY_STOP_ENABLE,"RC, radio, lights & interfaces",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+RC_STOP_CHECK_ENABLE,RC_STOP_CHECK_ENABLE,"RC, radio, lights & interfaces",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+RC_STOP_MOTOR_TYPE,RC_STOP_MOTOR_TYPE,"Motors, ESC & propulsion",,,8,6,6,0,255,6,6,0,255,6,6,0,255,6,6,0,255,6,6,0,255,6,6,0,255,6,6,0,255,6,6,0,255
+SIM_FLY_LIMIT_ENABLE,SIM_FLY_LIMIT_ENABLE,"Diagnostics, service & simulator",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+SIM_GPS_DATE,SIM_GPS_DATE,"Navigation, GNSS & positioning",,,8,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295,20150906,20150906,0,4294967295
+SIM_GPS_TIME,SIM_GPS_TIME,"Navigation, GNSS & positioning",,,8,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295,214930,214930,0,4294967295
+acc_fdi_open_abrupt,acc_fdi_open_abrupt,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_bias,acc_fdi_open_bias,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_bias_check_after_heat,acc_fdi_open_bias_check_after_heat,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+acc_fdi_open_cali_err,acc_fdi_open_cali_err,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_disagree,acc_fdi_open_disagree,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_disconnect,acc_fdi_open_disconnect,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_drv_err,acc_fdi_open_drv_err,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_invalid_float,acc_fdi_open_invalid_float,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_noise,acc_fdi_open_noise,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_range,acc_fdi_open_range,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_stuck,acc_fdi_open_stuck,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_temp_not_ready,acc_fdi_open_temp_not_ready,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,0,0,0,1
+acc_fdi_open_temper,acc_fdi_open_temper,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+acc_fdi_open_uid_not_match,acc_fdi_open_uid_not_match,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+active_safety_brake_enable,active_safety_brake_enable,Flight modes & handling,,,6,,,,,0,0,0,1,,,,,0,0,0,1,1,1,0,2,0,0,0,1,1,1,0,2,1,1,0,2
+actual_lift_min,actual_lift_min,Other / opaque internal,,,8,0,0,0,50,0,0,0,50,0,0,0,50,0,0,0,50,0,0,0,50,0,0,0,50,0,0,0,50,0,0,0,50
+actual_max_rate_x,actual_max_rate_x,Other / opaque internal,,,8,600,600,20,2000,450,450,20,2000,600,600,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000
+actual_max_rate_y,actual_max_rate_y,Other / opaque internal,,,8,600,600,20,2000,450,450,20,2000,600,600,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000,450,450,20,2000
+actual_max_rate_z,actual_max_rate_z,Other / opaque internal,,,8,400,400,20,2000,320,320,20,2000,400,400,20,2000,320,320,20,2000,320,320,20,2000,320,320,20,2000,320,320,20,2000,320,320,20,2000
+adapt_dist_gain,adapt_dist_gain,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,100
+adapt_enable,adapt_enable,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2
+adapt_fref,adapt_fref,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,100
+adapt_gain_max,adapt_gain_max,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3,1.3,0.1,10
+adapt_gain_min,adapt_gain_min,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8,0.8,0.1,10
+adapt_para_gain,adapt_para_gain,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5,3.5,0,100
+adapt_vel_tol,adapt_vel_tol,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,100
+ag_backup_point_execute,ag_backup_point_execute,Other / opaque internal,,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+ag_plat_backup_point_valid,ag_plat_backup_point_valid,Other / opaque internal,,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+ag_plat_prevent_landing,ag_plat_prevent_landing,"RTH, takeoff, landing & failsafe",,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+ang_vel_tilt_comp_fc_adj,ang_vel_tilt_comp_fc_adj,"Stabilization, gains & filters",,,6,100,100,30,150,100,100,30,150,100,100,30,150,100,100,30,150,100,100,30,150,100,100,30,150,,,,,,,,
+ang_vel_tiltx_boost_freq,ang_vel_tiltx_boost_freq,"Stabilization, gains & filters",,,8,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2
+ang_vel_tiltx_boost_gain,ang_vel_tiltx_boost_gain,"Stabilization, gains & filters",,,8,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30
+ang_vel_tiltx_comp_fc,ang_vel_tiltx_comp_fc,"Stabilization, gains & filters",,,8,1.97,1.97,0.01,150,1.97,1.97,0.01,150,2.1,2.1,0.01,150,2.5,2.5,0.01,150,2.5,2.5,0.01,150,2.1,2.1,0.01,150,3.5,3.5,0.01,150,2,2,0.01,150
+ang_vel_tiltx_comp_gain,ang_vel_tiltx_comp_gain,"Stabilization, gains & filters",,,8,32,32,0.01,5000,32,32,0.01,5000,60,60,0.01,5000,30,30,0.01,5000,30,30,0.01,5000,60,60,0.01,5000,30,30,0.01,5000,60,60,0.01,5000
+ang_vel_tiltx_pi_freq,ang_vel_tiltx_pi_freq,Other / opaque internal,,,8,0.8,0.8,0.01,150,0.8,0.8,0.01,150,1,1,0.01,150,3,3,0.01,150,3,3,0.01,150,1,1,0.01,150,4,4,0.01,150,1.2,1.2,0.01,150
+ang_vel_tilty_boost_freq,ang_vel_tilty_boost_freq,"Stabilization, gains & filters",,,8,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2,0.6,0.6,0.001,2
+ang_vel_tilty_boost_gain,ang_vel_tilty_boost_gain,"Stabilization, gains & filters",,,8,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30,1,1,1,30
+ang_vel_tilty_comp_fc,ang_vel_tilty_comp_fc,"Stabilization, gains & filters",,,8,1.8,1.8,0.01,150,1.8,1.8,0.01,150,2.1,2.1,0.01,150,2.5,2.5,0.01,150,2.5,2.5,0.01,150,2.1,2.1,0.01,150,3.5,3.5,0.01,150,2,2,0.01,150
+ang_vel_tilty_comp_gain,ang_vel_tilty_comp_gain,"Stabilization, gains & filters",,,8,50,50,0.01,15000,50,50,0.01,15000,60,60,0.01,15000,30,30,0.01,15000,30,30,0.01,15000,60,60,0.01,15000,25,25,0.01,15000,60,60,0.01,15000
+ang_vel_tilty_pi_freq,ang_vel_tilty_pi_freq,Other / opaque internal,,,8,0.8,0.8,0.01,150,0.8,0.8,0.01,150,1,1,0.01,150,3,3,0.01,150,3,3,0.01,150,1,1,0.01,150,4,4,0.01,150,1.2,1.2,0.01,150
+antenna_gps1_2_x,antenna_gps1_2_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+antenna_gps1_2_y,antenna_gps1_2_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+antenna_gps1_2_z,antenna_gps1_2_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+antenna_gps1_x,antenna_gps1_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+antenna_gps1_y,antenna_gps1_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+antenna_gps1_z,antenna_gps1_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+ap_fl_novice_mode_enable,ap_fl_novice_mode_enable,Flight limits & regulation,,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ap_planning_vert_limit_disable_cfg,ap_planning_vert_limit_disable_cfg,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+app_enable_second_landing,app_enable_second_landing,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+armkey_enable_second_landing,armkey_enable_second_landing,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+atti_cmd_fc_xy,atti_cmd_fc_xy,Other / opaque internal,,,3,,,,,,,,,,,,,0,0,0,10,0,0,0,10,,,,,0,0,0,10,,,,
+atti_ffwd_gain_xy,atti_ffwd_gain_xy,"Stabilization, gains & filters",,,3,,,,,,,,,,,,,0,0,0,1,0,0,0,1,,,,,0,0,0,1,,,,
+atti_gain,atti_gain,"Stabilization, gains & filters",,,8,140,140,80,200,140,140,80,200,160,160,80,200,130,130,80,200,130,130,80,200,160,160,80,200,130,130,80,200,160,160,80,200
+atti_limit_dec_by_vert_vel,atti_limit_dec_by_vert_vel,Flight modes & handling,,,2,,,,,,,,,,,,,5,5,0,50,5,5,0,50,,,,,,,,,,,,
+atti_limit_dec_min_by_vert_vel,atti_limit_dec_min_by_vert_vel,Flight modes & handling,,,2,,,,,,,,,,,,,18,18,0,50,18,18,0,50,,,,,,,,,,,,
+atti_normal_ffg_speed_ctrl_perc,atti_normal_ffg_speed_ctrl_perc,Other / opaque internal,,,8,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100
+atti_tilt_comp_fc,atti_tilt_comp_fc,"Stabilization, gains & filters",,,8,7.5,7.5,0.01,150,7.5,7.5,0.01,150,10,10,0.01,150,3.8,3.8,0.01,150,3.8,3.8,0.01,150,10,10,0.01,150,3.8,3.8,0.01,150,10,10,0.01,150
+atti_tilt_comp_gain,atti_tilt_comp_gain,"Stabilization, gains & filters",,,8,5,5,0.01,150,5,5,0.01,150,20,20,0.01,150,1.1,1.1,0.01,150,1.1,1.1,0.01,150,20,20,0.01,150,1.1,1.1,0.01,150,20,20,0.01,150
+atti_tors_feedfwd_gain,atti_tors_feedfwd_gain,"Stabilization, gains & filters",,,8,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,0.7,0.7,0,2,1,1,0,2,1,1,0,2,0.7,0.7,0,2
+attitude_rate_limit_mode,attitude_rate_limit_mode,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1,,,,
+auto_echo_function_open,auto_echo_function_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+auto_rr_mode_can_trigger,auto_rr_mode_can_trigger,Flight modes & handling,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+auto_tuning_comp_phase,auto_tuning_comp_phase,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,,,,,70,70,0,89,70,70,0,89,70,70,0,89,70,70,0,89
+auto_tuning_int_phase,auto_tuning_int_phase,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,,,,,10,10,0,50,10,10,0,50,10,10,0,50,10,10,0,50
+auto_tuning_lpf_fp_scale,auto_tuning_lpf_fp_scale,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,,,,,8,8,0,100,8,8,0,100,8,8,0,100,8,8,0,100
+auto_tuning_plant_phase,auto_tuning_plant_phase,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,,,,,-160,-160,-180,0,-160,-160,-180,0,-160,-160,-180,0,-160,-160,-180,0
+auto_tuning_tgt_fcross,auto_tuning_tgt_fcross,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,,,,,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100
+av_cmd_lpf_ampx,av_cmd_lpf_ampx,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,4,4,0,1000,4,4,0,1000,1,1,0,1000,4,4,0,1000,1,1,0,1000
+av_cmd_lpf_ampy,av_cmd_lpf_ampy,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,4,4,0,1000,4,4,0,1000,1,1,0,1000,4,4,0,1000,1,1,0,1000
+av_cmd_lpf_ampz,av_cmd_lpf_ampz,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,4,4,0,1000,4,4,0,1000,1,1,0,1000,4,4,0,1000,1,1,0,1000
+av_cmd_lpf_fnx,av_cmd_lpf_fnx,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,190,190,0,1000,190,190,0,1000,180,180,0,1000,190,190,0,1000,180,180,0,1000
+av_cmd_lpf_fny,av_cmd_lpf_fny,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,190,190,0,1000,190,190,0,1000,180,180,0,1000,190,190,0,1000,180,180,0,1000
+av_cmd_lpf_fnz,av_cmd_lpf_fnz,"Stabilization, gains & filters",,,8,48,48,0,1000,48,48,0,1000,48,48,0,1000,190,190,0,1000,190,190,0,1000,48,48,0,1000,190,190,0,1000,48,48,0,1000
+av_cmd_notch_bwx,av_cmd_notch_bwx,"Stabilization, gains & filters",,,8,0.01,0.01,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000
+av_cmd_notch_bwy,av_cmd_notch_bwy,"Stabilization, gains & filters",,,8,0.01,0.01,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000
+av_cmd_notch_bwz,av_cmd_notch_bwz,"Stabilization, gains & filters",,,8,0.01,0.01,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000
+av_cmd_notch_fnx,av_cmd_notch_fnx,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,100,100,0,1000,100,100,0,1000,180,180,0,1000,100,100,0,1000,180,180,0,1000
+av_cmd_notch_fny,av_cmd_notch_fny,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,100,100,0,1000,100,100,0,1000,180,180,0,1000,100,100,0,1000,180,180,0,1000
+av_cmd_notch_fnz,av_cmd_notch_fnz,"Stabilization, gains & filters",,,8,50,50,0,1000,50,50,0,1000,50,50,0,1000,100,100,0,1000,100,100,0,1000,50,50,0,1000,100,100,0,1000,50,50,0,1000
+av_cmd_notch_gnx,av_cmd_notch_gnx,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,0.6,0.6,0,1000,0.6,0.6,0,1000,1,1,0,1000,0.6,0.6,0,1000,1,1,0,1000
+av_cmd_notch_gny,av_cmd_notch_gny,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,0.6,0.6,0,1000,0.6,0.6,0,1000,1,1,0,1000,0.6,0.6,0,1000,1,1,0,1000
+av_cmd_notch_gnz,av_cmd_notch_gnz,"Stabilization, gains & filters",,,8,0.1,0.1,0,1000,0.1,0.1,0,1000,0.1,0.1,0,1000,0.6,0.6,0,1000,0.6,0.6,0,1000,0.1,0.1,0,1000,0.6,0.6,0,1000,0.1,0.1,0,1000
+av_fdbk_lpf_ampx,av_fdbk_lpf_ampx,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000
+av_fdbk_lpf_ampy,av_fdbk_lpf_ampy,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000
+av_fdbk_lpf_ampz,av_fdbk_lpf_ampz,"Stabilization, gains & filters",,,8,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000,1,1,0,1000
+av_fdbk_lpf_fnx,av_fdbk_lpf_fnx,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000
+av_fdbk_lpf_fny,av_fdbk_lpf_fny,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000
+av_fdbk_lpf_fnz,av_fdbk_lpf_fnz,"Stabilization, gains & filters",,,8,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000
+av_ffwd_dot2_fnx,av_ffwd_dot2_fnx,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot2_fny,av_ffwd_dot2_fny,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot2_fnz,av_ffwd_dot2_fnz,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot2_gnx,av_ffwd_dot2_gnx,"Stabilization, gains & filters",,,3,0.0036,0.0036,0,1000,0.0036,0.0036,0,1000,,,,,,,,,,,,,,,,,,,,,0.0036,0.0036,0,1000
+av_ffwd_dot2_gny,av_ffwd_dot2_gny,"Stabilization, gains & filters",,,3,0.0041,0.0041,0,1000,0.0041,0.0041,0,1000,,,,,,,,,,,,,,,,,,,,,0.0041,0.0041,0,1000
+av_ffwd_dot2_gnz,av_ffwd_dot2_gnz,"Stabilization, gains & filters",,,3,0.0001205,0.0001205,0,1000,0.0001205,0.0001205,0,1000,,,,,,,,,,,,,,,,,,,,,0.0001205,0.0001205,0,1000
+av_ffwd_dot_fnx,av_ffwd_dot_fnx,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot_fny,av_ffwd_dot_fny,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot_fnz,av_ffwd_dot_fnz,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_dot_gnx,av_ffwd_dot_gnx,"Stabilization, gains & filters",,,3,0.169,0.169,0,1000,0.169,0.169,0,1000,,,,,,,,,,,,,,,,,,,,,0.169,0.169,0,1000
+av_ffwd_dot_gny,av_ffwd_dot_gny,"Stabilization, gains & filters",,,3,0.2294,0.2294,0,1000,0.2294,0.2294,0,1000,,,,,,,,,,,,,,,,,,,,,0.2294,0.2294,0,1000
+av_ffwd_dot_gnz,av_ffwd_dot_gnz,"Stabilization, gains & filters",,,3,0.029,0.029,0,1000,0.029,0.029,0,1000,,,,,,,,,,,,,,,,,,,,,0.029,0.029,0,1000
+av_ffwd_fpx,av_ffwd_fpx,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_fpy,av_ffwd_fpy,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_fpz,av_ffwd_fpz,"Stabilization, gains & filters",,,3,20,20,0,1000,20,20,0,1000,,,,,,,,,,,,,,,,,,,,,20,20,0,1000
+av_ffwd_fzx,av_ffwd_fzx,"Stabilization, gains & filters",,,3,80,80,0,1000,80,80,0,1000,,,,,,,,,,,,,,,,,,,,,80,80,0,1000
+av_ffwd_fzy,av_ffwd_fzy,"Stabilization, gains & filters",,,3,80,80,0,1000,80,80,0,1000,,,,,,,,,,,,,,,,,,,,,80,80,0,1000
+av_ffwd_fzz,av_ffwd_fzz,"Stabilization, gains & filters",,,3,80,80,0,1000,80,80,0,1000,,,,,,,,,,,,,,,,,,,,,80,80,0,1000
+av_ffwd_gn_adj_tiltx,av_ffwd_gn_adj_tiltx,"Stabilization, gains & filters",,,3,0,0,0,1000,0,0,0,1000,,,,,,,,,,,,,,,,,,,,,0,0,0,1000
+av_ffwd_gn_adj_tilty,av_ffwd_gn_adj_tilty,"Stabilization, gains & filters",,,3,0,0,0,1000,0,0,0,1000,,,,,,,,,,,,,,,,,,,,,0,0,0,1000
+av_ffwd_gn_adj_tors,av_ffwd_gn_adj_tors,"Stabilization, gains & filters",,,3,0,0,0,1000,0,0,0,1000,,,,,,,,,,,,,,,,,,,,,0,0,0,1000
+av_ffwd_gnx,av_ffwd_gnx,"Stabilization, gains & filters",,,3,0,0,0,1000,0,0,0,1000,,,,,,,,,,,,,,,,,,,,,0,0,0,1000
+av_ffwd_gny,av_ffwd_gny,"Stabilization, gains & filters",,,3,0,0,0,1000,0,0,0,1000,,,,,,,,,,,,,,,,,,,,,0,0,0,1000
+av_ffwd_gnz,av_ffwd_gnz,"Stabilization, gains & filters",,,3,1.0911,1.0911,0,1000,1.0911,1.0911,0,1000,,,,,,,,,,,,,,,,,,,,,1.0911,1.0911,0,1000
+av_notch_x1_bw,av_notch_x1_bw,"Stabilization, gains & filters",,,8,0.05,0.05,0,1000,0.05,0.05,0,1000,0.008,0.008,0,1000,0.0035,0.0035,0,1000,0.0035,0.0035,0,1000,0.02,0.02,0,1000,0.003,0.003,0,1000,0.008,0.008,0,1000
+av_notch_x1_dyn_enable,av_notch_x1_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_x1_dyn_fn_start,av_notch_x1_dyn_fn_start,"Stabilization, gains & filters",,,8,38,38,0,1000,38,38,0,1000,40,40,0,1000,120,120,0,1000,120,120,0,1000,110,110,0,1000,80,80,0,1000,45,45,0,1000
+av_notch_x1_dyn_fn_stop,av_notch_x1_dyn_fn_stop,"Stabilization, gains & filters",,,8,55,55,0,1000,55,55,0,1000,60,60,0,1000,164,164,0,1000,180,180,0,1000,130,130,0,1000,110,110,0,1000,70,70,0,1000
+av_notch_x1_dyn_mag_threshold,av_notch_x1_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.01,0.01,0,10,0.015,0.015,0,10,0.0001,0.0001,0,10,0.008,0.008,0,10,0.008,0.008,0,10,0.00012,0.00012,0,10,0.003,0.003,0,10,0.004,0.004,0,10
+av_notch_x1_dyn_type,av_notch_x1_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_x1_fn,av_notch_x1_fn,"Stabilization, gains & filters",,,8,43,43,0,1000,43,43,0,1000,33.5,33.5,0,1000,140,140,0,1000,140,140,0,1000,120,120,0,1000,105,105,0,1000,65,65,0,1000
+av_notch_x1_gn,av_notch_x1_gn,"Stabilization, gains & filters",,,8,0.2,0.2,0,1000,0.2,0.2,0,1000,1,1,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.18,0.18,0,1000,0.05,0.05,0,1000,0.06,0.06,0,1000
+av_notch_x2_bw,av_notch_x2_bw,"Stabilization, gains & filters",,,8,0.02,0.02,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000,0.003,0.003,0,1000,0.003,0.003,0,1000,0.01,0.01,0,1000,0.009,0.009,0,1000,0.01,0.01,0,1000
+av_notch_x2_dyn_enable,av_notch_x2_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_x2_dyn_fn_start,av_notch_x2_dyn_fn_start,"Stabilization, gains & filters",,,8,40,40,0,1000,55,55,0,1000,27,27,0,1000,210,210,0,1000,185,185,0,1000,27,27,0,1000,120,120,0,1000,30,30,0,1000
+av_notch_x2_dyn_fn_stop,av_notch_x2_dyn_fn_stop,"Stabilization, gains & filters",,,8,67,67,0,1000,67,67,0,1000,38,38,0,1000,290,290,0,1000,260,260,0,1000,38,38,0,1000,140,140,0,1000,45,45,0,1000
+av_notch_x2_dyn_mag_threshold,av_notch_x2_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.002,0.002,0,10,0.004,0.004,0,10,0.001,0.001,0,10,0.015,0.015,0,10,0.015,0.015,0,10,0.001,0.001,0,10,0.02,0.02,0,10,0.001,0.001,0,10
+av_notch_x2_dyn_type,av_notch_x2_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_x2_fn,av_notch_x2_fn,"Stabilization, gains & filters",,,8,64,64,0,1000,64,64,0,1000,33.5,33.5,0,1000,250,250,0,1000,200,200,0,1000,33.5,33.5,0,1000,125,125,0,1000,35,35,0,1000
+av_notch_x2_gn,av_notch_x2_gn,"Stabilization, gains & filters",,,8,0.2,0.2,0,1000,0.1,0.1,0,1000,1,1,0,1000,0.01,0.01,0,1000,0.007,0.007,0,1000,1,1,0,1000,0.016,0.016,0,1000,0.5,0.5,0,1000
+av_notch_x3_bw,av_notch_x3_bw,"Stabilization, gains & filters",,,8,0.01,0.01,0,1000,0.1,0.1,0,1000,0.01,0.01,0,1000,0.002,0.002,0,1000,0.002,0.002,0,1000,0.01,0.01,0,1000,0.003,0.003,0,1000,0.008,0.008,0,1000
+av_notch_x3_dyn_enable,av_notch_x3_dyn_enable,"Stabilization, gains & filters",,,6,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1,1,1,0,2,0,0,0,1,,,,,,,,
+av_notch_x3_dyn_fn_start,av_notch_x3_dyn_fn_start,"Stabilization, gains & filters",,,8,30,30,0,1000,30,30,0,1000,30,30,0,1000,100,100,0,1000,90,90,0,1000,30,30,0,1000,155,155,0,1000,70,70,0,1000
+av_notch_x3_dyn_fn_stop,av_notch_x3_dyn_fn_stop,"Stabilization, gains & filters",,,8,40,40,0,1000,40,40,0,1000,40,40,0,1000,120,120,0,1000,120,120,0,1000,40,40,0,1000,170,170,0,1000,100,100,0,1000
+av_notch_x3_dyn_mag_threshold,av_notch_x3_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.001,0.001,0,10,0.001,0.001,0,10,0.001,0.001,0,10,0.006,0.006,0,10,0.006,0.006,0,10,0.001,0.001,0,10,0.02,0.02,0,10,0.001,0.001,0,10
+av_notch_x3_dyn_type,av_notch_x3_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_x3_fn,av_notch_x3_fn,"Stabilization, gains & filters",,,8,180,180,0,1000,150,150,0,1000,180,180,0,1000,110,110,0,1000,100,100,0,1000,180,180,0,1000,162,162,0,1000,80,80,0,1000
+av_notch_x3_gn,av_notch_x3_gn,"Stabilization, gains & filters",,,8,1,1,0,1000,0.3,0.3,0,1000,1,1,0,1000,0.02,0.02,0,1000,0.02,0.02,0,1000,1,1,0,1000,0.06,0.06,0,1000,0.06,0.06,0,1000
+av_notch_x4_bw,av_notch_x4_bw,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,0.02,0.02,0,1000,,,,,0.003,0.003,0,1000,,,,
+av_notch_x4_dyn_enable,av_notch_x4_dyn_enable,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,0,0,0,2,,,,,,,,,,,,
+av_notch_x4_dyn_fn_start,av_notch_x4_dyn_fn_start,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,40,40,0,1000,,,,,190,190,0,1000,,,,
+av_notch_x4_dyn_fn_stop,av_notch_x4_dyn_fn_stop,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,50,50,0,1000,,,,,210,210,0,1000,,,,
+av_notch_x4_dyn_mag_threshold,av_notch_x4_dyn_mag_threshold,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,0.005,0.005,0,10,,,,,0.02,0.02,0,10,,,,
+av_notch_x4_dyn_type,av_notch_x4_dyn_type,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,,,,
+av_notch_x4_fn,av_notch_x4_fn,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,45,45,0,1000,,,,,200,200,0,1000,,,,
+av_notch_x4_gn,av_notch_x4_gn,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,1,1,0,1000,,,,,0.06,0.06,0,1000,,,,
+av_notch_y1_bw,av_notch_y1_bw,"Stabilization, gains & filters",,,8,0.02,0.02,0,1000,0.04,0.04,0,1000,0.002,0.002,0,1000,0.0035,0.0035,0,1000,0.0035,0.0035,0,1000,0.02,0.02,0,1000,0.003,0.003,0,1000,0.01,0.01,0,1000
+av_notch_y1_dyn_enable,av_notch_y1_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_y1_dyn_fn_start,av_notch_y1_dyn_fn_start,"Stabilization, gains & filters",,,8,18,18,0,1000,21,21,0,1000,45,45,0,1000,120,120,0,1000,150,150,0,1000,81,81,0,1000,80,80,0,1000,30,30,0,1000
+av_notch_y1_dyn_fn_stop,av_notch_y1_dyn_fn_stop,"Stabilization, gains & filters",,,8,23,23,0,1000,30,30,0,1000,69.5,69.5,0,1000,164,164,0,1000,228,228,0,1000,104,104,0,1000,110,110,0,1000,45,45,0,1000
+av_notch_y1_dyn_mag_threshold,av_notch_y1_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.002,0.002,0,10,0.02,0.02,0,10,0.02,0.02,0,10,0.01,0.01,0,10,0.03,0.03,0,10,0.00012,0.00012,0,10,0.015,0.015,0,10,0.001,0.001,0,10
+av_notch_y1_dyn_type,av_notch_y1_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_y1_fn,av_notch_y1_fn,"Stabilization, gains & filters",,,8,22,22,0,1000,25,25,0,1000,57,57,0,1000,140,140,0,1000,170,170,0,1000,92,92,0,1000,116,116,0,1000,35,35,0,1000
+av_notch_y1_gn,av_notch_y1_gn,"Stabilization, gains & filters",,,8,0.5,0.5,0,1000,0.35,0.35,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.1,0.1,0,1000,0.005,0.005,0,1000,0.2,0.2,0,1000
+av_notch_y2_bw,av_notch_y2_bw,"Stabilization, gains & filters",,,8,0.15,0.15,0,1000,0.07,0.07,0,1000,0.002,0.002,0,1000,0.003,0.003,0,1000,0.003,0.003,0,1000,0.002,0.002,0,1000,0.004,0.004,0,1000,0.01,0.01,0,1000
+av_notch_y2_dyn_enable,av_notch_y2_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_y2_dyn_fn_start,av_notch_y2_dyn_fn_start,"Stabilization, gains & filters",,,8,38,38,0,1000,37,37,0,1000,70,70,0,1000,220,220,0,1000,230,230,0,1000,70,70,0,1000,120,120,0,1000,45,45,0,1000
+av_notch_y2_dyn_fn_stop,av_notch_y2_dyn_fn_stop,"Stabilization, gains & filters",,,8,55,55,0,1000,55,55,0,1000,80,80,0,1000,300,300,0,1000,260,260,0,1000,80,80,0,1000,150,150,0,1000,74,74,0,1000
+av_notch_y2_dyn_mag_threshold,av_notch_y2_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.01,0.01,0,10,0.01,0.01,0,10,0.02,0.02,0,10,0.015,0.015,0,10,0.015,0.015,0,10,0.02,0.02,0,10,0.02,0.02,0,10,0.004,0.004,0,10
+av_notch_y2_dyn_type,av_notch_y2_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_y2_fn,av_notch_y2_fn,"Stabilization, gains & filters",,,8,43,43,0,1000,43,43,0,1000,73,73,0,1000,260,260,0,1000,240,240,0,1000,73,73,0,1000,130,130,0,1000,66,66,0,1000
+av_notch_y2_gn,av_notch_y2_gn,"Stabilization, gains & filters",,,8,0.3,0.3,0,1000,0.15,0.15,0,1000,0.05,0.05,0,1000,0.01,0.01,0,1000,0.007,0.007,0,1000,1,1,0,1000,0.1,0.1,0,1000,0.05,0.05,0,1000
+av_notch_y3_bw,av_notch_y3_bw,"Stabilization, gains & filters",,,8,0.02,0.02,0,1000,0.02,0.02,0,1000,0.005,0.005,0,1000,0.002,0.002,0,1000,0.002,0.002,0,1000,0.005,0.005,0,1000,0.003,0.003,0,1000,0.008,0.008,0,1000
+av_notch_y3_dyn_enable,av_notch_y3_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,2,0,0,0,1,,,,,,,,
+av_notch_y3_dyn_fn_start,av_notch_y3_dyn_fn_start,"Stabilization, gains & filters",,,8,50,50,0,1000,55,55,0,1000,30,30,0,1000,100,100,0,1000,90,90,0,1000,30,30,0,1000,160,160,0,1000,80,80,0,1000
+av_notch_y3_dyn_fn_stop,av_notch_y3_dyn_fn_stop,"Stabilization, gains & filters",,,8,67,67,0,1000,67,67,0,1000,40,40,0,1000,120,120,0,1000,130,130,0,1000,40,40,0,1000,180,180,0,1000,100,100,0,1000
+av_notch_y3_dyn_mag_threshold,av_notch_y3_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.002,0.002,0,10,0.0025,0.0025,0,10,0.001,0.001,0,10,0.006,0.006,0,10,0.006,0.006,0,10,0.001,0.001,0,10,0.02,0.02,0,10,0.001,0.001,0,10
+av_notch_y3_dyn_type,av_notch_y3_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_y3_fn,av_notch_y3_fn,"Stabilization, gains & filters",,,8,64,64,0,1000,64,64,0,1000,89,89,0,1000,110,110,0,1000,100,100,0,1000,89,89,0,1000,175,175,0,1000,90,90,0,1000
+av_notch_y3_gn,av_notch_y3_gn,"Stabilization, gains & filters",,,8,0.2,0.2,0,1000,0.1,0.1,0,1000,0.05,0.05,0,1000,0.02,0.02,0,1000,0.015,0.015,0,1000,1,1,0,1000,0.01,0.01,0,1000,0.1,0.1,0,1000
+av_notch_y4_bw,av_notch_y4_bw,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,0.005,0.005,0,1000,,,,,0.003,0.003,0,1000,,,,
+av_notch_y4_dyn_enable,av_notch_y4_dyn_enable,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,1,1,0,2,,,,,,,,,,,,
+av_notch_y4_dyn_fn_start,av_notch_y4_dyn_fn_start,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,50,50,0,1000,,,,,190,190,0,1000,,,,
+av_notch_y4_dyn_fn_stop,av_notch_y4_dyn_fn_stop,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,75,75,0,1000,,,,,210,210,0,1000,,,,
+av_notch_y4_dyn_mag_threshold,av_notch_y4_dyn_mag_threshold,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,0.0035,0.0035,0,10,,,,,0.02,0.02,0,10,,,,
+av_notch_y4_dyn_type,av_notch_y4_dyn_type,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,,,,
+av_notch_y4_fn,av_notch_y4_fn,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,62,62,0,1000,,,,,200,200,0,1000,,,,
+av_notch_y4_gn,av_notch_y4_gn,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,0.09,0.09,0,1000,,,,,0.015,0.015,0,1000,,,,
+av_notch_z1_bw,av_notch_z1_bw,"Stabilization, gains & filters",,,8,0.01,0.01,0,1000,0.03,0.03,0,1000,0.1,0.1,0,1000,0.05,0.05,0,1000,0.05,0.05,0,1000,0.03,0.03,0,1000,0.02,0.02,0,1000,0.01,0.01,0,1000
+av_notch_z1_dyn_enable,av_notch_z1_dyn_enable,"Stabilization, gains & filters",,,6,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_z1_dyn_fn_start,av_notch_z1_dyn_fn_start,"Stabilization, gains & filters",,,8,30,30,0,1000,15,15,0,1000,45,45,0,1000,46,46,0,1000,46,46,0,1000,88,88,0,1000,70,70,0,1000,15,15,0,1000
+av_notch_z1_dyn_fn_stop,av_notch_z1_dyn_fn_stop,"Stabilization, gains & filters",,,8,42,42,0,1000,21,21,0,1000,63,63,0,1000,66,66,0,1000,66,66,0,1000,96,96,0,1000,100,100,0,1000,20,20,0,1000
+av_notch_z1_dyn_mag_threshold,av_notch_z1_dyn_mag_threshold,"Stabilization, gains & filters",,,8,0.0015,0.0015,0,10,0.002,0.002,0,10,0.0001,0.0001,0,10,0.0015,0.0015,0,10,0.0015,0.0015,0,10,0.0001,0.0001,0,10,0.0015,0.0015,0,10,0.003,0.003,0,10
+av_notch_z1_dyn_type,av_notch_z1_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_z1_fn,av_notch_z1_fn,"Stabilization, gains & filters",,,8,32,32,0,1000,17,17,0,1000,55,55,0,1000,56,56,0,1000,56,56,0,1000,92,92,0,1000,115,115,0,1000,18,18,0,1000
+av_notch_z1_gn,av_notch_z1_gn,"Stabilization, gains & filters",,,8,0.3,0.3,0,1000,0.3,0.3,0,1000,0.2,0.2,0,1000,0.3,0.3,0,1000,0.3,0.3,0,1000,0.2,0.2,0,1000,0.2,0.2,0,1000,0.12,0.12,0,1000
+av_notch_z2_bw,av_notch_z2_bw,"Stabilization, gains & filters",,,7,,,,,0.02,0.02,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.002,0.002,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000,0.01,0.01,0,1000
+av_notch_z2_dyn_enable,av_notch_z2_dyn_enable,"Stabilization, gains & filters",,,5,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,2,1,1,0,1,,,,,,,,
+av_notch_z2_dyn_fn_start,av_notch_z2_dyn_fn_start,"Stabilization, gains & filters",,,7,,,,,30,30,0,1000,30,30,0,1000,100,100,0,1000,90,90,0,1000,30,30,0,1000,100,100,0,1000,22,22,0,1000
+av_notch_z2_dyn_fn_stop,av_notch_z2_dyn_fn_stop,"Stabilization, gains & filters",,,7,,,,,40,40,0,1000,38,38,0,1000,270,270,0,1000,130,130,0,1000,38,38,0,1000,270,270,0,1000,37,37,0,1000
+av_notch_z2_dyn_mag_threshold,av_notch_z2_dyn_mag_threshold,"Stabilization, gains & filters",,,7,,,,,0.002,0.002,0,10,0.001,0.001,0,10,0.02,0.02,0,10,0.02,0.02,0,10,0.001,0.001,0,10,0.02,0.02,0,10,0.001,0.001,0,10
+av_notch_z2_dyn_type,av_notch_z2_dyn_type,"Stabilization, gains & filters",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,2,1,1,0,2
+av_notch_z2_fn,av_notch_z2_fn,"Stabilization, gains & filters",,,7,,,,,33,33,0,1000,34.2,34.2,0,1000,183,183,0,1000,110,110,0,1000,34.2,34.2,0,1000,183,183,0,1000,34,34,0,1000
+av_notch_z2_gn,av_notch_z2_gn,"Stabilization, gains & filters",,,7,,,,,0.2,0.2,0,1000,1,1,0,1000,1,1,0,1000,0.04,0.04,0,1000,1,1,0,1000,1,1,0,1000,0.12,0.12,0,1000
+av_sdft_start_f,av_sdft_start_f,"Stabilization, gains & filters",,,8,18,18,0.1,1000,16,16,0.1,1000,20,20,0.1,1000,45,45,0.1,1000,45,45,0.1,1000,20,20,0.1,1000,70,70,0.1,1000,17,17,0.1,1000
+av_sdft_stop_f,av_sdft_stop_f,"Stabilization, gains & filters",,,8,67,67,0.1,1000,72,72,0.1,1000,80,80,0.1,1000,400,400,0.1,1000,400,400,0.1,1000,130.5,130.5,0.1,1000,400,400,0.1,1000,100,100,0.1,1000
+avoid_atti_range,avoid_atti_range,"Obstacle sensing, vision & terrain",,,8,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60
+baro_fdi_open_abrupt,baro_fdi_open_abrupt,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_disagree,baro_fdi_open_disagree,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_disconnect,baro_fdi_open_disconnect,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_invalid_float,baro_fdi_open_invalid_float,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_noise,baro_fdi_open_noise,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_range,baro_fdi_open_range,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_stuck,baro_fdi_open_stuck,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_temp_high,baro_fdi_open_temp_high,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_temp_low,baro_fdi_open_temp_low,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_temp_warnning,baro_fdi_open_temp_warnning,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_temper,baro_fdi_open_temper,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+baro_fdi_open_walk,baro_fdi_open_walk,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+base_station_prevent_landing,base_station_prevent_landing,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1
+bat_debug_hide_percentage,bat_debug_hide_percentage,Battery & power,,,8,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100,0,0,0,100
+bat_enable_cap1_protect,bat_enable_cap1_protect,Battery & power,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+bat_enable_cap2_protect,bat_enable_cap2_protect,Battery & power,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+bat_ot_land_check_pos,bat_ot_land_check_pos,Battery & power,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+bat_ot_land_height,bat_ot_land_height,Battery & power,,,3,,,,,,,,,,,,,,,,,10,10,0,255,,,,,10,10,0,255,10,10,0,255
+bat_overheat_mosfet_threshold,bat_overheat_mosfet_threshold,Battery & power,,,3,,,,,,,,,,,,,,,,,110,110,0,1000,,,,,110,110,0,1000,110,110,0,1000
+bat_pf_protect_time,bat_pf_protect_time,Battery & power,,,3,,,,,,,,,,,,,,,,,5,5,0,30,,,,,5,5,0,30,5,5,0,30
+bat_power_line_resi_thr,bat_power_line_resi_thr,Battery & power,,,3,,,,,,,,,,,,,,,,,5,5,0,30,,,,,5,5,0,30,5,5,0,30
+bat_power_protect_inhibit_takeoff_thres,bat_power_protect_inhibit_takeoff_thres,"RTH, takeoff, landing & failsafe",,,8,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000,3000,3000,2000,11000
+bat_temp_landing,bat_temp_landing,"RTH, takeoff, landing & failsafe",,,3,,,,,,,,,,,,,,,,,255,255,0,255,,,,,255,255,0,255,255,255,0,255
+bat_temp_landing_warning,bat_temp_landing_warning,"RTH, takeoff, landing & failsafe",,,3,,,,,,,,,,,,,,,,,255,255,0,255,,,,,255,255,0,255,255,255,0,255
+bat_temp_prevent,bat_temp_prevent,Battery & power,,,3,,,,,,,,,,,,,,,,,255,255,0,255,,,,,255,255,0,255,255,255,0,255
+bat_temp_warning,bat_temp_warning,Battery & power,,,3,,,,,,,,,,,,,,,,,255,255,0,255,,,,,255,255,0,255,255,255,0,255
+batt_enable_cap1_protect,batt_enable_cap1_protect,Battery & power,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+battery_auth_fail_cnt,battery_auth_fail_cnt,Battery & power,,,1,,,,,,,,,,,,,,,,,,,,,0,0,0,65535,,,,,,,,
+battery_auth_status,battery_auth_status,Battery & power,,,1,,,,,,,,,,,,,,,,,,,,,1,0,0,3,,,,,,,,
+battery_auth_succeed_cnt,battery_auth_succeed_cnt,Battery & power,,,1,,,,,,,,,,,,,,,,,,,,,2,0,0,65535,,,,,,,,
+battery_status,battery_status,Battery & power,,,8,0,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295,65552,0,0,4294967295
+battery_type,battery_type,Battery & power,,,1,0,1,0,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+block_first_assist_takeoff,block_first_assist_takeoff,"RTH, takeoff, landing & failsafe",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1,0,0,0,1
+brake_plan_atti_max,brake_plan_atti_max,Flight modes & handling,,,8,55,55,0,60,55,55,0,70,55,55,0,60,50,50,0,70,50,50,0,70,55,55,0,70,40,40,0,70,55,55,0,70
+brake_plan_gyro_range,brake_plan_gyro_range,"IMU, compass & calibration controls",,,8,200,200,100,300,200,200,0,400,200,200,100,300,100,100,0,400,300,300,0,600,100,100,0,400,200,200,0,600,120,120,0,400
+brake_plan_horiz_range,brake_plan_horiz_range,Flight modes & handling,,,8,50,50,0,55,55,55,0,70,50,50,0,55,50,50,0,70,50,50,0,70,55,55,0,70,40,40,0,70,55,55,0,70
+brake_plan_vert_acc_down,brake_plan_vert_acc_down,"IMU, compass & calibration controls",,,6,,,,,-6,-6,-16,0,,,,,-6,-6,-16,0,-6,-6,-16,0,-4,-4,-16,0,-4,-4,-16,0,-4,-4,-16,0
+brake_plan_vert_acc_up,brake_plan_vert_acc_up,"IMU, compass & calibration controls",,,6,,,,,8,8,0,16,,,,,6,6,0,16,8,8,0,16,5,5,0,16,8,8,0,16,4,4,0,16
+brake_scale_in_high_altitude,brake_scale_in_high_altitude,Flight modes & handling,,,8,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100
+brc_fancy_mode_enable,brc_fancy_mode_enable,Flight modes & handling,,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+can_user_set_gov_display_mode,can_user_set_gov_display_mode,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+capture_status,capture_status,"Diagnostics, service & simulator",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,100,0,0,0,100
+ccc_broadcast_signal_quality,ccc_broadcast_signal_quality,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,65535,,,,
+ccc_poor_position_accuracy_on,ccc_poor_position_accuracy_on,"Navigation, GNSS & positioning",,,3,,,,,1,1,0,255,,,,,,,,,,,,,,,,,1,1,0,255,1,1,0,255
+ccc_unsupport_control_type,ccc_unsupport_control_type,Other / opaque internal,,,3,,,,,0,0,0,255,,,,,,,,,,,,,,,,,0,0,0,255,0,0,0,255
+ce_country_type,ce_country_type,Flight limits & regulation,,,8,643,0,0,2000,36,0,0,2000,124,0,0,2000,643,0,0,2000,643,0,0,2000,643,0,0,2000,643,0,0,2000,344,0,0,2000
+ce_regulatory_level,ce_regulatory_level,Other / opaque internal,,,8,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255
+cfg_nfz_in_beijing,cfg_nfz_in_beijing,Other / opaque internal,,,5,,,,,,,,,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+check_fc_stability,check_fc_stability,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+check_propeller_after_crash,check_propeller_after_crash,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+check_propeller_push_hms,check_propeller_push_hms,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+cmder_mode_rc_lost_action,cmder_mode_rc_lost_action,"RTH, takeoff, landing & failsafe",,,8,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2
+compass0.cali_step,compass0.cali_step,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+compass0.status_data,compass0.status_data,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,4,0,0,0,4,0,0,0,772,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0
+compass1.cali_step,compass1.cali_step,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",1,,,,,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,
+compass1.status_data,compass1.status_data,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",1,,,,,,,,,768,0,0,0,,,,,,,,,,,,,,,,,,,,
+compass_fdi_open_abrupt,compass_fdi_open_abrupt,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_disagree,compass_fdi_open_disagree,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_disconnect,compass_fdi_open_disconnect,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_interfere,compass_fdi_open_interfere,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_noise,compass_fdi_open_noise,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_over_large,compass_fdi_open_over_large,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_over_minor,compass_fdi_open_over_minor,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+compass_fdi_open_stuck,compass_fdi_open_stuck,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+config_propeller_plateau,config_propeller_plateau,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+confirm_in_moving_platform,confirm_in_moving_platform,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+coord_balance_vel_and_tor_rate,coord_balance_vel_and_tor_rate,Other / opaque internal,,,8,0.9,0.9,0,1,0.9,0.9,0,1,0.9,0.9,0,1,0.9,0.9,0,1,0.9,0.9,0,1,0.9,0.9,0,1,0.9,0.9,0,1,0.6,0.6,0,1
+coord_mode_assist_r,coord_mode_assist_r,Flight modes & handling,,,8,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000,1,1,0.01,1000
+coord_mode_damp_tors_cmd,coord_mode_damp_tors_cmd,Flight modes & handling,,,8,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1,0.99,0.99,0.001,1
+coord_mode_damp_vel_norm,coord_mode_damp_vel_norm,Flight modes & handling,,,8,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1,0.1,0.1,0.1,1
+coord_mode_type,coord_mode_type,Flight modes & handling,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1
+dead_zone,dead_zone,Other / opaque internal,,,8,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10
+dead_zone_for_m,dead_zone_for_m,Other / opaque internal,,,8,0,0,0,5,0,0,0,5,0,0,0,5,0,0,0,5,0,0,0,5,0,0,0,5,0,0,0,5,0,0,0,5
+debug_using_new_oa_info,debug_using_new_oa_info,"Diagnostics, service & simulator",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+default_coord_no_atti_limit_yawrate,default_coord_no_atti_limit_yawrate,"Diagnostics, service & simulator",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0.1,0.1,0,1,,,,
+device_gyr_acc.busy.acc_x,device_gyr_acc.busy.acc_x,"IMU, compass & calibration controls",,,8,0.064575,0,0,0,0.0744072,0,0,0,-0.220213,0,0,0,0.022662,0,0,0,0.016367,0,0,0,0.054061,0,0,0,0.18785,0,0,0,0.0434756,0,0,0
+device_gyr_acc.busy.acc_y,device_gyr_acc.busy.acc_y,"IMU, compass & calibration controls",,,8,-0.0156915,0,0,0,0.000209351,0,0,0,0.028763,0,0,0,0.00677,0,0,0,0.010753,0,0,0,0.050212,0,0,0,-0.021779,0,0,0,0.00401456,0,0,0
+device_gyr_acc.busy.acc_z,device_gyr_acc.busy.acc_z,"IMU, compass & calibration controls",,,8,-1.00101,0,0,0,-1.0003,0,0,0,-0.977521,0,0,0,-1.00313,0,0,0,-0.999136,0,0,0,-1.00603,0,0,0,-1.00061,0,0,0,-1.00161,0,0,0
+device_gyr_acc.busy.cali_cnt,device_gyr_acc.busy.cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+device_gyr_acc.busy.gyro[0],device_gyr_acc.busy.gyro[0],"IMU, compass & calibration controls",,,8,0.00986191,0,0,0,-0.00364585,0,0,0,0.005333,0,0,0,-0.001468,0,0,0,0.00102,0,0,0,-0.000282,0,0,0,-0.001228,0,0,0,-0.00289435,0,0,0
+device_gyr_acc.busy.gyro[1],device_gyr_acc.busy.gyro[1],"IMU, compass & calibration controls",,,8,0.000222596,0,0,0,-0.000293946,0,0,0,0.00302,0,0,0,0.002235,0,0,0,-0.000505,0,0,0,0.00067,0,0,0,0.000505,0,0,0,0.0204249,0,0,0
+device_gyr_acc.busy.gyro[2],device_gyr_acc.busy.gyro[2],"IMU, compass & calibration controls",,,8,0.00206569,0,0,0,0.000895193,0,0,0,-0.001664,0,0,0,0.000202,0,0,0,-0.000965,0,0,0,0.001612,0,0,0,-0.001421,0,0,0,-0.00478256,0,0,0
+device_gyr_acc.busy.gyro_temp,device_gyr_acc.busy.gyro_temp,"IMU, compass & calibration controls",,,8,65.1117,0,0,0,65.006,0,0,0,37.2736,0,0,0,28.6232,0,0,0,26.4644,0,0,0,28.442,0,0,0,65.0664,0,0,0,28.6232,0,0,0
+device_gyr_acc.busy.state,device_gyr_acc.busy.state,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+device_gyr_acc.busy.temp_ready,device_gyr_acc.busy.temp_ready,"IMU, compass & calibration controls",,,8,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+disable_hover_mode_check,disable_hover_mode_check,Flight modes & handling,,,2,1,0,0,1,,,,,1,0,0,1,,,,,,,,,,,,,,,,,,,,
+disable_rc_lost_action_when_osdk_connected,disable_rc_lost_action_when_osdk_connected,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+disable_tof_if_close_vps,disable_tof_if_close_vps,"Obstacle sensing, vision & terrain",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+display_lidar_graph,display_lidar_graph,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+display_mode_enable,display_mode_enable,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+down_vel_scale_in_high_altitude,down_vel_scale_in_high_altitude,Other / opaque internal,,,8,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100,100,100,1,100
+down_warning_dist,down_warning_dist,Other / opaque internal,,,8,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000,3000,3000,60,3000
+drone_in_dock,drone_in_dock,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,4,,,,
+dynamic_brake_atti_enable,dynamic_brake_atti_enable,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+emergency_voltage,emergency_voltage,Battery & power,,,1,2950,2950,2500,4000,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+enable,enable,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+enable_add_mate_check,enable_add_mate_check,Other / opaque internal,,,4,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_aircraft_auto_hover,enable_aircraft_auto_hover,Other / opaque internal,,,2,0,0,0,2,,,,,0,0,0,2,,,,,,,,,,,,,,,,,,,,
+enable_arm_error_check,enable_arm_error_check,Other / opaque internal,,,6,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_auto_lock_motor_for_loading,enable_auto_lock_motor_for_loading,"Motors, ESC & propulsion",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+enable_avoid_ground_protection,enable_avoid_ground_protection,"Obstacle sensing, vision & terrain",,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_bat_ot_land,enable_bat_ot_land,Battery & power,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_bat_req_home,enable_bat_req_home,Battery & power,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_battery_overheat_force_land,enable_battery_overheat_force_land,Battery & power,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+enable_ce_require_data,enable_ce_require_data,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+enable_downward_vision_position_and_avoidance,enable_downward_vision_position_and_avoidance,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_horizontal_obstacle_avoidance,enable_horizontal_obstacle_avoidance,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_lidar_dirty_status_check,enable_lidar_dirty_status_check,"Obstacle sensing, vision & terrain",,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_lidar_status_inter,enable_lidar_status_inter,"Obstacle sensing, vision & terrain",,,3,,,,,,,,,,,,,,,,,0,0,0,3,,,,,0,0,0,3,0,0,0,3
+enable_load_module_check,enable_load_module_check,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_n_mode_when_init,enable_n_mode_when_init,Flight modes & handling,,,6,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_overload_check,enable_overload_check,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+enable_power_line_res_check,enable_power_line_res_check,Battery & power,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+enable_radar_pedex_warning,enable_radar_pedex_warning,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+enable_single_bat_mode,enable_single_bat_mode,Battery & power,,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+esc_crc_err_cnt,esc_crc_err_cnt,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,0,0,0,65535,,,,,,,,,,,,
+esc_crc_err_flag,esc_crc_err_flag,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,0,0,0,255,,,,,,,,,,,,
+esc_crc_err_limit_cnt,esc_crc_err_limit_cnt,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,1,1,0,65535,,,,,,,,,,,,
+esc_crc_err_overflow_cnt,esc_crc_err_overflow_cnt,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,0,0,0,255,,,,,,,,,,,,
+esc_ppm_recv_fdi_open,esc_ppm_recv_fdi_open,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+esc_recv_test_fdi_open,esc_recv_test_fdi_open,"Motors, ESC & propulsion",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+esc_unbalance_fdi_open,esc_unbalance_fdi_open,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+etk_fdi_open_disconnect,etk_fdi_open_disconnect,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+eu_ce_support_remote_set_level,eu_ce_support_remote_set_level,Flight limits & regulation,,,3,,,,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,0,0,0,0
+exit_wp_when_rc_lost,exit_wp_when_rc_lost,"RTH, takeoff, landing & failsafe",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+ext_led_ctrl,ext_led_ctrl,"RC, radio, lights & interfaces",,,8,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295
+fan_special_speed,fan_special_speed,Other / opaque internal,,,1,0,0,0,255,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.acc_disconnect0,fault_sum_history.acc_disconnect0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.acc_noise0,fault_sum_history.acc_noise0,"IMU, compass & calibration controls",,,2,1,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.acc_stuck0,fault_sum_history.acc_stuck0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.baro0,fault_sum_history.baro0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.baro_disconnect0,fault_sum_history.baro_disconnect0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.baro_drift0,fault_sum_history.baro_drift0,"IMU, compass & calibration controls",,,2,1,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.baro_noise0,fault_sum_history.baro_noise0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.compass0,fault_sum_history.compass0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.cpu_load_oversize,fault_sum_history.cpu_load_oversize,"Diagnostics, service & simulator",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.fusion_switch,fault_sum_history.fusion_switch,"Diagnostics, service & simulator",,,2,13,0,0,65535,,,,,18,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.gps,fault_sum_history.gps,"Navigation, GNSS & positioning",,,2,6,0,0,65535,,,,,110,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.gyro_acc_drv_config_err0,fault_sum_history.gyro_acc_drv_config_err0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.gyro_disconnect0,fault_sum_history.gyro_disconnect0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.gyro_noise0,fault_sum_history.gyro_noise0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.gyro_stuck0,fault_sum_history.gyro_stuck0,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.master_imu_switch,fault_sum_history.master_imu_switch,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.rtk,fault_sum_history.rtk,"Navigation, GNSS & positioning",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.second_imu,fault_sum_history.second_imu,"IMU, compass & calibration controls",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.voltage,fault_sum_history.voltage,Battery & power,,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fault_sum_history.wdg_reset,fault_sum_history.wdg_reset,"Diagnostics, service & simulator",,,2,0,0,0,65535,,,,,0,0,0,65535,,,,,,,,,,,,,,,,,,,,
+fc_sensor_change_index,fc_sensor_change_index,"IMU, compass & calibration controls",,,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8
+first_takeoff_warning,first_takeoff_warning,"RTH, takeoff, landing & failsafe",,,8,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1
+fl_emergency_stop_enable,fl_emergency_stop_enable,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fl_head_follow_enable,fl_head_follow_enable,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1
+fl_rm220_ctrl_mode  ,fl_rm220_ctrl_mode  ,Other / opaque internal,,,8,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10
+flying_on_ship,flying_on_ship,Other / opaque internal,,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+follow_mouse_motion_cfg,follow_mouse_motion_cfg,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,2,,,,,0,0,0,2,0,0,0,2
+forbid_side_fly,forbid_side_fly,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fpv_mode_rc_sacle,fpv_mode_rc_sacle,Flight modes & handling,,,8,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10,0.4,0.4,0.01,10
+fpv_mode_tilt_range,fpv_mode_tilt_range,Flight modes & handling,,,8,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000,65,65,0.01,1000
+fpv_mode_yaw_gyro_range,fpv_mode_yaw_gyro_range,"IMU, compass & calibration controls",,,8,55,55,0,1000,55,55,0,1000,55,55,0,1000,55,55,0,1000,55,55,0,1000,55,55,0,1000,55,55,0,1000,55,55,0,1000
+fpv_vert_vel_down,fpv_vert_vel_down,Flight modes & handling,,,8,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0,-6,-6,-10,0
+fpv_vert_vel_up,fpv_vert_vel_up,Flight modes & handling,,,8,8,8,0,10,8,8,0,10,8,8,0,10,8,8,0,10,8,8,0,10,8,8,0,10,8,8,0,10,8,8,0,10
+fscap_EU_CE_Support,fscap_EU_CE_Support,Flight limits & regulation,,,6,,,,,1,0,0,0,,,,,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+fscap_enable_app_playback,fscap_enable_app_playback,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,,,,
+fscap_enable_homing_s,fscap_enable_homing_s,"RTH, takeoff, landing & failsafe",,,6,,,,,0,1,0,1,,,,,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1
+fscap_enable_landing_s,fscap_enable_landing_s,"RTH, takeoff, landing & failsafe",,,6,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+fscap_gnss_beidou_cloudctrl_support,fscap_gnss_beidou_cloudctrl_support,"Navigation, GNSS & positioning",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1
+fscap_gnss_source_mode_app_enable,fscap_gnss_source_mode_app_enable,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+fscap_gnss_source_mode_item,fscap_gnss_source_mode_item,"Navigation, GNSS & positioning",,,8,3,3,0,3,3,3,0,3,3,3,0,3,0,0,0,3,0,0,0,3,3,3,0,3,3,3,0,3,3,3,0,3
+fscap_imu_propeller_cali_enable,fscap_imu_propeller_cali_enable,"Motors, ESC & propulsion",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8
+fscap_light_ext_ctrl_s,fscap_light_ext_ctrl_s,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1
+fscap_max_height,fscap_max_height,Flight limits & regulation,,,8,500,120,20,65535,500,120,20,65535,500,120,20,65535,120,120,20,65535,120,120,20,65535,500,120,20,65535,500,120,20,65535,500,120,20,65535
+fscap_mvo_func_able,fscap_mvo_func_able,"Obstacle sensing, vision & terrain",,,8,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+fscap_navi_homing_s,fscap_navi_homing_s,"RTH, takeoff, landing & failsafe",,,6,,,,,0,0,0,1,,,,,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1
+fscap_presice_homing_s,fscap_presice_homing_s,"RTH, takeoff, landing & failsafe",,,6,,,,,1,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fscap_rc_dyn_homepoint,fscap_rc_dyn_homepoint,"RTH, takeoff, landing & failsafe",,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+fscap_rtk_fix_last_app_enable,fscap_rtk_fix_last_app_enable,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fscap_rtk_source_type_app_enable,fscap_rtk_source_type_app_enable,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fscap_rtk_source_type_item,fscap_rtk_source_type_item,"Navigation, GNSS & positioning",,,8,0,0,0,31,0,0,0,127,0,0,0,31,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+fscap_use_rtk_data_app_enable,fscap_use_rtk_data_app_enable,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+fscap_vps_app_enable,fscap_vps_app_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+ft_multi_test_index,ft_multi_test_index,"Diagnostics, service & simulator",,,5,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,,,,,0,0,0,1,,,,,,,,
+g_cfg_debug.imu_cali_state[1][1],g_cfg_debug.imu_cali_state[1][1],Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+g_cfg_debug.imu_cali_state[2][1],g_cfg_debug.imu_cali_state[2][1],Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+g_cfg_debug.overshot_enable,g_cfg_debug.overshot_enable,"Diagnostics, service & simulator",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_cfg_debug.rel_height_limit_enable,g_cfg_debug.rel_height_limit_enable,Flight limits & regulation,,,8,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2
+g_config.actuator.user_test.std_output,g_config.actuator.user_test.std_output | user_test_std_output,"Motors, ESC & propulsion",,,8,500,500,0,10000,500,500,0,10000,500,500,0,10000,500,500,0,10000,500,500,0,10000,500,500,0,10000,500,500,0,10000,500,500,0,10000
+g_config.advanced_function.avoid_ground_enabled,g_config.advanced_function.avoid_ground_enabled | g_config.flying_limit.avoid_ground_enabled,Flight limits & regulation,,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1
+g_config.advanced_function.radius_limit_enabled,g_config.advanced_function.radius_limit_enabled | g_config.flying_limit.radius_limit_enabled,Flight limits & regulation,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.aircraft.multi_rotor_type,g_config.aircraft.multi_rotor_type | multi_mixer_type,"Motors, ESC & propulsion",,,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+g_config.airport_limit_cfg.cfg_sim_disable_limit,cfg_sim_disable_limit | g_config.airport_limit_cfg.cfg_sim_disable_limit,Flight limits & regulation,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.avoid_cfg.avoid_rc_scale,avoid_cfg_rc_scale | g_config.avoid_cfg.avoid_rc_scale,"Obstacle sensing, vision & terrain",,,8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8,0.55,0.55,0.1,0.8
+g_config.avoid_cfg.avoid_tors_rate_range,avoid_cfg_tors_rate_range | g_config.avoid_cfg.avoid_tors_rate_range,"Obstacle sensing, vision & terrain",,,8,70,70,30,90,70,70,30,90,70,70,30,90,70,70,30,90,70,70,30,90,70,70,30,90,70,70,30,90,70,70,30,90
+g_config.avoid_obstacle_limit_cfg.avoid_obstacle_enable,g_config.avoid_obstacle_limit_cfg.avoid_obstacle_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.avoid_obstacle_limit_cfg.bypass_sub_mode,bypass_sub_mode | g_config.avoid_obstacle_limit_cfg.bypass_sub_mode,"Obstacle sensing, vision & terrain",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.avoid_obstacle_limit_cfg.user_avoid_enable,g_config.avoid_obstacle_limit_cfg.user_avoid_enable | user_avoid_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,2,2,1,0,2,1,1,0,2,0,0,0,2,2,1,0,2,1,1,0,2,0,1,0,2,2,1,0,2
+g_config.avoid_obstacle_limit_cfg.user_back_avoid_enable,g_config.avoid_obstacle_limit_cfg.user_back_avoid_enable | user_back_avoid_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,2,1,1,0,2,1,1,0,2,0,0,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2
+g_config.avoid_obstacle_limit_cfg.user_down_avoid_enable,g_config.avoid_obstacle_limit_cfg.user_down_avoid_enable | user_down_avoid_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,2,1,1,0,2,1,1,0,2,0,0,0,2,1,1,0,2,1,1,0,2,1,1,0,2,1,1,0,2
+g_config.cali_switch.imu_propeller_cali,g_config.cali_switch.imu_propeller_cali | imu_propeller_cali,"Motors, ESC & propulsion",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,2,2,0,8,2,2,0,8,2,2,0,8,2,2,0,8,2,2,0,8,2,2,0,8,2,2,0,8,2,2,0,8
+g_config.control.atti_envelope_limit_slope,atti_envelope_limit_slope | g_config.control.atti_envelope_limit_slope,Other / opaque internal,,,2,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,100,6,6,0,100
+g_config.control.atti_vertical,g_config.control.atti_vertical | g_config.control.basic_thrust,"Motors, ESC & propulsion",,,6,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,,,,,,,,
+g_config.control.basic_pitch,basic_gain_pitch_usr | g_config.control.basic_pitch,"Stabilization, gains & filters",,,6,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,,,,,,,,
+g_config.control.basic_roll,basic_gain_roll_usr | g_config.control.basic_roll,"Stabilization, gains & filters",,,6,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,,,,,,,,
+g_config.control.basic_tail,g_config.control.basic_tail | g_config.control.basic_yaw,Other / opaque internal,,,6,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,100,100,20,150,,,,,,,,
+g_config.control.brake_gyro_slope,brake_gyro_slope | g_config.control.brake_gyro_slope,"IMU, compass & calibration controls",,,3,,,,,,,,,,,,,,,,,100,100,0,300,,,,,100,100,0,1000,100,100,0,300
+g_config.control.brake_gyro_slope_start,brake_gyro_slope_start | g_config.control.brake_gyro_slope_start,"IMU, compass & calibration controls",,,3,,,,,,,,,,,,,,,,,70,70,20,300,,,,,45,45,20,300,100,100,20,300
+g_config.control.brake_gyro_slope_stop,brake_gyro_slope_stop | g_config.control.brake_gyro_slope_stop,"IMU, compass & calibration controls",,,3,,,,,,,,,,,,,,,,,100,100,20,300,,,,,120,120,20,300,100,100,20,300
+g_config.control.brake_sensitivity,brake_sensitive_gain | g_config.control.brake_sensitivity,Flight modes & handling,,,8,100,100,10,150,100,100,10,150,100,100,10,150,80,80,0,150,80,80,0,150,100,100,10,150,100,100,10,150,100,100,10,150
+g_config.control.brake_sensitivity_fc,brake_sensitive_fc | g_config.control.brake_sensitivity_fc,Flight modes & handling,,,8,0.6,0.6,0,2,0.6,0.6,0,2,0.6,0.6,0,2,0.6,0.6,0,2,0.6,0.6,0,80,0.6,0.6,0,2,0.6,0.6,0,80,0.6,0.6,0,80
+g_config.control.control_mode[0],fswitch_selection | g_config.control.control_mode[0],Flight modes & handling,,,8,12,12,0,21,12,12,0,21,12,12,0,21,7,12,0,21,12,12,0,21,12,12,0,21,12,12,0,21,12,12,0,21
+g_config.control.control_mode[1],fswitch_selection_1 | g_config.control.control_mode[1],Flight modes & handling,,,8,8,8,0,21,8,8,0,21,8,8,0,21,8,8,0,21,8,8,0,21,8,8,0,21,8,8,0,21,8,8,0,21
+g_config.control.control_mode[2],fswitch_selection_2 | g_config.control.control_mode[2],Flight modes & handling,,,8,7,7,0,21,7,7,0,21,7,7,0,21,8,7,0,21,7,7,0,21,7,7,0,21,7,7,0,21,7,7,0,21
+g_config.control.control_mode_b[0],fswitch_selection_b | g_config.control.control_mode_b[0],Flight modes & handling,,,8,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21
+g_config.control.control_mode_b[1],fswitch_selection_b_1 | g_config.control.control_mode_b[1],Flight modes & handling,,,8,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21,17,17,0,21
+g_config.control.control_mode_b[2],fswitch_selection_b_2 | g_config.control.control_mode_b[2],Flight modes & handling,,,8,18,18,0,21,18,18,0,21,18,18,0,21,18,18,0,21,18,18,0,21,18,18,0,21,18,18,0,21,18,18,0,21
+g_config.control.ffg_speed_ctrl_perc,ffg_speed_ctrl_perc | g_config.control.ffg_speed_ctrl_perc,Other / opaque internal,,,8,5,5,0,100,5,5,0,100,12,12,0,100,5,5,0,100,40,40,0,100,12,12,0,100,6,6,0,100,8,8,0,100
+g_config.control.horiz_pos_p_gain_adj,g_config.control.horiz_pos_p_gain_adj | horiz_pos_gain,"Stabilization, gains & filters",,,8,125,125,20,150,125,125,20,150,130,130,20,150,130,130,20,150,130,130,20,150,130,130,20,150,130,130,20,150,130,130,20,150
+g_config.control.horiz_vel_p_gain,g_config.control.horiz_vel_p_gain | horiz_vel_gain,Flight modes & handling,,,8,108,108,20,250,108,108,20,250,115,115,20,250,110,110,20,250,110,110,20,250,125,125,20,250,130,130,20,250,115,115,20,250
+g_config.control.multi_control_mode_enable,enable_multiple_mode | g_config.control.multi_control_mode_enable,Flight modes & handling,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.control.rc_tilt_sensitivity,g_config.control.rc_tilt_sensitivity | tilt_sensitive_gain,"Stabilization, gains & filters",,,8,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500
+g_config.control.sport_ffg_speed_ctrl_perc,g_config.control.sport_ffg_speed_ctrl_perc | sport_ffg_speed_ctrl_perc,Other / opaque internal,,,8,0,0,0,100,0,0,0,100,10,10,0,100,0,0,0,100,40,40,0,100,10,10,0,100,8,8,0,100,8,8,0,100
+g_config.control.tilt_exp_mid_point,g_config.control.tilt_exp_mid_point | g_config.mode_normal_cfg.tilt_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9
+g_config.control.trip_ffg_speed_ctrl_perc,g_config.control.trip_ffg_speed_ctrl_perc | trip_ffg_speed_ctrl_perc,Other / opaque internal,,,8,8,8,0,100,8,8,0,100,15,15,0,100,8,8,0,100,8,8,0,100,15,15,0,100,12,12,0,100,12,12,0,100
+g_config.control.vel_braking_threshold,g_config.control.vel_braking_threshold | vel_braking_threshold,Other / opaque internal,,,8,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5,0.3,0.3,0.05,0.5
+g_config.control.vert_vel_down_adding,g_config.control.vert_vel_down_adding | vert_vel_down_adding,Flight modes & handling,,,8,0,0,0,5,0,0,-5,5,0,0,0,5,0,0,-5,5,0,0,-5,5,-2.4,-2.4,-5,5,0,0,-5,5,0,0,-5,5
+g_config.control.yaw_exp_mid_point,g_config.control.yaw_exp_mid_point | g_config.mode_normal_cfg.tors_exp_mid_point,Flight modes & handling,,,8,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.4,0.4,0.1,0.9,0.35,0.35,0.1,0.9,0.2,0.2,0.1,0.9,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9
+g_config.engine.idle_level,g_config.engine.idle_level | idle_level,"Motors, ESC & propulsion",,,8,3,3,1,30,3,3,1,30,3,3,1,30,3,3,1,30,3,3,1,30,3,3,1,30,5,5,1,30,3,3,1,30
+g_config.fail_safe.protect_action,g_config.fail_safe.protect_action | rc_lost_action,"RTH, takeoff, landing & failsafe",,,8,0,2,0,3,2,2,0,3,2,2,0,3,2,2,0,3,0,2,0,3,0,2,0,3,0,2,0,3,2,2,0,3
+g_config.fdi_open.fit_open,g_config.fdi_open.fit_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.fdi_open.without_baro_allowed,g_config.fdi_open.without_baro_allowed,"IMU, compass & calibration controls",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.fdi_open.without_gps_allowed,g_config.fdi_open.without_gps_allowed,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.fdi_open.without_mag_allowed,g_config.fdi_open.without_mag_allowed,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.fdi_sensor[0].acc_bias,g_config.fdi_sensor[0].acc_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0.00175953,0,0,0,0.00122523,0,0,0,0.000629,0,0,0,0.00192,0,0,0,0.000439,0,0,0,0.006901,0,0,0,0.016762,0,0,0,0.00242019,0,0,0
+g_config.fdi_sensor[0].acc_stat,g_config.fdi_sensor[0].acc_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0
+g_config.fdi_sensor[0].gyr_bias,g_config.fdi_sensor[0].gyr_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0.0092797,0,0,0,0.00381303,0,0,0,0.006344,0,0,0,0.002612,0,0,0,0.001336,0,0,0,0.000913,0,0,0,0.001636,0,0,0,0.0194142,0,0,0
+g_config.fdi_sensor[0].gyr_stat,g_config.fdi_sensor[0].gyr_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,8,0,0,0
+g_config.fdi_sensor[0].mag_over,g_config.fdi_sensor[0].mag_over,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,170.434,0,0,0,14.5211,0,0,0,736.899,0,0,0,2005.21,0,0,0,698.593,0,0,0,454.186,0,0,0,588.861,0,0,0,38.3109,0,0,0
+g_config.fdi_sensor[0].mag_stat,g_config.fdi_sensor[0].mag_stat,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,5,0,0,0,5,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,6,0,0,0,7,0,0,0,5,0,0,0
+g_config.fdi_sensor[1].acc_bias,g_config.fdi_sensor[1].acc_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[1].acc_stat,g_config.fdi_sensor[1].acc_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0
+g_config.fdi_sensor[1].gyr_bias,g_config.fdi_sensor[1].gyr_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[1].gyr_stat,g_config.fdi_sensor[1].gyr_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0
+g_config.fdi_sensor[1].mag_over,g_config.fdi_sensor[1].mag_over,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[1].mag_stat,g_config.fdi_sensor[1].mag_stat,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+g_config.fdi_sensor[2].acc_bias,g_config.fdi_sensor[2].acc_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[2].acc_stat,g_config.fdi_sensor[2].acc_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0
+g_config.fdi_sensor[2].gyr_bias,g_config.fdi_sensor[2].gyr_bias,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[2].gyr_stat,g_config.fdi_sensor[2].gyr_stat,"IMU, compass & calibration controls",,,8,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0,7,0,0,0
+g_config.fdi_sensor[2].mag_over,g_config.fdi_sensor[2].mag_over,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_config.fdi_sensor[2].mag_stat,g_config.fdi_sensor[2].mag_stat,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+g_config.fdi_switch.baro.by_fdi,g_config.fdi_switch.baro.by_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.baro.default_index,g_config.fdi_switch.baro.default_index,"IMU, compass & calibration controls",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.baro.with_fdi,g_config.fdi_switch.baro.with_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.compass.by_fdi,g_config.fdi_switch.compass.by_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.compass.default_index,g_config.fdi_switch.compass.default_index,"IMU, compass & calibration controls",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.compass.with_fdi,g_config.fdi_switch.compass.with_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.etk.by_fdi,g_config.fdi_switch.etk.by_fdi,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.etk.default_index,g_config.fdi_switch.etk.default_index,"Diagnostics, service & simulator",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.etk.with_fdi,g_config.fdi_switch.etk.with_fdi,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.gps.by_fdi,g_config.fdi_switch.gps.by_fdi,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.gps.default_index,g_config.fdi_switch.gps.default_index,"Navigation, GNSS & positioning",,,8,0,0,0,2,0,0,0,2,0,0,0,2,1,1,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.gps.with_fdi,g_config.fdi_switch.gps.with_fdi,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.gyro.by_fdi,g_config.fdi_switch.gyro.by_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.gyro.default_index,g_config.fdi_switch.gyro.default_index,"IMU, compass & calibration controls",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.gyro.with_fdi,g_config.fdi_switch.gyro.with_fdi,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.ns.by_fdi,g_config.fdi_switch.ns.by_fdi,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.ns.default_index,g_config.fdi_switch.ns.default_index,"Diagnostics, service & simulator",,,8,1,1,0,5,1,1,0,5,1,1,0,5,1,1,0,5,1,1,0,5,1,1,0,5,1,1,0,5,1,1,0,5
+g_config.fdi_switch.ns.with_fdi,g_config.fdi_switch.ns.with_fdi,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.open,g_config.fdi_switch.open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.fdi_switch.rtk.by_fdi,g_config.fdi_switch.rtk.by_fdi,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.fdi_switch.rtk.default_index,g_config.fdi_switch.rtk.default_index,"Navigation, GNSS & positioning",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+g_config.fdi_switch.rtk.with_fdi,g_config.fdi_switch.rtk.with_fdi,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.flying_limit.avoid_ground_and_smart_landing_enable,g_config.flying_limit.avoid_ground_and_smart_landing_enable,Flight limits & regulation,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.flying_limit.beacon_max_height,g_config.flying_limit.beacon_max_height,Flight limits & regulation,,,6,,,,,120,120,20,500,,,,,120,120,20,120,120,120,20,120,120,120,20,500,120,120,20,500,120,120,20,500
+g_config.flying_limit.beacon_max_radius,g_config.flying_limit.beacon_max_radius,Flight limits & regulation,,,6,,,,,100,100,15,8000,,,,,100,100,15,8000,100,100,15,8000,100,100,15,8000,100,100,15,8000,100,100,15,8000
+g_config.flying_limit.max_height,g_config.flying_limit.max_height,Flight limits & regulation,,,8,500,120,20,500,500,120,20,500,500,120,20,500,120,120,20,120,120,120,20,120,500,120,20,500,500,120,20,500,500,120,20,500
+g_config.flying_limit.max_height_option,g_config.flying_limit.max_height_option,Flight limits & regulation,,,6,,,,,500,500,0,65535,,,,,120,120,0,65535,120,120,0,65535,500,500,0,65535,500,500,0,65535,500,500,0,65535
+g_config.flying_limit.max_radius,g_config.flying_limit.max_radius,Flight limits & regulation,,,8,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000,5000,5000,15,8000
+g_config.flying_limit.roof_limit_enable,g_config.flying_limit.roof_limit_enable,Flight limits & regulation,,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.flying_limit.user_set_max_height,g_config.flying_limit.user_set_max_height,Flight limits & regulation,,,8,500,120,20,65535,500,120,20,65535,120,120,20,65535,120,120,20,65535,120,120,20,65535,120,120,20,65535,120,120,20,65535,120,120,20,65535
+g_config.gear_cfg.auto_control_enable,g_config.gear_cfg.auto_control_enable | intel_gear,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.gear_cfg.gear_func_en,g_config.gear_cfg.gear_func_en | tempvar_switch_gear,Other / opaque internal,,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+g_config.gear_cfg.near_ground_reminder,g_config.gear_cfg.near_ground_reminder | near_ground_reminder,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.gear_cfg.on_ground_hide_gear_en,g_config.gear_cfg.on_ground_hide_gear_en | on_ground_hide_gear_en,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.go_home.avoid_ascending_height_limit_disable,avoid_ascending_height_limit_disable | g_config.go_home.avoid_ascending_height_limit_disable,Flight limits & regulation,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.go_home.avoid_enable,avoid_enable | g_config.go_home.avoid_enable,"RTH, takeoff, landing & failsafe",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.go_home.fixed_go_home_altitude,g_config.go_home.fixed_go_home_altitude | go_home_height,"RTH, takeoff, landing & failsafe",,,8,120,100,20,1500,205,100,20,1500,25,100,20,1500,30,30,10,1500,30,30,10,1500,30,100,20,1500,30,100,20,1500,100,100,20,1500
+g_config.go_home.force_ascending_align_enable,force_ascending_align_enable | g_config.go_home.force_ascending_align_enable,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.go_home.go_home_heading_option,g_config.go_home.go_home_heading_option | go_home_heading,"RTH, takeoff, landing & failsafe",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.gps_cfg.gps_enable,g_config.gps_cfg.gps_enable | gps_enable,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1
+g_config.gyr_acc_cfg.msc_require_side,g_config.gyr_acc_cfg.msc_require_side,"IMU, compass & calibration controls",,,8,62,62,0,255,62,62,0,255,62,62,0,255,62,62,0,255,62,62,0,255,62,62,0,255,62,62,0,255,62,62,0,255
+g_config.imu_para_cfg.imu_adv_func.fusion_switch_rtks_hp_p,g_config.imu_para_cfg.imu_adv_func.fusion_switch_rtks_hp_p,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+g_config.misc_cfg.forearm_lamp_ctrl,forearm_led_ctrl | g_config.misc_cfg.forearm_lamp_ctrl,"RC, radio, lights & interfaces",,,8,0,239,0,255,0,239,0,255,239,239,0,255,239,239,0,255,239,239,0,255,239,239,0,255,239,239,0,255,239,239,0,255
+g_config.miss_rtk.gnss_plus_enable,g_config.miss_rtk.gnss_plus_enable | gnss_plus_enable,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+g_config.miss_rtk.rtk_fix_last,g_config.miss_rtk.rtk_fix_last | rtk_fix_last,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.miss_rtk.use_rtk_data,g_config.miss_rtk.use_rtk_data | miss_rtk_use_rtk_data,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.mode_atti_normal_cfg.gimb_tilt_atti_pitch_max,g_config.mode_atti_normal_cfg.gimb_tilt_atti_pitch_max,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_atti_normal_cfg.gimb_tilt_atti_pitch_min,g_config.mode_atti_normal_cfg.gimb_tilt_atti_pitch_min,Flight modes & handling,,,2,,,,,-90,-90,-90,0,,,,,,,,,,,,,-90,-90,-90,0,,,,,,,,
+g_config.mode_atti_normal_cfg.gimb_tilt_atti_roll_range,g_config.mode_atti_normal_cfg.gimb_tilt_atti_roll_range,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_atti_normal_cfg.horiz_acc_range,g_config.mode_atti_normal_cfg.horiz_acc_range,"IMU, compass & calibration controls",,,3,,,,,,,,,,,,,,,,,1000,1000,1,1000,,,,,1000,1000,1,1000,1000,1000,1,1000
+g_config.mode_atti_normal_cfg.lift_exp_mid_point,g_config.mode_atti_normal_cfg.lift_exp_mid_point,Flight modes & handling,,,8,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9
+g_config.mode_atti_normal_cfg.rc_scale,g_config.mode_atti_normal_cfg.rc_scale,Flight modes & handling,,,8,1,1,1e-07,1,1,1,1e-07,1,1,1,1e-07,1,0.869,0.869,1e-07,1,0.869,0.869,1e-07,1,1,1,1e-07,1,1,1,1e-07,1,1,1,1e-07,1
+g_config.mode_atti_normal_cfg.thrust_exp_mid_point,g_config.mode_atti_normal_cfg.thrust_exp_mid_point,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0.5,0.5,0.1,0.9,,,,
+g_config.mode_atti_normal_cfg.tilt_atti_range,g_config.mode_atti_normal_cfg.tilt_atti_range,Flight modes & handling,,,8,35,35,10,35,35,35,10,35,35,35,10,35,20,25,5,55,30,30,5,55,35,35,10,35,35,35,10,35,35,35,10,35
+g_config.mode_atti_normal_cfg.tilt_atti_roll_range,g_config.mode_atti_normal_cfg.tilt_atti_roll_range,Flight modes & handling,,,2,,,,,,,,,,,,,,,,,,,,,,,,,20,20,5,30,20,20,5,30
+g_config.mode_atti_normal_cfg.tilt_exp_mid_point,g_config.mode_atti_normal_cfg.tilt_exp_mid_point,Flight modes & handling,,,8,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9
+g_config.mode_atti_normal_cfg.tors_exp_mid_point,g_config.mode_atti_normal_cfg.tors_exp_mid_point,Flight modes & handling,,,8,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.2,0.37,0.1,0.9,0.37,0.37,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9
+g_config.mode_atti_normal_cfg.tors_gyro_range,g_config.mode_atti_normal_cfg.tors_gyro_range,"IMU, compass & calibration controls",,,8,100,100,50,150,100,100,50,150,100,100,50,150,50,120,20,120,120,120,20,120,100,100,50,150,100,100,50,150,100,100,50,150
+g_config.mode_atti_normal_cfg.vert_vel_down,g_config.mode_atti_normal_cfg.vert_vel_down,Flight modes & handling,,,8,-3,-3,-3,-1,-3,-3,-3,-1,-3,-3,-3,-1,-2,-2,-10,-1,-2,-2,-10,-1,-3,-3,-3,-1,-3,-3,-3,-1,-3,-3,-3,-1
+g_config.mode_atti_normal_cfg.vert_vel_up,g_config.mode_atti_normal_cfg.vert_vel_up,Flight modes & handling,,,8,3,3,1,3,3,3,1,3,3,3,1,3,2,2,1,10,2,2,1,10,3,3,1,3,3,3,1,3,3,3,1,3
+g_config.mode_gentle_cfg.horiz_acc_range,g_config.mode_gentle_cfg.horiz_acc_range,"IMU, compass & calibration controls",,,8,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000
+g_config.mode_gentle_cfg.lift_exp_mid_point,g_config.mode_gentle_cfg.lift_exp_mid_point,Flight modes & handling,,,8,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9
+g_config.mode_gentle_cfg.tilt_atti_pitch_max,g_config.mode_gentle_cfg.tilt_atti_pitch_max,Flight modes & handling,,,8,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20
+g_config.mode_gentle_cfg.tilt_atti_pitch_min,g_config.mode_gentle_cfg.tilt_atti_pitch_min,Flight modes & handling,,,8,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0,-20,-20,-20,0
+g_config.mode_gentle_cfg.tilt_atti_roll_range,g_config.mode_gentle_cfg.tilt_atti_roll_range,Flight modes & handling,,,8,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20,20,20,0,20
+g_config.mode_gentle_cfg.tilt_exp_mid_point,g_config.mode_gentle_cfg.tilt_exp_mid_point,Flight modes & handling,,,8,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9
+g_config.mode_gentle_cfg.tors_exp_mid_point,g_config.mode_gentle_cfg.tors_exp_mid_point,Flight modes & handling,,,8,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9,0.2,0.2,0.1,0.9
+g_config.mode_normal_cfg.brake_sensitivity,g_config.mode_normal_cfg.brake_sensitivity,Flight modes & handling,,,8,100,100,10,150,100,100,10,150,100,100,10,150,50,50,0,150,80,80,0,150,100,100,10,150,100,100,10,150,100,100,10,150
+g_config.mode_normal_cfg.cloud_ctrl_max_speed,g_config.mode_normal_cfg.cloud_ctrl_max_speed,Flight modes & handling,,,8,15,15,1,15,15,15,1,15,12,12,1,12,6,6,1,6,8,8,1,8,8,8,1,8,16,16,1,16,12,12,1,12
+g_config.mode_normal_cfg.gimb_tilt_atti_pitch_max,g_config.mode_normal_cfg.gimb_tilt_atti_pitch_max,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_normal_cfg.gimb_tilt_atti_pitch_min,g_config.mode_normal_cfg.gimb_tilt_atti_pitch_min,Flight modes & handling,,,2,,,,,-90,-90,-90,0,,,,,,,,,,,,,-90,-90,-90,0,,,,,,,,
+g_config.mode_normal_cfg.gimb_tilt_atti_roll_range,g_config.mode_normal_cfg.gimb_tilt_atti_roll_range,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_normal_cfg.horiz_acc_range,g_config.mode_normal_cfg.horiz_acc_range,"IMU, compass & calibration controls",,,8,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000
+g_config.mode_normal_cfg.horiz_cur_speed,g_config.mode_normal_cfg.horiz_cur_speed,Flight modes & handling,,,8,12,12,1,15,15,15,1,15,12,12,1,12,4,4,1,6,8,8,1,8,8,8,1,8,12,12,1,16,12,12,1,12
+g_config.mode_normal_cfg.horiz_max_speed,g_config.mode_normal_cfg.horiz_max_speed,Flight modes & handling,,,8,15,15,2,15,15,15,2,15,12,12,2,12,6,6,2,6,8,8,2,8,8,8,2,8,16,16,2,16,12,12,2,12
+g_config.mode_normal_cfg.horiz_min_speed,g_config.mode_normal_cfg.horiz_min_speed,Flight modes & handling,,,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+g_config.mode_normal_cfg.horiz_vel_exp_mid_point,g_config.mode_normal_cfg.horiz_vel_exp_mid_point,Flight modes & handling,,,2,,,,,,,,,,,,,,,,,,,,,,,,,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9
+g_config.mode_normal_cfg.lift_exp_mid_point,g_config.mode_normal_cfg.lift_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.3,0.3,0.1,0.9,0.2,0.2,0.1,0.9,0.35,0.35,0.1,0.9,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9
+g_config.mode_normal_cfg.rc_scale,g_config.mode_normal_cfg.rc_scale,Flight modes & handling,,,8,0.47973,0.47973,1e-07,1,0.718567,0.47973,1e-07,1,0.791449,0.462366,1e-07,1,0.34965,0.539,1e-07,1,0.633333,0.597,1e-07,1,0.705882,0.462366,1e-07,1,0.644258,0.462366,1e-07,1,0.668934,0.462366,1e-07,1
+g_config.mode_normal_cfg.rc_scale_bac,g_config.mode_normal_cfg.rc_scale_bac,Flight modes & handling,,,8,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1,0.9,0.9,0.2,1
+g_config.mode_normal_cfg.rc_scale_fwd,g_config.mode_normal_cfg.rc_scale_fwd,Flight modes & handling,,,8,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1,0.7,0.7,0.2,1
+g_config.mode_normal_cfg.rc_scale_lat,g_config.mode_normal_cfg.rc_scale_lat,Flight modes & handling,,,8,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1,0.51,0.51,0.2,1
+g_config.mode_normal_cfg.thrust_exp_mid_point,g_config.mode_normal_cfg.thrust_exp_mid_point,"Motors, ESC & propulsion",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5,0.5,0.1,0.9
+g_config.mode_normal_cfg.tilt_atti_pitch_max,g_config.mode_normal_cfg.tilt_atti_pitch_max,Flight modes & handling,,,8,20,20,0,20,35,35,0,35,30,30,0,30,25,25,0,25,42.5,42.5,0,42.5,30,30,0,30,42,42,0,42,34,34,0,34
+g_config.mode_normal_cfg.tilt_atti_pitch_min,g_config.mode_normal_cfg.tilt_atti_pitch_min,Flight modes & handling,,,8,-35,-35,-35,0,-35,-35,-35,0,-30,-30,-30,0,-25,-25,-25,0,-44,-44,-44,0,-30,-30,-30,0,-42,-42,-42,0,-35,-35,-35,0
+g_config.mode_normal_cfg.tilt_atti_range,g_config.mode_normal_cfg.tilt_atti_range,Flight modes & handling,,,8,30,30,5,60,30,30,5,60,30,30,5,40,33,33,5,55,40,40,5,55,30,30,5,40,42,42,5,45,35,35,5,40
+g_config.mode_normal_cfg.tilt_atti_roll_range,g_config.mode_normal_cfg.tilt_atti_roll_range,Flight modes & handling,,,8,35,35,0,35,35,35,0,35,30,30,0,30,25,25,0,25,36,36,0,36,30,30,0,30,42,42,0,42,35,35,0,35
+g_config.mode_normal_cfg.tors_gyro_range,g_config.mode_normal_cfg.tors_gyro_range,"IMU, compass & calibration controls",,,8,75,75,20,90,75,75,20,90,80,80,20,120,55,55,20,120,100,100,20,120,80,80,20,120,110,110,20,120,80,80,20,120
+g_config.mode_normal_cfg.vert_vel_down,g_config.mode_normal_cfg.vert_vel_down,Flight modes & handling,,,8,-6,-6,-6,-1,-6,-6,-6,-1,-5,-5,-5,-1,-2,-2,-2,-0.5,-3,-3,-3,-1,-5,-5,-5,-1,-6,-6,-6,-1,-5,-5,-5,-1
+g_config.mode_normal_cfg.vert_vel_up,g_config.mode_normal_cfg.vert_vel_up,Flight modes & handling,,,8,6,6,1,6,6,6,1,6,5,5,1,5,2,2,0.5,2,3,3,1,3,5,5,1,5,6,6,1,6,5,5,1,5
+g_config.mode_sport_cfg.brake_sensitivity,g_config.mode_sport_cfg.brake_sensitivity,Flight modes & handling,,,8,100,100,10,150,100,100,10,150,100,100,10,150,70,70,0,150,80,80,0,150,100,100,10,150,100,100,10,150,100,100,10,150
+g_config.mode_sport_cfg.cloud_ctrl_max_speed,g_config.mode_sport_cfg.cloud_ctrl_max_speed,Flight modes & handling,,,8,21,21,1,21,27,27,1,27,16,16,1,16,8,8,1,8,12,12,1,12,16,16,1,16,18,18,1,18,18,18,1,18
+g_config.mode_sport_cfg.gimb_tilt_atti_pitch_max,g_config.mode_sport_cfg.gimb_tilt_atti_pitch_max,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_sport_cfg.gimb_tilt_atti_pitch_min,g_config.mode_sport_cfg.gimb_tilt_atti_pitch_min,Flight modes & handling,,,2,,,,,-90,-90,-90,0,,,,,,,,,,,,,-90,-90,-90,0,,,,,,,,
+g_config.mode_sport_cfg.gimb_tilt_atti_roll_range,g_config.mode_sport_cfg.gimb_tilt_atti_roll_range,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_sport_cfg.horiz_acc_range,g_config.mode_sport_cfg.horiz_acc_range,"IMU, compass & calibration controls",,,8,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000
+g_config.mode_sport_cfg.horiz_cur_speed,g_config.mode_sport_cfg.horiz_cur_speed,Flight modes & handling,,,8,21,21,1,21,18.5,21,1,27,16,16,1,16,7,7,1,8,12,12,1,12,12,12,1,16,18,18,1,18,18,18,1,18
+g_config.mode_sport_cfg.horiz_max_speed,g_config.mode_sport_cfg.horiz_max_speed,Flight modes & handling,,,8,21,21,2,21,27,27,2,27,16,16,2,16,8,8,2,8,12,12,2,12,16,16,2,16,18,18,2,18,18,18,2,18
+g_config.mode_sport_cfg.horiz_min_speed,g_config.mode_sport_cfg.horiz_min_speed,Flight modes & handling,,,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+g_config.mode_sport_cfg.lift_exp_mid_point,g_config.mode_sport_cfg.lift_exp_mid_point,Flight modes & handling,,,8,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9,0.4,0.4,0.1,0.9,0.3,0.3,0.1,0.9,0.3,0.3,0.1,0.9,0.4,0.4,0.1,0.9,0.35,0.35,0.1,0.9,0.35,0.35,0.1,0.9
+g_config.mode_sport_cfg.rc_scale,g_config.mode_sport_cfg.rc_scale,Flight modes & handling,,,8,0.962207,0.9622,1e-07,1.5,0.810486,0.9622,1e-07,3,1,0.562121,1e-07,1,0.631005,0.8,1e-07,1,0.987941,0.8,1e-07,1,0.956104,1.12,1e-07,1.12,0.9375,0.562121,1e-07,1,1.0898,1.12,1e-07,1.12
+g_config.mode_sport_cfg.rc_scale_bac,g_config.mode_sport_cfg.rc_scale_bac,Flight modes & handling,,,8,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1
+g_config.mode_sport_cfg.rc_scale_fwd,g_config.mode_sport_cfg.rc_scale_fwd,Flight modes & handling,,,8,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1
+g_config.mode_sport_cfg.rc_scale_lat,g_config.mode_sport_cfg.rc_scale_lat,Flight modes & handling,,,8,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1,0.95,0.95,0.2,1
+g_config.mode_sport_cfg.tilt_atti_pitch_max,g_config.mode_sport_cfg.tilt_atti_pitch_max,Flight modes & handling,,,8,35,35,0,35,40,40,0,40,35,35,0,35,28,28,0,28,42.5,42.5,0,42.5,45,45,0,45,48,48,0,48,35,35,0,35
+g_config.mode_sport_cfg.tilt_atti_pitch_min,g_config.mode_sport_cfg.tilt_atti_pitch_min,Flight modes & handling,,,8,-35,-35,-35,0,-40,-40,-40,0,-35,-35,-35,0,-28,-28,-28,0,-44,-44,-44,0,-45,-45,-45,0,-48,-48,-48,0,-34,-34,-34,0
+g_config.mode_sport_cfg.tilt_atti_range,g_config.mode_sport_cfg.tilt_atti_range,Flight modes & handling,,,8,35,35,10,90,36,36,10,90,35,35,10,45,33,33,10,60,44,44,10,60,45,45,10,60,48,48,10,55,35,35,10,45
+g_config.mode_sport_cfg.tilt_atti_roll_range,g_config.mode_sport_cfg.tilt_atti_roll_range,Flight modes & handling,,,8,35,35,0,35,40,40,0,40,35,35,0,35,23,23,0,23,36,36,0,36,30,30,0,30,48,48,0,48,35,35,0,35
+g_config.mode_sport_cfg.tilt_exp_mid_point,g_config.mode_sport_cfg.tilt_exp_mid_point,Flight modes & handling,,,8,0.35,0.35,0.1,0.9,0.35,0.35,0.1,0.9,0.4,0.4,0.1,0.9,0.35,0.35,0.1,0.9,0.35,0.35,0.1,0.9,0.4,0.4,0.1,0.9,0.35,0.35,0.1,0.9,0.35,0.35,0.1,0.9
+g_config.mode_sport_cfg.tors_exp_mid_point,g_config.mode_sport_cfg.tors_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.3,0.3,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.3,0.3,0.1,0.9,0.35,0.35,0.1,0.9,0.35,0.35,0.1,0.9
+g_config.mode_sport_cfg.tors_gyro_range,g_config.mode_sport_cfg.tors_gyro_range,"IMU, compass & calibration controls",,,8,130,130,20,250,130,130,20,250,130,130,20,250,85,85,20,250,79,79,20,250,130,130,20,250,80,80,20,80,100,100,20,250
+g_config.mode_sport_cfg.vert_vel_down,g_config.mode_sport_cfg.vert_vel_down | mode_sport_cfg_vert_vel_down,Flight modes & handling,,,8,-10,-10,-20,-0.1,-10,-10,-10,-1,-5,-5,-5,-1,-2,-2,-2,-1,-3,-3,-3,-1,-5,-5,-5,-1,-10,-10,-10,-1,-7,-7,-7,-1
+g_config.mode_sport_cfg.vert_vel_up,g_config.mode_sport_cfg.vert_vel_up | mode_sport_cfg_vert_vel_up,Flight modes & handling,,,8,10,10,1,10,10,10,1,10,5,5,1,5,3,3,1,3,5,5,1,5,5,5,1,5,10,10,1,10,7,7,1,7
+g_config.mode_tripod_cfg.brake_sensitivity,g_config.mode_tripod_cfg.brake_sensitivity,Flight modes & handling,,,8,100,100,10,150,100,100,10,150,100,100,10,150,80,80,0,150,80,80,0,150,100,100,10,150,100,100,10,150,100,100,10,150
+g_config.mode_tripod_cfg.cloud_ctrl_max_speed,g_config.mode_tripod_cfg.cloud_ctrl_max_speed,Flight modes & handling,,,8,12,12,1,12,12,12,1,12,12,12,1,12,2,2,1,2,2,2,1,2,8,8,1,8,12,12,1,12,12,12,1,12
+g_config.mode_tripod_cfg.gimb_tilt_atti_pitch_max,g_config.mode_tripod_cfg.gimb_tilt_atti_pitch_max,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_tripod_cfg.gimb_tilt_atti_pitch_min,g_config.mode_tripod_cfg.gimb_tilt_atti_pitch_min,Flight modes & handling,,,2,,,,,-90,-90,-90,0,,,,,,,,,,,,,-90,-90,-90,0,,,,,,,,
+g_config.mode_tripod_cfg.gimb_tilt_atti_roll_range,g_config.mode_tripod_cfg.gimb_tilt_atti_roll_range,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+g_config.mode_tripod_cfg.horiz_cur_speed,g_config.mode_tripod_cfg.horiz_cur_speed,Flight modes & handling,,,8,5,5,1,12,7.1,5,1,12,6,6,1,12,2,2,1,2,2,2,1,2,6,6,1,8,6,6,1,12,6,6,1,12
+g_config.mode_tripod_cfg.horiz_max_speed,g_config.mode_tripod_cfg.horiz_max_speed,Flight modes & handling,,,8,12,12,2,12,12,12,2,12,12,12,2,12,2,2,2,2,2,2,2,2,8,8,2,8,12,12,2,12,12,12,2,12
+g_config.mode_tripod_cfg.horiz_min_speed,g_config.mode_tripod_cfg.horiz_min_speed,Flight modes & handling,,,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+g_config.mode_tripod_cfg.rc_scale,g_config.mode_tripod_cfg.rc_scale,Flight modes & handling,,,8,0.167795,0.16779,0.01,1,0.264731,0.16779,0.01,1,0.321933,0.205128,0.01,1,0.203871,0.3233,0.05,1,0.24878,0.3233,0.05,1,0.484346,0.205128,0.01,1,0.393939,0.205128,0.01,1,0.333333,0.205128,0.01,1
+g_config.mode_tripod_cfg.tors_gyro_range,g_config.mode_tripod_cfg.tors_gyro_range,"IMU, compass & calibration controls",,,8,30,30,20,60,30,30,20,60,30,30,20,120,40,40,20,120,25,25,20,120,30,30,20,120,70,70,20,120,40,40,20,120
+g_config.mode_tripod_cfg.vert_vel_down,g_config.mode_tripod_cfg.vert_vel_down,Flight modes & handling,,,8,-3,-3,-6,-1,-6,-3,-6,-1,-1.5,-1.5,-3,-1,-0.5,-0.5,-0.5,-0.1,-0.5,-0.5,-0.5,-0.1,-1.5,-1.5,-1.5,-1,-1.5,-1.5,-3,-1,-1.5,-1.5,-3,-1
+g_config.mode_tripod_cfg.vert_vel_up,g_config.mode_tripod_cfg.vert_vel_up,Flight modes & handling,,,8,3,3,1,6,6,3,1,6,2,2,1,3,0.5,0.5,0.1,0.5,0.5,0.5,0.1,0.5,2,2,1,2,2,2,1,3,2,2,1,3
+g_config.mode_tripod_en_cfg.tripod_func_enabled,g_config.mode_tripod_en_cfg.tripod_func_enabled | tripod_func_enabled,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.mr_ctrl.ctrl_lowpass_adj,g_config.mr_ctrl.ctrl_lowpass_adj,"Stabilization, gains & filters",,,6,100,100,50,150,100,100,50,150,100,100,50,150,100,100,50,150,100,100,50,150,100,100,50,150,,,,,,,,
+g_config.mr_ctrl.ctrl_lowpass_fp,g_config.mr_ctrl.ctrl_lowpass_fp,"Stabilization, gains & filters",,,8,55,55,0.01,1000,55,55,0.01,1000,48,48,0.01,1000,110,110,0.01,1000,90,90,0.01,1000,48,48,0.01,1000,55,55,0.01,1000,50,50,0.01,1000
+g_config.mr_ctrl.ctrl_lowpass_fz,g_config.mr_ctrl.ctrl_lowpass_fz,"Stabilization, gains & filters",,,8,90,90,0.01,1000,90,90,0.01,1000,70,70,0.01,1000,140,140,0.01,1000,140,140,0.01,1000,70,70,0.01,1000,75,75,0.01,1000,100,100,0.01,1000
+g_config.mvo_cfg.lidar_func_en,g_config.mvo_cfg.lidar_func_en | lps_func_en,"Obstacle sensing, vision & terrain",,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1
+g_config.mvo_cfg.mvo_func_en,g_config.mvo_cfg.mvo_func_en | vps_func_en,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.novice_cfg.novice_func_enabled,g_config.novice_cfg.novice_func_enabled | novice_func_enabled,Flight limits & regulation,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+g_config.rc_cfg.arm_action_enable,RC_ARM_STOP_ENABLE | g_config.rc_cfg.arm_action_enable,"Motors, ESC & propulsion",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+g_config.voltage.level_1_protect,g_config.voltage.level_1_protect | raw_bat_level_1,Battery & power,,,8,3700,3700,3600,4000,3700,3700,3600,4000,3800,3800,3600,4000,3620,3620,3600,4000,3620,3620,3600,4000,3800,3800,3600,4000,3800,3800,3600,4000,3800,3800,3600,4000
+g_config.voltage.level_2_protect,g_config.voltage.level_2_protect | raw_bat_level_2,Battery & power,,,8,3370,3370,3100,3800,3370,3370,2800,3800,3370,3370,3100,3800,3136,3136,2800,3800,3006,3006,2800,3800,3006,3006,2800,3800,3020,3020,2800,3800,3006,3370,2800,3800
+g_config.voltage2.level2_smart_battert_gohome,g_config.voltage2.level2_smart_battert_gohome | level1_smart_battery_gohome,"RTH, takeoff, landing & failsafe",,,3,,,,,,,,,,,,,,,,,15,15,0,100,,,,,14,14,0,100,13,13,0,100
+g_config.voltage2.level_1_voltage,bat_level_1 | dji_bat_level_1 | g_config.voltage2.level_1_voltage,Battery & power,,,8,15,15,10,100,15,15,10,100,15,15,10,100,15,15,10,100,15,15,10,100,15,15,10,100,15,15,10,100,15,15,10,100
+g_config.voltage2.level_2_voltage,bat_level_2 | dji_bat_level_2 | g_config.voltage2.level_2_voltage,Battery & power,,,8,10,10,10,100,10,10,10,100,10,10,10,100,10,10,10,100,10,10,10,100,10,10,10,100,10,10,10,100,10,10,10,100
+g_config.voltage2.user_set_smart_bat,enSmartBatGH | g_config.voltage2.user_set_smart_bat,Battery & power,,,8,2,2,0,2,1,2,0,2,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,2
+g_status.all_gyr_acc.cali_cnt,g_status.all_gyr_acc.cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.all_gyr_acc.cali_state,g_status.all_gyr_acc.cali_state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.all_gyr_acc.msc_current_side,g_status.all_gyr_acc.msc_current_side,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.all_gyr_acc.msc_sampled_side,g_status.all_gyr_acc.msc_sampled_side,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.all_gyr_acc.need_cali_type,g_status.all_gyr_acc.need_cali_type,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.ns_busy_dev,g_status.ns_busy_dev,"Diagnostics, service & simulator",,,8,1366,0,0,0,9558,0,0,0,1366,0,0,0,34390,0,0,0,1366,0,0,0,34134,0,0,0,1366,0,0,0,1366,0,0,0
+g_status.topology_verify.user_interface.imu_status,g_status.topology_verify.user_interface.imu_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.topology_verify.user_interface.mag_status,g_status.topology_verify.user_interface.mag_status,"Diagnostics, service & simulator",,,8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+g_status.user_info.statistical_info.total_distance,g_status.user_info.statistical_info.total_distance,"Diagnostics, service & simulator",,,8,684300,0,0,0,1.6308e+06,0,0,0,4943.92,0,0,0,5.87842,0,0,0,1517.83,0,0,0,361.407,0,0,0,91.6981,0,0,0,27052.3,0,0,0
+g_status.user_info.statistical_info.total_fly_times,g_status.user_info.statistical_info.total_fly_times,"Diagnostics, service & simulator",,,8,129,0,0,0,192,0,0,0,48,0,0,0,1,0,0,0,37,0,0,0,13,0,0,0,10,0,0,0,18,0,0,0
+g_status.user_info.statistical_info.total_motor_start_time,g_status.user_info.statistical_info.total_motor_start_time,"Motors, ESC & propulsion",,,8,93560.4,0,0,0,197568,0,0,0,15021.9,0,0,0,60.7012,0,0,0,7027.85,0,0,0,3154.33,0,0,0,1131.64,0,0,0,6379.9,0,0,0
+g_status.user_info.statistical_info.total_powerup_times,g_status.user_info.statistical_info.total_powerup_times,Battery & power,,,8,308,0,0,0,826,0,0,0,133,0,0,0,15,0,0,0,38,0,0,0,34,0,0,0,20,0,0,0,31,0,0,0
+g_status.user_info.statistical_info_last.total_distance,g_status.user_info.statistical_info_last.total_distance,"Diagnostics, service & simulator",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_last.total_fly_times,g_status.user_info.statistical_info_last.total_fly_times,"Diagnostics, service & simulator",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_last.total_motor_start_time,g_status.user_info.statistical_info_last.total_motor_start_time,"Motors, ESC & propulsion",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_last.total_powerup_times,g_status.user_info.statistical_info_last.total_powerup_times,Battery & power,,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_new.total_distance_new,g_status.user_info.statistical_info_new.total_distance_new,"Diagnostics, service & simulator",,,8,680493,0,0,0,1.67836e+06,0,0,0,4944.15,0,0,0,5.87842,0,0,0,1517.82,0,0,0,361.409,0,0,0,91.698,0,0,0,27047.6,0,0,0
+g_status.user_info.statistical_info_new.total_fly_times_new,g_status.user_info.statistical_info_new.total_fly_times_new,"Diagnostics, service & simulator",,,8,129,0,0,0,192,0,0,0,48,0,0,0,1,0,0,0,37,0,0,0,13,0,0,0,10,0,0,0,18,0,0,0
+g_status.user_info.statistical_info_new.total_motor_start_time_new,g_status.user_info.statistical_info_new.total_motor_start_time_new,"Motors, ESC & propulsion",,,8,90819.1,0,0,0,207943,0,0,0,15178.4,0,0,0,60.7,0,0,0,7021.62,0,0,0,3151.88,0,0,0,1131.16,0,0,0,6374.3,0,0,0
+g_status.user_info.statistical_info_new_last.total_distance_new,g_status.user_info.statistical_info_new_last.total_distance_new,"Diagnostics, service & simulator",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_new_last.total_fly_times_new,g_status.user_info.statistical_info_new_last.total_fly_times_new,"Diagnostics, service & simulator",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_status.user_info.statistical_info_new_last.total_motor_start_time_new,g_status.user_info.statistical_info_new_last.total_motor_start_time_new,"Motors, ESC & propulsion",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+gear_landing_abnormal_exit,gear_landing_abnormal_exit,"RTH, takeoff, landing & failsafe",,,2,1,0,0,100,,,,,0,0,0,100,,,,,,,,,,,,,,,,,,,,
+gimbal_all_back_to_middle_en,gimbal_all_back_to_middle_en,Gimbal & camera,,,7,,,,,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+gimbal_down_on_landing_en,gimbal_down_on_landing_en,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gimbal_fixed_angle,gimbal_fixed_angle,Gimbal & camera,,,8,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90,-45,-45,-90,90
+gimbal_is_pano_locked,gimbal_is_pano_locked,Gimbal & camera,,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,1,0,0,0,1
+gimbal_is_single_mode,gimbal_is_single_mode,Gimbal & camera,,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1,0,0,0,1
+gimbal_pitch_to_center_after_landing_en,gimbal_pitch_to_center_after_landing_en,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1
+gimbal_to_center_when_gohome,gimbal_to_center_when_gohome,"RTH, takeoff, landing & failsafe",,,8,1,1,0,255,1,1,0,255,1,1,0,255,1,1,0,255,1,1,0,255,1,1,0,255,1,1,0,255,1,1,0,255
+gimbal_yaw_back_to_middle_en,gimbal_yaw_back_to_middle_en,Gimbal & camera,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+gnss_assist_offline_enable,gnss_assist_offline_enable,"Navigation, GNSS & positioning",,,6,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gnss_assist_online_enable,gnss_assist_online_enable,"Navigation, GNSS & positioning",,,6,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gnss_assist_type,gnss_assist_type,"Navigation, GNSS & positioning",,,6,,,,,1,0,0,255,,,,,3,0,0,255,2,0,0,255,1,0,0,255,2,0,0,255,2,0,0,255
+gnss_chip_type,gnss_chip_type,"Navigation, GNSS & positioning",,,3,,,,,1,0,0,255,,,,,,,,,,,,,,,,,32,0,0,255,32,255,0,255
+gnss_cloudctrl_mode,gnss_cloudctrl_mode,"Navigation, GNSS & positioning",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,255,0,255,1,255,0,255
+gnss_cold_boot_enable,gnss_cold_boot_enable,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gnss_display_mode,gnss_display_mode,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+gnss_drv_satellite_mode,gnss_drv_satellite_mode,"Navigation, GNSS & positioning",,,6,,,,,255,255,0,255,,,,,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255
+gnss_dynamic_model,gnss_dynamic_model,"Navigation, GNSS & positioning",,,6,,,,,7,7,0,255,,,,,7,7,0,255,7,7,0,255,7,7,0,255,7,7,0,255,7,7,0,255
+gnss_enable_switch_mode_when_motor_on,gnss_enable_switch_mode_when_motor_on,"Navigation, GNSS & positioning",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1
+gnss_record_port_enable,gnss_record_port_enable,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,1,,,,,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+gnss_region_mode,gnss_region_mode,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+gnss_signature_debug,gnss_signature_debug,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,2,,,,,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+gnss_source_mode,gnss_source_mode,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,1
+gnss_source_permanent_beidou,gnss_source_permanent_beidou,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+gnss_upgrade_index,gnss_upgrade_index,"Navigation, GNSS & positioning",,,4,,,,,1,1,0,255,,,,,,,,,0,0,0,255,,,,,0,0,0,255,0,0,0,255
+gnss_user_mode,gnss_user_mode,"Navigation, GNSS & positioning",,,2,,,,,,,,,,,,,,,,,,,,,,,,,255,255,0,255,255,255,0,255
+go_home_finish_radius,go_home_finish_radius,"RTH, takeoff, landing & failsafe",,,8,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10,1,1,0.01,10
+gohome_idle_vel,gohome_idle_vel,"RTH, takeoff, landing & failsafe",,,8,14,14,1,15,14,14,1,15,14,14,1,15,6,6,1,15,6,6,1,15,12,12,1,15,14,14,1,15,6,6,1,15
+gohome_success,gohome_success,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gov_display_mode_cfg,gov_display_mode_cfg,Flight modes & handling,,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+gps0_x,gps0_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,47,47,-32768,32767,65,65,-32768,32767,8,8,-32768,32767,-12,-12,-32768,32767,37,37,-32768,32767,50,50,-32768,32767,7,7,-32768,32767,8,8,-32768,32767
+gps0_y,gps0_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,6,6,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,4,4,-32768,32767
+gps0_z,gps0_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,-33,-33,-32768,32767,-39,-39,-32768,32767,-25,-25,-32768,32767,-17,-17,-32768,32767,-15,-15,-32768,32767,-39,-39,-32768,32767,-17,-17,-32768,32767,-15,-15,-32768,32767
+gps1_cfg_save,gps1_cfg_save,"Navigation, GNSS & positioning",,,2,1,1,0,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,
+gps1_x,gps1_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps1_y,gps1_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps1_z,gps1_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps2_cfg_save,gps2_cfg_save,"Navigation, GNSS & positioning",,,2,1,1,0,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,
+gps2_x,gps2_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps2_y,gps2_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps2_z,gps2_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+gps3_cfg_save,gps3_cfg_save,"Navigation, GNSS & positioning",,,2,1,1,0,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,
+gps_clk_dft_status,gps_clk_dft_status,"Navigation, GNSS & positioning",,,2,1,1,0,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,
+gps_fcnt,gps_fcnt,"Navigation, GNSS & positioning",,,2,0,0,0,4294967295,,,,,0,0,0,4294967295,,,,,,,,,,,,,,,,,,,,
+gps_fdi_open_abrupt,gps_fdi_open_abrupt,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_blocked_env,gps_fdi_open_blocked_env,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gps_fdi_open_conformity,gps_fdi_open_conformity,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_disagree,gps_fdi_open_disagree,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_disconnect,gps_fdi_open_disconnect,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_frequency_err,gps_fdi_open_frequency_err,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_height_drift,gps_fdi_open_height_drift,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_invalid_float,gps_fdi_open_invalid_float,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_jam_status,gps_fdi_open_jam_status,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gps_fdi_open_level_low,gps_fdi_open_level_low,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_range,gps_fdi_open_range,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_range_over_cnt,gps_fdi_open_range_over_cnt,"Navigation, GNSS & positioning",,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+gps_fdi_open_spoof_status,gps_fdi_open_spoof_status,"Navigation, GNSS & positioning",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gps_fdi_open_stuck,gps_fdi_open_stuck,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_svn_exception,gps_fdi_open_svn_exception,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fdi_open_version_mismatch,gps_fdi_open_version_mismatch,"Navigation, GNSS & positioning",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gps_fw_status,gps_fw_status,"Navigation, GNSS & positioning",,,2,0,0,0,2,,,,,0,0,0,2,,,,,,,,,,,,,,,,,,,,
+gyr_fdi_open_abrupt,gyr_fdi_open_abrupt,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_bias,gyr_fdi_open_bias,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_bias_check_after_heat,gyr_fdi_open_bias_check_after_heat,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gyr_fdi_open_bias_minor,gyr_fdi_open_bias_minor,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_disagree,gyr_fdi_open_disagree,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_disconnect,gyr_fdi_open_disconnect,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_invalid_float,gyr_fdi_open_invalid_float,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_noise,gyr_fdi_open_noise,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_range,gyr_fdi_open_range,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_stuck,gyr_fdi_open_stuck,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_temp_abrupt,gyr_fdi_open_temp_abrupt,"IMU, compass & calibration controls",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+gyr_fdi_open_temp_ctrl_err,gyr_fdi_open_temp_ctrl_err,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_temp_high,gyr_fdi_open_temp_high,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_temp_not_ready,gyr_fdi_open_temp_not_ready,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1
+gyr_fdi_open_temp_warnning,gyr_fdi_open_temp_warnning,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+gyr_fdi_open_temper,gyr_fdi_open_temper,"IMU, compass & calibration controls",,,8,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+hand_move_check_delay_tick,hand_move_check_delay_tick,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,255,,,,,0,0,0,255,0,0,0,255
+hand_move_check_duration_tick,hand_move_check_duration_tick,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,50,50,0,255,,,,,50,50,0,255,50,50,0,255
+has_shown_check_warning,has_shown_check_warning,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+horiz_envelope_decrease_rate,horiz_envelope_decrease_rate,Other / opaque internal,,,5,,,,,5,5,0,255,,,,,5,5,0,255,5,5,0,255,5,5,0,255,,,,,10,10,0,255
+horiz_envelope_increase_rate,horiz_envelope_increase_rate,Other / opaque internal,,,5,,,,,10,10,0,255,,,,,10,10,0,255,10,10,0,255,10,10,0,255,,,,,10,10,0,255
+horiz_envelope_vert_priority,horiz_envelope_vert_priority,Other / opaque internal,,,4,,,,,0,0,0,1,,,,,,,,,1,1,0,1,1,1,0,1,,,,,0,0,0,1
+horiz_envelope_wind_lpf_fp,horiz_envelope_wind_lpf_fp,"Stabilization, gains & filters",,,5,,,,,0.5,0.5,0.1,100,,,,,0.5,0.5,0.1,100,0.5,0.5,0.1,100,0.5,0.5,0.1,100,,,,,0.1,0.1,0.1,100
+horiz_envelope_wind_lpf_fz,horiz_envelope_wind_lpf_fz,"Stabilization, gains & filters",,,5,,,,,2,2,0.1,100,,,,,2,2,0.1,100,2,2,0.1,100,2,2,0.1,100,,,,,2,2,0.1,100
+horiz_moving_not_allow_landing,horiz_moving_not_allow_landing,"RTH, takeoff, landing & failsafe",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,1,0,0,0,1
+horiz_stb_cmd_fltr_freq,horiz_stb_cmd_fltr_freq,"Stabilization, gains & filters",,,8,0.06,0.06,0.01,10,0.06,0.06,0.01,10,0.06,0.06,0.01,10,0.08,0.08,0.01,10,0.08,0.08,0.01,10,0.08,0.08,0.01,10,0.07,0.07,0.01,10,0.06,0.06,0.01,10
+horiz_vel_ctrl_level,horiz_vel_ctrl_level,Flight modes & handling,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+horiz_vel_envelope_pwm_down,horiz_vel_envelope_pwm_down,Flight modes & handling,,,5,,,,,90,90,0,255,,,,,90,90,0,255,90,90,0,255,90,90,0,255,,,,,92,92,0,255
+horiz_vel_envelope_pwm_up,horiz_vel_envelope_pwm_up,Flight modes & handling,,,5,,,,,96,96,0,255,,,,,96,96,0,255,96,96,0,255,96,96,0,255,,,,,96,96,0,255
+horiz_vel_gain_for_fpv,horiz_vel_gain_for_fpv,Flight modes & handling,,,8,50,50,10,250,50,50,10,250,50,50,10,250,50,50,10,250,50,50,10,250,50,50,10,250,50,50,10,250,50,50,10,250
+horiz_vel_notch_x_dyn_enable,horiz_vel_notch_x_dyn_enable,Flight modes & handling,,,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_x_dyn_fn_start,horiz_vel_notch_x_dyn_fn_start,Flight modes & handling,,,1,,,,,18,18,0,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_x_dyn_fn_stop,horiz_vel_notch_x_dyn_fn_stop,Flight modes & handling,,,1,,,,,34,34,0,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_x_dyn_mag_threshold,horiz_vel_notch_x_dyn_mag_threshold,Flight modes & handling,,,1,,,,,0.01,0.01,0,10,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_y_dyn_enable,horiz_vel_notch_y_dyn_enable,Flight modes & handling,,,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_y_dyn_fn_start,horiz_vel_notch_y_dyn_fn_start,Flight modes & handling,,,1,,,,,18,18,0,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_y_dyn_fn_stop,horiz_vel_notch_y_dyn_fn_stop,Flight modes & handling,,,1,,,,,34,34,0,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_notch_y_dyn_mag_threshold,horiz_vel_notch_y_dyn_mag_threshold,Flight modes & handling,,,1,,,,,0.01,0.01,0,10,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_out_limit_type,horiz_vel_out_limit_type,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+horiz_vel_rc_cmd_fltr_fc,horiz_vel_rc_cmd_fltr_fc,Flight modes & handling,,,8,2.5,2.5,0.01,80,2.5,2.5,0.01,80,2.5,2.5,0.01,80,5,5,0.01,80,5,5,0.01,80,2.5,2.5,0.01,80,5,5,0.01,80,2.5,2.5,0.01,80
+horiz_vel_sdft_start_f,horiz_vel_sdft_start_f,Flight modes & handling,,,1,,,,,18,18,0.1,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_vel_sdft_stop_f,horiz_vel_sdft_stop_f,Flight modes & handling,,,1,,,,,34,34,0.1,100,,,,,,,,,,,,,,,,,,,,,,,,
+horiz_warning_dist,horiz_warning_dist,Other / opaque internal,,,8,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000,3000,3000,110,4000
+imu0.acc_ground_x,imu0.acc_ground_x,"IMU, compass & calibration controls",,,8,0.00982335,0,0,0,-0.0100787,0,0,0,0.009986,0,0,0,-0.001754,0,0,0,-0.00324,0,0,0,0.009657,0,0,0,0.030523,0,0,0,-0.0125755,0,0,0
+imu0.acc_ground_y,imu0.acc_ground_y,"IMU, compass & calibration controls",,,8,-0.00450791,0,0,0,-0.00799848,0,0,0,0.005399,0,0,0,-0.005755,0,0,0,0.001884,0,0,0,-0.017734,0,0,0,0.000375,0,0,0,0.00240777,0,0,0
+imu0.acc_ground_z,imu0.acc_ground_z,"IMU, compass & calibration controls",,,8,-0.00347519,0,0,0,0.00362873,0,0,0,-0.00405,0,0,0,0.001929,0,0,0,0.00695,0,0,0,-0.002117,0,0,0,-0.001141,0,0,0,0.00584888,0,0,0
+imu0.acc_x,imu0.acc_x,"IMU, compass & calibration controls",,,8,0.0656782,0,0,0,0.0741005,0,0,0,-0.220426,0,0,0,0.024149,0,0,0,0.017432,0,0,0,0.052951,0,0,0,0.187426,0,0,0,0.0455928,0,0,0
+imu0.acc_y,imu0.acc_y,"IMU, compass & calibration controls",,,8,-0.0153992,0,0,0,0.00139525,0,0,0,0.028472,0,0,0,0.007009,0,0,0,0.01075,0,0,0,0.050322,0,0,0,-0.021426,0,0,0,0.00371533,0,0,0
+imu0.acc_z,imu0.acc_z,"IMU, compass & calibration controls",,,8,-1.00116,0,0,0,-1.00036,0,0,0,-0.977552,0,0,0,-1.00336,0,0,0,-0.999154,0,0,0,-1.00632,0,0,0,-0.99947,0,0,0,-1.00052,0,0,0
+imu0.alti,imu0.alti,"IMU, compass & calibration controls",,,8,182.802,0,0,0,186.373,0,0,0,56.6662,0,0,0,50.957,0,0,0,-31.7833,0,0,0,-35.8439,0,0,0,110.56,0,0,0,230.962,0,0,0
+imu0.gps_svn,imu0.gps_svn,"Navigation, GNSS & positioning",,,8,4,0,0,0,4,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.gyracc_status,imu0.gyracc_status,"IMU, compass & calibration controls",,,8,16384,0,0,0,16384,0,0,0,16384,0,0,0,16384,0,0,0,16384,0,0,0,16384,0,0,0,16384,0,0,0,16384,0,0,0
+imu0.gyro_x,imu0.gyro_x,"IMU, compass & calibration controls",,,8,0.0092852,0,0,0,-0.00401258,0,0,0,0.005138,0,0,0,0.001906,0,0,0,0.001455,0,0,0,-5.4e-05,0,0,0,-0.001714,0,0,0,-0.00229934,0,0,0
+imu0.gyro_y,imu0.gyro_y,"IMU, compass & calibration controls",,,8,0.000746054,0,0,0,-6.86975e-05,0,0,0,0.004104,0,0,0,0.001315,0,0,0,0.000354,0,0,0,0.000658,0,0,0,0.000728,0,0,0,0.0203613,0,0,0
+imu0.gyro_z,imu0.gyro_z,"IMU, compass & calibration controls",,,8,0.00149502,0,0,0,0.000344222,0,0,0,-0.001303,0,0,0,0.000699,0,0,0,-0.000329,0,0,0,-0.003739,0,0,0,-0.001357,0,0,0,-0.0026446,0,0,0
+imu0.imu_status,imu0.imu_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.lati,imu0.lati,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,1.02974,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.longti,imu0.longti,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,-2.0944,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.lost_counter,imu0.lost_counter,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.mx,imu0.mx,"IMU, compass & calibration controls",,,8,252,0,0,0,206,0,0,0,318,0,0,0,-2144,0,0,0,324,0,0,0,-95,0,0,0,-30,0,0,0,673,0,0,0
+imu0.my,imu0.my,"IMU, compass & calibration controls",,,8,-250,0,0,0,-282,0,0,0,-452,0,0,0,-1787,0,0,0,516,0,0,0,443,0,0,0,-163,0,0,0,-52,0,0,0
+imu0.mz,imu0.mz,"IMU, compass & calibration controls",,,8,1304,0,0,0,1478,0,0,0,2163,0,0,0,2077,0,0,0,2108,0,0,0,1909,0,0,0,2086,0,0,0,1297,0,0,0
+imu0.press_alti,imu0.press_alti,"IMU, compass & calibration controls",,,8,182.651,0,0,0,186.266,0,0,0,56.7196,0,0,0,50.9056,0,0,0,-31.7993,0,0,0,-35.8634,0,0,0,110.5,0,0,0,231.172,0,0,0
+imu0.press_status,imu0.press_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0.q[0],imu0.q[0],"IMU, compass & calibration controls",,,8,0.949478,0,0,0,0.977343,0,0,0,0.377941,0,0,0,0.131253,0,0,0,0.886998,0,0,0,0.541482,0,0,0,0.987537,0,0,0,0.996447,0,0,0
+imu0.q[1],imu0.q[1],"IMU, compass & calibration controls",,,8,-0.00256134,0,0,0,-0.00840047,0,0,0,-0.107351,0,0,0,0.011108,0,0,0,-0.000707,0,0,0,0.008501,0,0,0,-0.001464,0,0,0,-0.003436,0,0,0
+imu0.q[2],imu0.q[2],"IMU, compass & calibration controls",,,8,0.0333603,0,0,0,0.0361887,0,0,0,-0.028804,0,0,0,0.004884,0,0,0,0.010235,0,0,0,0.035113,0,0,0,0.092829,0,0,0,0.0234479,0,0,0
+imu0.q[3],imu0.q[3],"IMU, compass & calibration controls",,,8,0.312046,0,0,0,0.208371,0,0,0,-0.919134,0,0,0,-0.991275,0,0,0,-0.461661,0,0,0,-0.83995,0,0,0,0.127094,0,0,0,0.0807933,0,0,0
+imu0.temperature[0],imu0.temperature[0],"IMU, compass & calibration controls",,,8,6501,0,0,0,6496,0,0,0,3755,0,0,0,2853,0,0,0,2637,0,0,0,2836,0,0,0,6497,0,0,0,2862,0,0,0
+imu0.temperature[1],imu0.temperature[1],"IMU, compass & calibration controls",,,8,700,0,0,0,900,0,0,0,500,0,0,0,700,0,0,0,200,0,0,0,900,0,0,0,800,0,0,0,500,0,0,0
+imu0.temperature[2],imu0.temperature[2],"IMU, compass & calibration controls",,,8,3020,0,0,0,3253,0,0,0,3969,0,0,0,3119,0,0,0,2835,0,0,0,3014,0,0,0,3405,0,0,0,2996,0,0,0
+imu0.vel_ground_x,imu0.vel_ground_x,"IMU, compass & calibration controls",,,8,0.000848848,0,0,0,-0.000502655,0,0,0,0.005634,0,0,0,0.001186,0,0,0,5e-06,0,0,0,-0.001955,0,0,0,0.01889,0,0,0,-0.0145046,0,0,0
+imu0.vel_ground_y,imu0.vel_ground_y,"IMU, compass & calibration controls",,,8,-0.000522621,0,0,0,-0.000805832,0,0,0,0.004039,0,0,0,-0.000647,0,0,0,-8.4e-05,0,0,0,-0.006905,0,0,0,0.001382,0,0,0,-0.000265568,0,0,0
+imu0.vel_ground_z,imu0.vel_ground_z,"IMU, compass & calibration controls",,,8,-9.23832e-06,0,0,0,-0.000300112,0,0,0,-0.000422,0,0,0,-0.000187,0,0,0,-0.000607,0,0,0,0.000138,0,0,0,0.000459,0,0,0,-0.000963545,0,0,0
+imu0_cali_status.cali_cnt,imu0_cali_status.cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0_cali_status.state,imu0_cali_status.state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu0_direction,imu0_direction,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,9
+imu0_mount_x,imu0_mount_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180
+imu0_mount_y,imu0_mount_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-90,90,2,2,-90,90,9,9,-90,90,0,0,-90,90,3,3,-90,90,5,5,-90,90,0,0,-90,90,13,13,-90,90
+imu0_mount_z,imu0_mount_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360
+imu0_x,imu0_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,51,51,-32768,32767,69,69,-32768,32767,5,5,-32768,32767,26,26,-32768,32767,32,32,-32768,32767,50,50,-32768,32767,21,21,-32768,32767,-4,-4,-32768,32767
+imu0_y,imu0_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,-6,-6,-32768,32767,-14,-14,-32768,32767,-6,-6,-32768,32767,-18,-18,-32768,32767
+imu0_z,imu0_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,-22,-22,-32768,32767,-25,-25,-32768,32767,-27,-27,-32768,32767,-14,-14,-32768,32767,-7,-7,-32768,32767,-38,-38,-32768,32767,14,14,-32768,32767,-11,-11,-32768,32767
+imu1.acc_ground_x,imu1.acc_ground_x,"IMU, compass & calibration controls",,,8,-0.0032605,0,0,0,-0.0133607,0,0,0,0.002551,0,0,0,0.005012,0,0,0,-0.005583,0,0,0,-0.010173,0,0,0,-0.001748,0,0,0,-0.0250482,0,0,0
+imu1.acc_ground_y,imu1.acc_ground_y,"IMU, compass & calibration controls",,,8,-0.00620784,0,0,0,0.0051075,0,0,0,-0.009799,0,0,0,0.009717,0,0,0,0.003538,0,0,0,-0.010028,0,0,0,-0.004869,0,0,0,-0.00285884,0,0,0
+imu1.acc_ground_z,imu1.acc_ground_z,"IMU, compass & calibration controls",,,8,0.00460243,0,0,0,-0.00178051,0,0,0,-0.004996,0,0,0,0.002037,0,0,0,-0.018161,0,0,0,-0.009672,0,0,0,-0.005703,0,0,0,0.00332069,0,0,0
+imu1.acc_x,imu1.acc_x,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.acc_y,imu1.acc_y,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.acc_z,imu1.acc_z,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.alti,imu1.alti,"IMU, compass & calibration controls",,,8,182.802,0,0,0,186.363,0,0,0,56.6705,0,0,0,50.9518,0,0,0,-31.7964,0,0,0,-35.8287,0,0,0,110.514,0,0,0,231.027,0,0,0
+imu1.gps_svn,imu1.gps_svn,"Navigation, GNSS & positioning",,,8,4,0,0,0,4,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.gyracc_status,imu1.gyracc_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.gyro_x,imu1.gyro_x,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.gyro_y,imu1.gyro_y,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.gyro_z,imu1.gyro_z,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.imu_status,imu1.imu_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.lati,imu1.lati,"IMU, compass & calibration controls",,,8,-4.47678e-12,0,0,0,-5.72271e-12,0,0,0,1.02974,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.23754e-11,0,0,0
+imu1.longti,imu1.longti,"IMU, compass & calibration controls",,,8,-2.22919e-12,0,0,0,3.89375e-12,0,0,0,-2.0944,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.89116e-12,0,0,0
+imu1.lost_counter,imu1.lost_counter,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.mx,imu1.mx,"IMU, compass & calibration controls",,,8,257,0,0,0,203,0,0,0,322,0,0,0,-2144,0,0,0,324,0,0,0,-90,0,0,0,-27,0,0,0,673,0,0,0
+imu1.my,imu1.my,"IMU, compass & calibration controls",,,8,-235,0,0,0,-285,0,0,0,-448,0,0,0,-1791,0,0,0,519,0,0,0,440,0,0,0,-159,0,0,0,-52,0,0,0
+imu1.mz,imu1.mz,"IMU, compass & calibration controls",,,8,1293,0,0,0,1475,0,0,0,2162,0,0,0,2111,0,0,0,2119,0,0,0,1912,0,0,0,2082,0,0,0,1297,0,0,0
+imu1.press_alti,imu1.press_alti,"IMU, compass & calibration controls",,,8,181.857,0,0,0,186.224,0,0,0,56.8106,0,0,0,51.1789,0,0,0,-31.0958,0,0,0,-46.8876,0,0,0,110.613,0,0,0,231.196,0,0,0
+imu1.press_status,imu1.press_status,"IMU, compass & calibration controls",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1.q[0],imu1.q[0],"IMU, compass & calibration controls",,,8,0.94199,0,0,0,0.933556,0,0,0,0.500767,0,0,0,0.297009,0,0,0,0.886368,0,0,0,0.760342,0,0,0,0.987621,0,0,0,0.996637,0,0,0
+imu1.q[1],imu1.q[1],"IMU, compass & calibration controls",,,8,-0.00339455,0,0,0,-0.0136629,0,0,0,0.088055,0,0,0,-0.012118,0,0,0,-0.000612,0,0,0,-0.001691,0,0,0,-0.001217,0,0,0,-0.00408143,0,0,0
+imu1.q[2],imu1.q[2],"IMU, compass & calibration controls",,,8,0.0332782,0,0,0,0.0345408,0,0,0,-0.06773,0,0,0,-0.000128,0,0,0,0.010133,0,0,0,0.036107,0,0,0,0.093046,0,0,0,0.024065,0,0,0
+imu1.q[3],imu1.q[3],"IMU, compass & calibration controls",,,8,0.333966,0,0,0,0.3565,0,0,0,0.858422,0,0,0,0.9548,0,0,0,-0.4629,0,0,0,-0.648549,0,0,0,0.126282,0,0,0,0.0782265,0,0,0
+imu1.temperature[0],imu1.temperature[0],"IMU, compass & calibration controls",,,8,6500,0,0,0,6497,0,0,0,3758,0,0,0,2855,0,0,0,2640,0,0,0,2839,0,0,0,6499,0,0,0,2862,0,0,0
+imu1.temperature[1],imu1.temperature[1],"IMU, compass & calibration controls",,,8,700,0,0,0,900,0,0,0,500,0,0,0,700,0,0,0,200,0,0,0,900,0,0,0,800,0,0,0,500,0,0,0
+imu1.temperature[2],imu1.temperature[2],"IMU, compass & calibration controls",,,8,3021,0,0,0,3252,0,0,0,3978,0,0,0,3119,0,0,0,2838,0,0,0,3014,0,0,0,3406,0,0,0,2996,0,0,0
+imu1.vel_ground_x,imu1.vel_ground_x,"IMU, compass & calibration controls",,,8,-0.00289649,0,0,0,-0.00343383,0,0,0,0.004064,0,0,0,0.000519,0,0,0,0.000754,0,0,0,0.00067,0,0,0,0.000777,0,0,0,-0.0161658,0,0,0
+imu1.vel_ground_y,imu1.vel_ground_y,"IMU, compass & calibration controls",,,8,-0.00145389,0,0,0,0.00240697,0,0,0,-0.011655,0,0,0,0.004469,0,0,0,0.002327,0,0,0,-0.004619,0,0,0,-0.001327,0,0,0,-0.00241109,0,0,0
+imu1.vel_ground_z,imu1.vel_ground_z,"IMU, compass & calibration controls",,,8,-0.00110778,0,0,0,-0.00224453,0,0,0,-0.001635,0,0,0,-0.00045,0,0,0,-0.002023,0,0,0,0.000473,0,0,0,-0.000309,0,0,0,9.40595e-05,0,0,0
+imu1_cali_status.cali_cnt,imu1_cali_status.cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1_cali_status.state,imu1_cali_status.state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu1_direction,imu1_direction,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8
+imu1_mount_x,imu1_mount_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180
+imu1_mount_y,imu1_mount_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-90,90,0,0,-90,90,0,0,-90,90,0,0,-90,90,0,0,-90,90,0,0,-90,90,0,0,-90,90,0,0,-90,90
+imu1_mount_z,imu1_mount_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360,0,0,0,360
+imu1_x,imu1_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu1_y,imu1_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu1_z,imu1_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu2_cali_status.cali_cnt,imu2_cali_status.cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu2_cali_status.state,imu2_cali_status.state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu2_direction,imu2_direction,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8,0,0,0,8
+imu2_x,imu2_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu2_y,imu2_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu2_z,imu2_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_app_temp_cali.cali_cnt,imu_app_temp_cali.cali_cnt | imu_cali_0.acc_gyro[0].cali_cnt,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_app_temp_cali.start_flag,g_cfg_debug.imu_cali_state[0][1] | imu_app_temp_cali.start_flag,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+imu_app_temp_cali.state,imu_app_temp_cali.state | imu_cali_0.acc_gyro[0].state,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_0.acc_gyro[0].acc_temp,imu_cali_0.acc_gyro[0].acc_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_0.acc_gyro[0].gyro_temp,imu_cali_0.acc_gyro[0].gyro_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,65.1117,0,0,0,65.006,0,0,0,37.3641,0,0,0,28.6534,0,0,0,26.5097,0,0,0,28.2911,0,0,0,65.006,0,0,0,28.6232,0,0,0
+imu_cali_0.acc_gyro[0].temp_ready,imu_cali_0.acc_gyro[0].temp_ready,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+imu_cali_1.acc_gyro[1].acc_temp,imu_cali_1.acc_gyro[1].acc_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_1.acc_gyro[1].cali_cnt,imu_cali_1.acc_gyro[1].cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_1.acc_gyro[1].gyro_temp,imu_cali_1.acc_gyro[1].gyro_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_1.acc_gyro[1].state,imu_cali_1.acc_gyro[1].state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_1.acc_gyro[1].temp_ready,imu_cali_1.acc_gyro[1].temp_ready,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_2.acc_gyro[2].acc_temp,imu_cali_2.acc_gyro[2].acc_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_2.acc_gyro[2].cali_cnt,imu_cali_2.acc_gyro[2].cali_cnt,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_2.acc_gyro[2].gyro_temp,imu_cali_2.acc_gyro[2].gyro_temp,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_2.acc_gyro[2].state,imu_cali_2.acc_gyro[2].state,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_2.acc_gyro[2].temp_ready,imu_cali_2.acc_gyro[2].temp_ready,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_exit_0,imu_cali_exit_0,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+imu_cali_exit_1,imu_cali_exit_1,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+imu_cali_exit_2,imu_cali_exit_2,"IMU, compass & calibration controls",calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,8,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127,0,0,0,127
+imu_cali_ui.all_gyr_acc.r[0],imu_cali_ui.all_gyr_acc.r[0],Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_ui.all_gyr_acc.r[1],imu_cali_ui.all_gyr_acc.r[1],Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_cali_ui.all_gyr_acc.r[2],imu_cali_ui.all_gyr_acc.r[2],Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+imu_gps_1_rtk_gps_offset_a_x,imu_gps_1_rtk_gps_offset_a_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_1_rtk_gps_offset_a_y,imu_gps_1_rtk_gps_offset_a_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_1_rtk_gps_offset_a_z,imu_gps_1_rtk_gps_offset_a_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_1_rtk_gps_offset_b_x,imu_gps_1_rtk_gps_offset_b_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_1_rtk_gps_offset_b_y,imu_gps_1_rtk_gps_offset_b_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_1_rtk_gps_offset_b_z,imu_gps_1_rtk_gps_offset_b_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_a_x,imu_gps_2_rtk_gps_offset_a_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_a_y,imu_gps_2_rtk_gps_offset_a_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_a_z,imu_gps_2_rtk_gps_offset_a_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_b_x,imu_gps_2_rtk_gps_offset_b_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_b_y,imu_gps_2_rtk_gps_offset_b_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+imu_gps_2_rtk_gps_offset_b_z,imu_gps_2_rtk_gps_offset_b_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+indoor_debug_landing,indoor_debug_landing,"RTH, takeoff, landing & failsafe",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+is_brc_fance_se3_mode,is_brc_fance_se3_mode,Other / opaque internal,,,4,,,,,,,,,,,,,0,0,0,1,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+is_brc_turn_around_mode,is_brc_turn_around_mode,Other / opaque internal,,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+is_playback,is_playback,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,100,,,,
+jamming_force_gohome_cancelable,jamming_force_gohome_cancelable,"RTH, takeoff, landing & failsafe",,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+kp_closure,kp_closure,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,3.2,3.2,0,100,,,,
+landing_avoid_near_ground,landing_avoid_near_ground,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+landing_horizon_avoid_disable_for_ship,landing_horizon_avoid_disable_for_ship,"RTH, takeoff, landing & failsafe",,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+landing_not_cancelable,landing_not_cancelable,"RTH, takeoff, landing & failsafe",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+landing_type_status,landing_type_status,"RTH, takeoff, landing & failsafe",,,8,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,5,0,0,0,4,0,0,0,5,0,0,0,5
+last_landing_type,last_landing_type,"RTH, takeoff, landing & failsafe",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,4,,,,
+led_test_item_param,led_test_item_param,"RC, radio, lights & interfaces",,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,255
+lida_x,lida_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+lida_y,lida_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+lida_z,lida_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+limit_height_rel,limit_height_rel,Flight limits & regulation,,,8,5,5,0,30,5,5,0,30,5,5,0,30,5,5,0,30,5,5,0,30,5,5,0,30,5,5,0,30,5,5,0,30
+limit_height_rel_by_light,limit_height_rel_by_light,Flight limits & regulation,,,8,3,3,0,30,3,3,0,30,2,2,0,30,2,2,0,30,2,2,0,30,2,2,0,30,3,3,0,30,2,2,0,30
+limit_height_rel_dynamic_increment,limit_height_rel_dynamic_increment,Flight limits & regulation,,,8,0,0,0,10,0,0,0,10,0,0,0,10,0,0,0,10,0,0,0,30,0,0,0,10,0,0,0,30,0,0,0,30
+limit_max_cmd_rate,limit_max_cmd_rate,Other / opaque internal,,,8,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500,1.74533,1.74533,0,500
+lpf_alpha_dtof,lpf_alpha_dtof,"Obstacle sensing, vision & terrain",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0.04,0.04,0,1,,,,
+lpf_alpha_dvel,lpf_alpha_dvel,"Stabilization, gains & filters",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0.01,0.01,0,1,,,,
+mag_dis_stop_fly,mag_dis_stop_fly,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+manual_actual_center_rate_x,manual_actual_center_rate_x,Flight modes & handling,,,8,220,220,20,2000,220,220,20,2000,220,220,20,2000,220,220,20,2000,220,220,20,2000,220,220,20,2000,220,220,20,2000,220,220,20,2000
+manual_actual_center_rate_y,manual_actual_center_rate_y,Flight modes & handling,,,8,180,180,20,2000,180,180,20,2000,180,180,20,2000,180,180,20,2000,180,180,20,2000,180,180,20,2000,180,180,20,2000,180,180,20,2000
+manual_actual_center_rate_z,manual_actual_center_rate_z,Flight modes & handling,,,8,100,100,20,2000,60,60,20,2000,100,100,20,2000,60,60,20,2000,60,60,20,2000,60,60,20,2000,60,60,20,2000,60,60,20,2000
+manual_actual_rate_exp_x,manual_actual_rate_exp_x,Flight modes & handling,,,8,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1
+manual_actual_rate_exp_y,manual_actual_rate_exp_y,Flight modes & handling,,,8,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1
+manual_actual_rate_exp_z,manual_actual_rate_exp_z,Flight modes & handling,,,8,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1,0.56,0.56,0,1
+manual_actual_thr_center_pwm,manual_actual_thr_center_pwm,Flight modes & handling,,,8,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99,-0.3,-0.3,-0.99,0.99
+manual_actual_thr_center_rate,manual_actual_thr_center_rate,Flight modes & handling,,,8,60,60,0,100,60,60,0,100,60,60,0,100,60,60,0,100,60,60,0,100,60,60,0,100,60,60,0,100,60,60,0,100
+manual_actual_thr_center_rc,manual_actual_thr_center_rc,Flight modes & handling,,,8,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99,-0.5,-0.5,-0.99,0.99
+manual_actual_thr_exp_h,manual_actual_thr_exp_h,Flight modes & handling,,,8,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1,0.24,0.24,0,1
+manual_actual_thr_exp_l,manual_actual_thr_exp_l,Flight modes & handling,,,8,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1,0.54,0.54,0,1
+manual_exit_low_thr,manual_exit_low_thr,Other / opaque internal,,,8,5,5,0,100,5,5,0,100,5,5,0,100,5,5,0,100,5,5,0,100,5,5,0,100,5,5,0,100,5,5,0,100
+manual_lift_exp,manual_lift_exp,Flight modes & handling,,,8,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9,0.5,0.5,0.1,0.9
+manual_limit_angle,manual_limit_angle,Other / opaque internal,,,8,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319,0.698132,0.698132,0,6.28319
+manual_limit_enable,manual_limit_enable,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+manual_mode_china_check,manual_mode_china_check,Flight modes & handling,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+manual_mode_switch_enable,manual_mode_switch_enable,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+manual_thr_protect_enable,manual_thr_protect_enable,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+manual_video_lost_action,manual_video_lost_action,Other / opaque internal,,,2,0,0,0,3,,,,,0,0,0,3,,,,,,,,,,,,,,,,,,,,
+mass_center_calibrated,mass_center_calibrated,Per-aircraft calibration & bias state,per_aircraft_calibration_or_bias_state,"Do not copy: per-aircraft runtime/calibration state, not a model preset",2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+mass_center_collecting_time_s,mass_center_collecting_time_s,Other / opaque internal,calibration_control_or_health_rule,Calibration command/status gate/health rule; not a calibration coefficient,2,15,15,2,255,,,,,15,15,2,255,,,,,,,,,,,,,,,,,,,,
+min_height_user,min_height_user,Other / opaque internal,,,8,5,5,0,20,5,5,0,20,5,5,0,20,3,3,0,20,3,3,0,20,5,5,0,20,3,3,0,20,5,5,0,20
+mode_gentle_cfg_gimb_tilt_atti_pitch_max,mode_gentle_cfg_gimb_tilt_atti_pitch_max,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+mode_gentle_cfg_gimb_tilt_atti_pitch_min,mode_gentle_cfg_gimb_tilt_atti_pitch_min,Flight modes & handling,,,2,,,,,-90,-90,-90,0,,,,,,,,,,,,,-90,-90,-90,0,,,,,,,,
+mode_gentle_cfg_gimb_tilt_atti_roll_range,mode_gentle_cfg_gimb_tilt_atti_roll_range,Flight modes & handling,,,2,,,,,90,90,0,90,,,,,,,,,,,,,90,90,0,90,,,,,,,,
+mode_gentle_cfg_rc_scale,mode_gentle_cfg_rc_scale,Flight modes & handling,,,8,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1,0.7,0.7,0.05,1
+mode_gentle_cfg_rc_scale_bac,mode_gentle_cfg_rc_scale_bac,Flight modes & handling,,,8,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1
+mode_gentle_cfg_rc_scale_fwd,mode_gentle_cfg_rc_scale_fwd,Flight modes & handling,,,8,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1
+mode_gentle_cfg_rc_scale_lat,mode_gentle_cfg_rc_scale_lat,Flight modes & handling,,,8,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1,0.9,0.9,0.1,1
+mode_gentle_cfg_tilt_atti_range,mode_gentle_cfg_tilt_atti_range,Flight modes & handling,,,8,20,20,10,60,20,20,10,60,20,20,10,60,10,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60,20,20,10,60
+mode_gentle_cfg_tors_gyro_range,mode_gentle_cfg_tors_gyro_range,"IMU, compass & calibration controls",,,8,75,75,20,200,75,75,20,200,75,75,20,200,70,70,20,200,70,70,20,200,75,75,20,200,75,75,20,120,75,75,20,200
+mode_gentle_cfg_vert_vel_down,mode_gentle_cfg_vert_vel_down,Flight modes & handling,,,8,-2,-2,-10,-1,-2,-2,-10,-1,-2,-2,-5,-1,-1,-1,-1,-0.5,-1,-1,-1,-0.5,-2,-2,-5,-1,-2,-2,-5,-1,-2,-2,-5,-1
+mode_gentle_cfg_vert_vel_up,mode_gentle_cfg_vert_vel_up,Flight modes & handling,,,8,3,3,1,10,3,3,1,10,3,3,1,5,1,1,0.5,1,1,1,0.5,1,3,3,1,5,3,3,1,5,3,3,1,5
+mode_manual_cfg_gnd_dyn_gain,mode_manual_cfg_gnd_dyn_gain,Flight modes & handling,,,8,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10,0.5,0.5,0.01,10
+mode_manual_cfg_gnd_i_clear_time,mode_manual_cfg_gnd_i_clear_time,Flight modes & handling,,,8,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10,3,3,0,10
+mode_manual_cfg_rot_camera_roll_en,mode_manual_cfg_rot_camera_roll_en,Gimbal & camera,,,8,0,0,0,255,0,0,0,255,0,0,0,255,0,0,0,255,0,0,0,255,0,0,0,255,0,0,0,255,0,0,0,255
+mode_manual_cfg_switch_check_time,mode_manual_cfg_switch_check_time,Flight modes & handling,,,8,10,10,0,1000,10,10,0,1000,10,10,0,1000,10,10,0,1000,10,10,0,1000,10,10,0,1000,10,10,0,1000,10,10,0,1000
+mode_tripod_cfg_horiz_acc_range,mode_tripod_cfg_horiz_acc_range,"IMU, compass & calibration controls",,,8,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000,1000,1000,1,1000
+mode_tripod_cfg_lift_exp_mid_point,mode_tripod_cfg_lift_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.3,0.3,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.3,0.3,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9
+mode_tripod_cfg_tilt_atti_range,mode_tripod_cfg_tilt_atti_range,Flight modes & handling,,,8,30,30,5,55,30,30,5,55,30,30,5,40,25,25,5,55,25,25,5,55,30,30,5,40,30,30,5,40,30,30,5,40
+mode_tripod_cfg_tilt_exp_mid_point,mode_tripod_cfg_tilt_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9
+mode_tripod_cfg_tors_exp_mid_point,mode_tripod_cfg_tors_exp_mid_point,Flight modes & handling,,,8,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.2,0.2,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9,0.2,0.2,0.1,0.9,0.25,0.25,0.1,0.9,0.25,0.25,0.1,0.9
+motor_fail_for_mission_degrade_en,motor_fail_for_mission_degrade_en,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+motor_overtemp_level1_action,motor_overtemp_level1_action,"Motors, ESC & propulsion",,,3,,,,,,,,,,,,,,,,,2,2,0,2,,,,,2,2,0,2,2,2,0,2
+motor_overtemp_level1_th,motor_overtemp_level1_th,"Motors, ESC & propulsion",,,3,,,,,,,,,,,,,,,,,200,200,0,255,,,,,200,200,0,255,200,200,0,255
+motor_overtemp_level2_action,motor_overtemp_level2_action,"Motors, ESC & propulsion",,,3,,,,,,,,,,,,,,,,,2,2,0,2,,,,,2,2,0,2,2,2,0,2
+motor_overtemp_level2_th,motor_overtemp_level2_th,"Motors, ESC & propulsion",,,3,,,,,,,,,,,,,,,,,220,220,0,255,,,,,220,220,0,255,220,220,0,255
+move_err_in_meter_per_square_second,move_err_in_meter_per_square_second,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,1.8,1.8,0,100,,,,,1.8,1.8,0,100,1.8,1.8,0,100
+multi_esc_type,multi_esc_type,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+multibase_cur_base_id,multibase_cur_base_id,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,255,255,0,4294967295,,,,
+multibase_mission_type,multibase_mission_type,Other / opaque internal,,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,2,,,,
+multibase_ready_status,multibase_ready_status,"Diagnostics, service & simulator",,,1,,,,,,,,,,,,,,,,,,,,,,,,,255,255,0,65535,,,,
+near_gnd_vert_acc_limit_amp,near_gnd_vert_acc_limit_amp,"IMU, compass & calibration controls",,,8,1,1,1,10,1,1,1,10,1,1,1,10,3,3,1,10,3,3,1,10,1,1,1,10,1,1,1,10,1,1,1,10
+ns.device_change_error_flag,ns.device_change_error_flag,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,0,,,,,0,0,0,0,0,0,0,0
+ns_multi_ag_fdi_open,ns_multi_ag_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ns_multi_alti_fdi_open,ns_multi_alti_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ns_multi_eular_fdi_open,ns_multi_eular_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ns_multi_fdi_open,ns_multi_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ns_multi_vg_fdi_open,ns_multi_vg_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ns_multi_w_fdi_open,ns_multi_w_fdi_open,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+oid_link_disconnected,oid_link_disconnected,Other / opaque internal,,,3,,,,,0,0,0,255,,,,,,,,,,,,,,,,,0,0,0,255,0,0,0,255
+omni_avoid_fov,omni_avoid_fov,"Obstacle sensing, vision & terrain",,,8,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360,40,40,0.01,360
+omni_limit_vel_fov,omni_limit_vel_fov,Other / opaque internal,,,8,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360,360,360,0.01,360
+param_go_tgt_height,param_go_tgt_height,Other / opaque internal,,,8,5,5,3,30,5,5,3,30,5,5,3,30,5,5,3,30,5,5,3,30,5,5,3,30,5,5,3,30,5,5,3,30
+param_go_tgt_vel,param_go_tgt_vel,Other / opaque internal,,,8,6,6,1,15,6,6,1,15,6,6,1,15,6,6,1,15,6,6,1,15,6,6,1,15,6,6,1,15,6,6,1,15
+param_hidden_ledctrl_enable,param_hidden_ledctrl_enable,"RC, radio, lights & interfaces",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+param_hidden_ledctrl_exist,param_hidden_ledctrl_exist,"RC, radio, lights & interfaces",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+param_single_ledctrl_enable,param_single_ledctrl_enable,"RC, radio, lights & interfaces",,,8,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255,255,255,0,255
+param_single_ledctrl_exist,param_single_ledctrl_exist,"RC, radio, lights & interfaces",,,8,21,21,0,255,21,21,0,255,21,21,0,255,21,21,0,255,21,21,0,255,21,21,0,255,21,21,0,255,21,21,0,255
+payload_idx,payload_idx,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,1,1,1,4,,,,,1,1,1,4,1,1,1,4
+plant_gain_uncer_comp_enable,plant_gain_uncer_comp_enable,"Stabilization, gains & filters",,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1
+plant_gain_voltage_comp_enable,plant_gain_voltage_comp_enable,Battery & power,,,8,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1
+product_sub_type,product_sub_type,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,255,,,,,0,0,0,255,0,0,0,255
+q_filter_delay,q_filter_delay,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,1,1,0,8,1,1,0,8,1,1,0,8,1,1,0,8,,,,
+q_filter_enable,q_filter_enable,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,,,,
+q_filter_fhp,q_filter_fhp,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,3,3,0,30,3,3,0,30,3,3,0,30,3,3,0,30,,,,
+q_filter_flp,q_filter_flp,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,5,5,0,30,5,5,0,30,5,5,0,30,10,10,0,30,,,,
+q_filter_gain,q_filter_gain,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,0.12,0.12,0,1.5,0.09,0.09,0,1.5,0.25,0.25,0,1.5,0.1,0.1,0,1.5,,,,
+q_filter_out_max,q_filter_out_max,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,40,40,0,100,40,40,0,100,40,40,0,100,40,40,0,100,,,,
+q_filter_type,q_filter_type,"Stabilization, gains & filters",,,4,,,,,,,,,,,,,1,1,1,2,1,1,1,2,1,1,1,2,1,1,1,2,,,,
+quick_spin_tors_rate_limit,quick_spin_tors_rate_limit,Other / opaque internal,,,8,200,200,90,300,200,200,90,300,200,200,90,300,200,200,90,300,200,200,90,300,200,200,90,300,200,200,90,300,200,200,90,300
+radar_dir_vel_thres,radar_dir_vel_thres,"Obstacle sensing, vision & terrain",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0.5,0.5,0,100,0.5,0.5,0,100
+rc_arm_delay_enable,rc_arm_delay_enable,"RC, radio, lights & interfaces",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+rc_break_pause_time_ms,rc_break_pause_time_ms,"RC, radio, lights & interfaces",,,8,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295,2500,2500,0,4294967295
+rc_delay_start_time_ms,rc_delay_start_time_ms,"RC, radio, lights & interfaces",,,8,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295,3000,3000,0,4294967295
+rc_filter_ratio,rc_filter_ratio,"Stabilization, gains & filters",,,8,25,25,10,35,25,25,10,35,25,25,10,35,25,25,10,35,25,25,10,35,25,25,10,35,25,25,10,35,25,25,10,35
+rc_lost_action_time,rc_lost_action_time,"RTH, takeoff, landing & failsafe",,,1,,,,,3,3,1,120,,,,,,,,,,,,,,,,,,,,,,,,
+rc_sbus_0_A_roll,rc_sbus_0_A_roll,"RC, radio, lights & interfaces",,,8,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0
+rc_sbus_1_E_pitch,rc_sbus_1_E_pitch,"RC, radio, lights & interfaces",,,8,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0
+rc_sbus_2_T_throttle,rc_sbus_2_T_throttle,"RC, radio, lights & interfaces",,,8,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0
+rc_sbus_3_R_yaw,rc_sbus_3_R_yaw,"RC, radio, lights & interfaces",,,8,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0
+rc_sbus_4_left_wheel,rc_sbus_4_left_wheel,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_5_go_home,rc_sbus_5_go_home,"RTH, takeoff, landing & failsafe",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_6_mode,rc_sbus_6_mode,"RC, radio, lights & interfaces",,,8,1024,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0,0,0,0,0,1024,0,0,0,1024,0,0,0,1024,0,0,0
+rc_sbus_7_emerg_stop,rc_sbus_7_emerg_stop,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_8_start_stop,rc_sbus_8_start_stop,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_9_pause_stop,rc_sbus_9_pause_stop,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_app_connected,rc_sbus_app_connected,"RC, radio, lights & interfaces",,,8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+rc_sbus_failsafe,rc_sbus_failsafe,"RTH, takeoff, landing & failsafe",,,8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+rc_sbus_frame_lost,rc_sbus_frame_lost,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_packet_cnt,rc_sbus_packet_cnt,"RC, radio, lights & interfaces",,,8,50540,0,0,0,36961,0,0,0,6197,0,0,0,676,0,0,0,2877,0,0,0,1431,0,0,0,1045,0,0,0,5142,0,0,0
+rc_sbus_rc_type,rc_sbus_rc_type,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_send_id,rc_sbus_send_id,"RC, radio, lights & interfaces",,,8,14,0,0,0,14,0,0,0,14,0,0,0,14,0,0,0,14,0,0,0,14,0,0,0,14,0,0,0,14,0,0,0
+rc_sbus_send_idx,rc_sbus_send_idx,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_sbus_video_lost,rc_sbus_video_lost,"RC, radio, lights & interfaces",,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rc_throttle_sensitivity,rc_throttle_sensitivity,"RC, radio, lights & interfaces",,,8,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500
+rc_throttle_sensitivity_for_wifi_ctrl,rc_throttle_sensitivity_for_wifi_ctrl,"RC, radio, lights & interfaces",,,4,,,,,,,,,,,,,50,50,1,500,50,50,1,500,,,,,100,100,1,500,100,100,1,500
+record_status,record_status,"Diagnostics, service & simulator",,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,100,0,0,0,100
+refine_start_motor_homepoint,refine_start_motor_homepoint,"RTH, takeoff, landing & failsafe",,,2,1,1,0,1,,,,,1,1,0,1,,,,,,,,,,,,,,,,,,,,
+rotate_theta,rotate_theta,Other / opaque internal,,,8,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180,0,0,-180,180
+rtk_yaw_not_fix_stop_motor,rtk_yaw_not_fix_stop_motor,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+safe_dis,horiz_omni_avoid_min_dis_m | safe_dis,"Obstacle sensing, vision & terrain",,,8,1,1,0.8,10,1,1,0.8,10,1,1,0.8,10,1,1,0.8,10,0.5,0.5,0.5,10,1,1,0.8,10,1,1,0.8,10,0.5,0.5,0.5,10
+sat_horiz_i_clear_time,sat_horiz_i_clear_time,Other / opaque internal,,,8,2,2,0,100,2,2,0,100,2,2,0,100,0.1,0.1,0,100,0.1,0.1,0,100,0.1,0.1,0,100,2,2,0,100,2,2,0,100
+sat_vert_i_clear_time,sat_vert_i_clear_time,Other / opaque internal,,,8,1.5,1.5,0,100,1.5,1.5,0,100,1.5,1.5,0,100,1,1,0,100,1,1,0,100,0.2,0.2,0,100,1.5,1.5,0,100,1.5,1.5,0,100
+sdr_lost_prevent_has_takeoff_en,sdr_lost_prevent_has_takeoff_en,"RTH, takeoff, landing & failsafe",,,8,0,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+sdr_lost_prevent_never_takeoff_en,sdr_lost_prevent_never_takeoff_en,"RTH, takeoff, landing & failsafe",,,8,0,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+sdr_lost_radius_limit_adding_distance,sdr_lost_radius_limit_adding_distance,Flight limits & regulation,,,8,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000,2000,2000,0,5000
+sdr_lost_radius_limit_enable,sdr_lost_radius_limit_enable,Flight limits & regulation,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+set_motor_auto_start_1,set_motor_auto_start_1,"Motors, ESC & propulsion",,,8,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295
+set_motor_auto_start_2,set_motor_auto_start_2,"Motors, ESC & propulsion",,,8,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295
+set_motor_auto_start_3,set_motor_auto_start_3,"Motors, ESC & propulsion",,,8,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295
+set_motor_auto_start_4,set_motor_auto_start_4,"Motors, ESC & propulsion",,,8,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295,0,0,0,4294967295
+sim_initial_altitude,sim_initial_altitude,"Diagnostics, service & simulator",,,8,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9,100,100,-9999.9,9999.9
+sim_rtk_gps_horiz_offset_0,sim_rtk_gps_horiz_offset_0,"Navigation, GNSS & positioning",,,8,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9
+sim_rtk_gps_horiz_offset_1,sim_rtk_gps_horiz_offset_1,"Navigation, GNSS & positioning",,,8,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9,0,0,-999.9,999.9
+sim_rtk_gps_vert_offset,sim_rtk_gps_vert_offset,"Navigation, GNSS & positioning",,,8,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9,0,0,-9999.9,9999.9
+simulator_gps_hdop,simulator_gps_hdop,"Navigation, GNSS & positioning",,,8,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9,0.6,0.6,0,999.9
+simulator_gps_pdop,simulator_gps_pdop,"Navigation, GNSS & positioning",,,8,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9,1,1,0,999.9
+simulator_gps_svn,simulator_gps_svn,"Navigation, GNSS & positioning",,,8,15,15,0,255,15,15,0,255,15,15,0,255,15,15,0,255,15,15,0,255,15,15,0,255,15,15,0,255,15,15,0,255
+simulator_mvo_flag,simulator_mvo_flag,"Obstacle sensing, vision & terrain",,,8,255,255,0,65535,255,255,0,65535,255,255,0,65535,255,255,0,65535,255,255,0,65535,255,255,0,65535,255,255,0,65535,255,255,0,65535
+soc_bat_remain_cap_percentage_display,soc_bat_remain_cap_percentage_display,Battery & power,,,8,0,0,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1
+start_gps_clk_dft,start_gps_clk_dft,"Navigation, GNSS & positioning",,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+support_china_oid,support_china_oid,Other / opaque internal,,,3,,,,,1,1,0,1,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1
+support_enforce_realname_prevent,support_enforce_realname_prevent,Other / opaque internal,,,3,,,,,1,1,0,1,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1
+support_offline_areaid_unlock,support_offline_areaid_unlock,Other / opaque internal,,,4,,,,,0,0,0,1,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+support_overload_check,support_overload_check,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,3,3,0,255,,,,,3,3,0,255,3,3,0,255
+support_radio_code_query,support_radio_code_query,"RC, radio, lights & interfaces",,,4,,,,,0,0,0,1,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+support_unlimit_height,support_unlimit_height,Flight limits & regulation,,,4,,,,,1,1,0,1,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+support_wl_in_and_out,support_wl_in_and_out,Other / opaque internal,,,4,,,,,0,0,0,1,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+sweep_amp_A,sweep_amp_A,"Stabilization, gains & filters",,,8,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100,0.2,0.2,0.01,100
+sweep_idle_level,sweep_idle_level,"Motors, ESC & propulsion",,,8,20,20,0,100,20,20,0,100,20,20,0,100,20,20,0,100,20,20,0,100,20,20,0,100,20,20,0,100,20,20,0,100
+sweep_inj_A_enable,sweep_inj_A_enable,"Stabilization, gains & filters",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+sweep_monitor_fstart,sweep_monitor_fstart,"Stabilization, gains & filters",,,6,,,,,0,0,0,200,,,,,0,0,0,200,0,0,0,200,0,0,0,200,0,0,0,200,0,0,0,200
+sweep_monitor_fstop,sweep_monitor_fstop,"Stabilization, gains & filters",,,6,,,,,40,40,0,200,,,,,100,100,0,200,100,100,0,200,100,100,0,200,100,100,0,200,100,100,0,200
+sweep_prbs_amp_A,sweep_prbs_amp_A,"Stabilization, gains & filters",,,8,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30,0.1,0.1,0.001,30
+sweep_prbs_reg_L_A,sweep_prbs_reg_L_A,Flight limits & regulation,,,8,7,7,1,32,7,7,1,32,7,7,1,32,7,7,1,32,7,7,1,32,7,7,1,32,7,7,1,32,7,7,1,32
+sweep_prbs_reg_M_A,sweep_prbs_reg_M_A,Flight limits & regulation,,,8,4,4,1,32,4,4,1,32,4,4,1,32,4,4,1,32,4,4,1,32,4,4,1,32,4,4,1,32,4,4,1,32
+sweep_prbs_scaler_A,sweep_prbs_scaler_A,"Stabilization, gains & filters",,,8,10,10,2,500,10,10,2,500,10,10,2,500,10,10,2,500,10,10,2,500,10,10,2,500,10,10,2,500,10,10,2,500
+sweep_prbs_total_t_A,sweep_prbs_total_t_A,"Stabilization, gains & filters",,,8,50,50,1,500,50,50,1,500,50,50,1,500,50,50,1,500,50,50,1,500,50,50,1,500,50,50,1,500,50,50,1,500
+sweep_start_f_A__PRBS_dt,sweep_start_f_A__PRBS_dt,"Stabilization, gains & filters",,,8,0.1,0.1,0,200,1,1,0,200,0.1,0.1,0,200,1,1,0,200,1,1,0,200,1,1,0,200,1,1,0,200,1,1,0,200
+sweep_stop_f_A__PRBS_N,sweep_stop_f_A__PRBS_N,"Stabilization, gains & filters",,,8,30,30,0,200,60,60,0,200,30,30,0,200,60,60,0,200,60,60,0,200,60,60,0,200,60,60,0,200,60,60,0,200
+sweep_test_flag,sweep_test_flag,"Stabilization, gains & filters",,,8,0,0,0,18,0,0,0,18,0,0,0,18,0,0,0,18,0,0,0,18,0,0,0,18,0,0,0,18,0,0,0,18
+sweep_test_method,sweep_test_method,"Stabilization, gains & filters",,,8,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2
+sweep_total_t_A__PRBS_period,sweep_total_t_A__PRBS_period,"Stabilization, gains & filters",,,8,120,120,0,1000,180,180,0,1000,120,120,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000,180,180,0,1000
+sweep_vib_flag,sweep_vib_flag,"Stabilization, gains & filters",,,6,,,,,0,0,0,64,,,,,0,0,0,64,0,0,0,64,0,0,0,64,0,0,0,64,0,0,0,64
+test_emergency_enable,test_emergency_enable,"Diagnostics, service & simulator",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+tether_mode_debug,tether_mode_debug,Flight modes & handling,,,2,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,2,0,0,0,2
+tgt_tors_cmp_enable,tgt_tors_cmp_enable,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1
+tgt_tors_cmp_fc,tgt_tors_cmp_fc,Other / opaque internal,,,6,1.5,1.5,0.01,150,1.5,1.5,0.01,150,1.5,1.5,0.01,150,1.5,1.5,0.01,150,1.5,1.5,0.01,150,1.5,1.5,0.01,150,,,,,,,,
+tgt_tors_fltr_fc,tgt_tors_fltr_fc,"Stabilization, gains & filters",,,8,6.3,6.3,0,150,6.3,6.3,0,150,100,100,0,150,25,25,0,150,6.3,6.3,0,150,100,100,0,150,25,25,0,150,5,5,0,150
+tip1_x,tip1_x,Other / opaque internal,,,5,,,,,0,0,-32768,32767,,,,,,,,,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+tip1_y,tip1_y,Other / opaque internal,,,5,,,,,0,0,-32768,32767,,,,,,,,,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+tip1_z,tip1_z,Other / opaque internal,,,5,,,,,0,0,-32768,32767,,,,,,,,,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+tpa_avxy_brake_sys_gn_H,tpa_avxy_brake_sys_gn_H,Flight modes & handling,,,2,,,,,,,,,,,,,,,,,100,100,0,255,,,,,,,,,135,135,0,255
+tpa_avxy_brake_sys_gn_L,tpa_avxy_brake_sys_gn_L,Flight modes & handling,,,2,,,,,,,,,,,,,,,,,100,100,0,255,,,,,,,,,80,80,0,255
+tpa_avxy_lead_fc_H,tpa_avxy_lead_fc_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_lead_fc_L,tpa_avxy_lead_fc_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_lead_gn_H,tpa_avxy_lead_gn_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_lead_gn_L,tpa_avxy_lead_gn_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_pi_H,tpa_avxy_pi_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_pi_L,tpa_avxy_pi_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avxy_sys_gn_H,tpa_avxy_sys_gn_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,125,125,0,255
+tpa_avxy_sys_gn_L,tpa_avxy_sys_gn_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,90,90,0,255
+tpa_avz_lead_fc_H,tpa_avz_lead_fc_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_lead_fc_L,tpa_avz_lead_fc_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_lead_gn_H,tpa_avz_lead_gn_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_lead_gn_L,tpa_avz_lead_gn_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_pi_H,tpa_avz_pi_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_pi_L,tpa_avz_pi_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_sys_gn_H,tpa_avz_sys_gn_H,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+tpa_avz_sys_gn_L,tpa_avz_sys_gn_L,Other / opaque internal,,,3,,,,,,,,,,,,,100,100,0,255,100,100,0,255,,,,,,,,,100,100,0,255
+transwp_in_cmder_mode,transwp_in_cmder_mode,Other / opaque internal,,,6,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+trigger_backup_landing_reason,trigger_backup_landing_reason,"RTH, takeoff, landing & failsafe",,,1,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,255,,,,
+ultrasonic_fdi_open_disconnect,ultrasonic_fdi_open_disconnect,"Obstacle sensing, vision & terrain",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+ultrasonic_fdi_open_stuck,ultrasonic_fdi_open_stuck,"Obstacle sensing, vision & terrain",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+up_warning_dist,up_warning_dist,Other / opaque internal,,,8,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000,3000,3000,110,3000
+use_mode_normal_cfg_for_mode_atti,use_mode_normal_cfg_for_mode_atti,Flight modes & handling,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+user_all_avoid_enable,user_all_avoid_enable,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,0,1,0,1,1,1,0,1,0,0,0,1,1,1,0,2,1,1,0,1,0,1,0,2,0,1,0,2
+user_lock_yaw_enable,user_lock_yaw_enable,Other / opaque internal,,,3,,,,,,,,,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+user_set_battery_system_type,user_set_battery_system_type,Battery & power,,,3,,,,,,,,,,,,,,,,,1,1,0,5,,,,,1,1,0,5,1,1,0,5
+user_test_actuator,user_test_actuator,"Motors, ESC & propulsion",,,2,4,4,0,4,,,,,4,4,0,4,,,,,,,,,,,,,,,,,,,,
+user_test_esc_factory_test,user_test_esc_factory_test,"Motors, ESC & propulsion",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+user_test_timer,user_test_timer,"Diagnostics, service & simulator",,,8,20,20,0,65535,20,20,0,65535,20,20,0,65535,20,20,0,65535,20,20,0,65535,20,20,0,65535,20,20,0,65535,20,20,0,65535
+user_tof_cfg,user_tof_cfg,"Obstacle sensing, vision & terrain",,,3,,,,,,,,,,,,,,,,,1,1,0,1,,,,,1,1,0,1,1,1,0,1
+using_perception_horiz_avoid_info,using_perception_horiz_avoid_info,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+using_perception_up_avoid_info,using_perception_up_avoid_info,"Obstacle sensing, vision & terrain",,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+using_radar_horiz_avoid_info,using_radar_horiz_avoid_info,"Obstacle sensing, vision & terrain",,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+using_radar_up_avoid_info,using_radar_up_avoid_info,"Obstacle sensing, vision & terrain",,,2,0,0,0,1,,,,,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+uwb1_x,uwb1_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb1_y,uwb1_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb1_z,uwb1_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb2_x,uwb2_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb2_y,uwb2_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb2_z,uwb2_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb3_x,uwb3_x,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb3_y,uwb3_y,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+uwb3_z,uwb3_z,Sensor installation geometry (model),model_sensor_geometry,"Do not copy across models; this is installation geometry, not proven per-unit calibration",8,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767,0,0,-32768,32767
+vel_to_bottom_for_dyn_land_enable_cfg,vel_to_bottom_for_dyn_land_enable_cfg,Other / opaque internal,,,4,,,,,0,0,0,1,,,,,,,,,0,0,0,1,,,,,0,0,0,1,0,0,0,1
+vert_down_avoid_min_dis_m,vert_down_avoid_min_dis_m,"Obstacle sensing, vision & terrain",,,8,0.5,0.5,0.1,5,0.5,0.5,0.1,5,0.5,0.5,0.1,5,0.3,0.3,0.1,5,0.3,0.3,0.1,5,0.5,0.5,0.1,5,0.3,0.3,0.1,5,0.5,0.5,0.1,5
+vert_up_avoid_min_dis_m,vert_up_avoid_min_dis_m,"Obstacle sensing, vision & terrain",,,8,1,1,1,10,1,1,1,10,1,1,1,10,1,1,1,10,0.5,0.5,0.5,10,1,1,1,10,1,1,1,10,0.5,0.5,0.5,10
+vert_vel_down_adding_max,vert_vel_down_adding_max,Flight modes & handling,,,8,-20,-20,-20,0,-10,-10,-20,0,-5,-5,-20,0,-6,-6,-20,0,-6,-6,-20,0,-5,-5,-20,0,-10,-10,-20,0,-10,-10,-20,0
+vert_vel_gain,vert_vel_gain,Flight modes & handling,,,8,120,120,0,500,120,120,0,500,130,130,0,500,105,105,0,500,105,105,0,500,130,130,0,500,105,105,0,500,130,130,0,500
+vo_fdi_open_abrupt,vo_fdi_open_abrupt,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_disconnect,vo_fdi_open_disconnect,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_height_consist,vo_fdi_open_height_consist,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+vo_fdi_open_invalid_float,vo_fdi_open_invalid_float,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_range,vo_fdi_open_range,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_stuck_pos,vo_fdi_open_stuck_pos,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_stuck_vel,vo_fdi_open_stuck_vel,Other / opaque internal,,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+vo_fdi_open_vel_large_in_static,vo_fdi_open_vel_large_in_static,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+vo_fdi_open_vel_large_on_ground,vo_fdi_open_vel_large_on_ground,Other / opaque internal,,,8,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+waypoint_in_break_state,waypoint_in_break_state,"Navigation, GNSS & positioning",,,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+waypoint_ready_state,waypoint_ready_state,"Navigation, GNSS & positioning",,,3,0,0,0,4294967295,,,,,0,0,0,4294967295,,,,,,,,,,,,,0,0,0,4294967295,,,,
+yaw_sensitive_gain,yaw_sensitive_gain,"Stabilization, gains & filters",,,8,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500,100,100,1,500
