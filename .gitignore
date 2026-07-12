@@ -1,0 +1,21 @@
+# build output
+/build/
+*.apk
+*.apk.idsig
+*.dex
+*.log
+
+# signing material — never commit real keystores
+*.keystore
+*.jks
+
+# local tooling config
+.env
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
