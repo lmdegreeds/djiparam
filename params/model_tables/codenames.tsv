@@ -9,3 +9,7 @@ WA234	WA234_Air3S	Air 3S	0	1513	876	paramtable_wa234.txt
 WM260	WM260_Mavic3	Mavic 3	0	1311	647	paramtable_wm260.txt
 WM261	WM261_Mavic3Pro	Mavic 3 Pro	0	1415	784	paramtable_wm261.txt
 WA341	WA341_Mavic4	Mavic 4	ddb5b586	1550	890	paramtable_wa341.txt
+WA521	WA521_Neo	Neo	fe12e1ce	1477	—	—
+WA020	WA020_Neo2	Neo 2	2ae1a5ad	1571	934	paramtable_wa020.txt
+WA141	WA141_Flip	Flip	3c662a43	1481	—	—
+WA530	WA530_Avata360	Avata 360	430bd5b7	1561	—	—

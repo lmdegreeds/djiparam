@@ -23,9 +23,11 @@
     },
     {
       "name": "DJI Neo",
-      "codenames": [],
-      "crc": "0",
-      "count": 0,
+      "codenames": [
+        "wa521"
+      ],
+      "crc": "fe12e1ce",
+      "count": 1477,
       "catalog": "params_neo.json",
       "idx": {
         "forearm_led_ctrl": 45,
@@ -36,22 +38,26 @@
     },
     {
       "name": "DJI Neo 2",
-      "codenames": [],
-      "crc": "0",
-      "count": 0,
+      "codenames": [
+        "wa020"
+      ],
+      "crc": "2ae1a5ad",
+      "count": 1571,
       "catalog": "params_neo2.json",
       "idx": {
         "forearm_led_ctrl": 4,
-        "gps_enable": 53,
-        "fswitch_selection": 466,
-        "vps_func_en": 1079
+        "gps_enable": 377,
+        "fswitch_selection": 130,
+        "vps_func_en": 1023
       }
     },
     {
       "name": "DJI Flip",
-      "codenames": [],
-      "crc": "0",
-      "count": 0,
+      "codenames": [
+        "wa141"
+      ],
+      "crc": "3c662a43",
+      "count": 1481,
       "catalog": "params_flip.json",
       "idx": {
         "forearm_led_ctrl": 26,
@@ -62,9 +68,11 @@
     },
     {
       "name": "DJI Avata 360",
-      "codenames": [],
-      "crc": "0",
-      "count": 0,
+      "codenames": [
+        "wa530"
+      ],
+      "crc": "430bd5b7",
+      "count": 1561,
       "catalog": "params_avata360.json",
       "idx": {
         "gps_enable": 310,

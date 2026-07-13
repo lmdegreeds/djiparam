@@ -8,11 +8,25 @@
 
 ## Что здесь
 
-- `paramtable_<codename>.txt` — **10** таблиц параметров FLYC (9 DJI + LitoX1).
+- `paramtable_<codename>.txt` — **11** таблиц параметров FLYC (9 DJI + LitoX1 + Neo 2/WA020).
 - `codenames.tsv` / `codenames.json` — индекс: кодовое имя → модель → CRC → файл.
 - `known_toggles.tsv` — сводные известные тумблеры (ATTI/LED/GPS/maxspeed/CE) из
   `ledgps.Feat` + дефолтов fcc + CLAUDE.md: имя параметра, on/off-значения, модели.
 - Разбор транспорта/записи/«FCC-хака» fcc — в `ANALISYS_2/fcc-app-djifcc-analysis.md`.
+
+### Neo 2 (WA020) — две ревизии прошивки
+
+`paramtable_wa020.txt` снят с **последней** прошивки: `crc=2ae1a5ad count=1571
+params=934`. Существует и более старая ревизия (dump `params/Neo 2.dhp`,
+count 1544, 927 строк), её CRC пока **неизвестен**. Между ревизиями DJI вставила
+блок Remote-ID/FDI-параметров в середину таблицы, поэтому **индексы съехали**:
+`fswitch_selection` 466→130, `ce_country_type` 443→47, `gps_enable` 53→377,
+`g_config.flying_limit.max_height` 408→74. На месте остались только LED в начале
+таблицы (`ext_led_ctrl` idx 3, `forearm_led_ctrl` idx 4). 7 реально новых имён:
+`support_china_oid`, `support_enforce_realname_prevent`, `oid_link_disconnected`,
+`ccc_broadcast_signal_quality`, `ccc_poor_position_accuracy_on`,
+`ccc_unsupport_control_type`, `fscap_enable_homepoint_setting_s`. **Вывод:**
+резолвить тумблеры по имени через `get_info`, не по захардкоженному индексу.
 
 ### LitoX1 vs Mini 5 Pro
 `wa150` и `wa151` делят CRC `5f8b2ae1` → **по CRC их не различить**; разделять по

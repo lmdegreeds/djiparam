@@ -11,6 +11,10 @@
     { "codename": "WA234", "model_full": "WA234_Air3S",     "friendly": "Air 3S",       "crc": "0",        "count": 1513, "params": 876, "file": "paramtable_wa234.txt" },
     { "codename": "WM260", "model_full": "WM260_Mavic3",    "friendly": "Mavic 3",      "crc": "0",        "count": 1311, "params": 647, "file": "paramtable_wm260.txt" },
     { "codename": "WM261", "model_full": "WM261_Mavic3Pro", "friendly": "Mavic 3 Pro",  "crc": "0",        "count": 1415, "params": 784, "file": "paramtable_wm261.txt" },
-    { "codename": "WA341", "model_full": "WA341_Mavic4",    "friendly": "Mavic 4",      "crc": "ddb5b586", "count": 1550, "params": 890, "file": "paramtable_wa341.txt" }
+    { "codename": "WA341", "model_full": "WA341_Mavic4",    "friendly": "Mavic 4",      "crc": "ddb5b586", "count": 1550, "params": 890, "file": "paramtable_wa341.txt" },
+    { "codename": "WA521", "model_full": "WA521_Neo",       "friendly": "Neo",          "crc": "fe12e1ce", "count": 1477, "params": null, "file": null, "note": "детект по CRC; таблица параметров не в комплекте" },
+    { "codename": "WA020", "model_full": "WA020_Neo2",      "friendly": "Neo 2",        "crc": "2ae1a5ad", "count": 1571, "params": 934, "file": "paramtable_wa020.txt", "note": "таблица снята с ПОСЛЕДНЕЙ прошивки (crc 2ae1a5ad, count 1571). Есть более старая ревизия Neo 2 (dump params/Neo 2.dhp, count 1544, 927 строк) с ДРУГОЙ раскладкой индексов — её CRC неизвестен. Индексы между ревизиями съехали (fswitch_selection 466->130, ce_country_type 443->47, gps_enable 53->377, max_height 408->74); LED (ext_led_ctrl idx3 / forearm_led_ctrl idx4) на месте. Резолвить тумблеры по имени, не по индексу." },
+    { "codename": "WA141", "model_full": "WA141_Flip",      "friendly": "Flip",         "crc": "3c662a43", "count": 1481, "params": null, "file": null, "note": "детект по CRC; таблица параметров не в комплекте" },
+    { "codename": "WA530", "model_full": "WA530_Avata360",  "friendly": "Avata 360",    "crc": "430bd5b7", "count": 1561, "params": null, "file": null, "note": "детект по CRC; таблица параметров не в комплекте" }
   ]
 }
