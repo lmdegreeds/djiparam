@@ -222,6 +222,7 @@ public class MainActivity extends Activity {
     private final List<Object> rows = new ArrayList<>();       // display list: String (header) | P (param)
     private final java.util.HashMap<Integer, String> allText = new java.util.HashMap<>(); // key -> display value
     private final java.util.HashMap<Integer, String> allDefault = new java.util.HashMap<>(); // key -> get_info default
+    private final java.util.HashMap<Integer, String> allSeenName = new java.util.HashMap<>(); // key -> on-board name (get_info)
     private final java.util.HashMap<Integer, Integer> allBool = new java.util.HashMap<>(); // key -> 0/1 (bool params)
     private final java.util.HashSet<Integer> allReading = new java.util.HashSet<>();       // keys being read now
     private final java.util.HashSet<Integer> expanded = new java.util.HashSet<>();         // keys expanded (show desc)
@@ -758,7 +759,7 @@ public class MainActivity extends Activity {
         qpValue.clear(); qpName.clear(); qpDefault.clear();
         stopLoading();                       // cancel in-flight all-params reads (old model's indices)
         table = null; loadedCatalog = null; tableByKey.clear(); rows.clear();
-        allText.clear(); allBool.clear(); allDefault.clear(); allReading.clear(); expanded.clear();
+        allText.clear(); allBool.clear(); allDefault.clear(); allSeenName.clear(); allReading.clear(); expanded.clear();
         Logger.i("[model] -> " + (manualModel == null ? "авто" : manualModel));
         // если оверлей открыт — перезапустить его, чтобы он взял индексы новой модели
         if (overlayOn) { Logger.i("[overlay] restart on model change"); stopOverlay(); startOverlay(); }
@@ -1763,13 +1764,30 @@ public class MainActivity extends Activity {
                 allText.put(k, String.valueOf(v));
                 if (p.isBool()) allBool.put(k, (int) v);
             }
+            // verify the on-board NAME at this index matches the catalog (the same get_info reply that
+            // carries the factory default). A mismatch means the bundled index is wrong for this firmware
+            // → the value shown is a DIFFERENT parameter, and a write here would clobber it.
+            byte[] info = duml.getInfoRaw(p.table, p.index, 900);
+            String nm = infoName(info);
+            if (nm != null && !nm.isEmpty()) allSeenName.put(k, nm);
             if (!allDefault.containsKey(k)) {
-                String def = infoDefault(duml.getInfoRaw(p.table, p.index, 900), p.type);
+                String def = infoDefault(info, p.type);
                 if (def != null) allDefault.put(k, def);
             }
         } finally {
             allReading.remove(k);
         }
+    }
+
+    /** True if the board-reported name at an index matches this catalog row (short name or full path). */
+    private static boolean matchesP(P p, String boardName) {
+        if (boardName == null || boardName.isEmpty()) return false;
+        for (String seg : boardName.split("\\|")) {
+            String s = seg.trim();
+            if (s.equalsIgnoreCase(p.name)) return true;
+            if (p.full != null && !p.full.isEmpty() && s.equalsIgnoreCase(p.full)) return true;
+        }
+        return false;
     }
 
     /** Throttle list repaints to ~3/s so notifyDataSetChanged doesn't jank the UI. */
@@ -1889,6 +1907,21 @@ public class MainActivity extends Activity {
         toast(p.name + ": запись " + shownVal + "…");
         if (allAdapter != null) allAdapter.notifyDataSetChanged();   // disable controls while busy
         new Thread(() -> {
+            // re-verify the on-board name right before writing; BLOCK on a positive mismatch so a wrong
+            // bundled index (different firmware revision) can't clobber an unrelated parameter.
+            String bn = infoName(duml.getInfoRaw(p.table, p.index, 900));
+            if (bn != null && !bn.isEmpty()) {
+                allSeenName.put(k, bn);
+                if (!matchesP(p, bn)) {
+                    paramsBusy = false;
+                    ui.post(() -> {
+                        if (allAdapter != null) allAdapter.notifyDataSetChanged();
+                        toast("⚠ idx " + p.index + " на борту = " + bn + " — не " + p.name
+                                + ". Запись отменена.");
+                    });
+                    return;
+                }
+            }
             final long status = duml.writeValue(p.table, p.index, vb, 1600);
             String rb = null;
             byte[] raw = duml.readRaw(p.table, p.index, 1200);
@@ -2107,8 +2140,16 @@ public class MainActivity extends Activity {
                 String def = allDefault.get(k);
                 if (def == null) def = fmtFloat(p.def);          // тип убран, показываем default
                 String defStr = def != null && !def.isEmpty() ? "по умолч. " + def : "";
-                h.meta.setText(defStr + range + "  ·  " + p.cat
-                        + "  ·  idx " + p.index + full);
+                // name check: if get_info returned a DIFFERENT name at this index, the bundled index is
+                // wrong for this firmware — flag it and block editing (a write would hit another param).
+                String seenName = allSeenName.get(k);
+                boolean nameMismatch = seenName != null && !seenName.isEmpty() && !matchesP(p, seenName);
+                boolean nameOk = seenName != null && !seenName.isEmpty() && !nameMismatch;
+                h.meta.setText(defStr + range + "  ·  " + p.cat + "  ·  idx " + p.index + full
+                        + (nameMismatch ? "\n⚠ на борту idx " + p.index + " = " + seenName
+                                        + " — НЕ " + p.name + ": редактирование заблокировано"
+                                        : nameOk ? "\n✓ имя сверено с бортом" : ""));
+                boolean writable = duml.isUp() && !paramsBusy && !nameMismatch;
 
                 h.sw.setOnCheckedChangeListener(null);
                 if (p.isBool()) {
@@ -2116,7 +2157,7 @@ public class MainActivity extends Activity {
                     boolean loaded = bv != null;
                     h.sw.setVisibility(View.VISIBLE);
                     h.sw.setChecked(loaded && bv == 1);
-                    h.sw.setEnabled(loaded && duml.isUp() && !paramsBusy);
+                    h.sw.setEnabled(loaded && writable);
                     h.sw.setOnCheckedChangeListener((v, checked) -> onAllToggle(p, checked, h.sw));
                     h.editRow.setVisibility(View.GONE);
                 } else {
@@ -2126,9 +2167,9 @@ public class MainActivity extends Activity {
                     h.edit.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_SIGNED
                             | (p.isFloat() ? InputType.TYPE_NUMBER_FLAG_DECIMAL : 0));
                     if (!h.edit.hasFocus()) h.edit.setText(vtext == null ? "" : vtext);
-                    h.edit.setEnabled(duml.isUp() && !paramsBusy);
-                    h.writeBtn.setEnabled(duml.isUp() && !paramsBusy);
-                    h.writeBtn.setBackground(pill(duml.isUp() && !paramsBusy ? ACCENT : 0xFF3A3A40));
+                    h.edit.setEnabled(writable);
+                    h.writeBtn.setEnabled(writable);
+                    h.writeBtn.setBackground(pill(writable ? ACCENT : 0xFF3A3A40));
                     h.writeBtn.setOnClickListener(v -> onAllWrite(p, h.edit.getText().toString()));
                 }
                 String vlabel = reading ? "чтение…" : vtext == null ? "—" : vtext;
