@@ -197,6 +197,81 @@ public final class Duml {
         return null;
     }
 
+    // ---- fcc-style full name scan (one persistent inject socket) ----
+
+    public interface ScanCb { void progress(int idx, int count, int named); boolean cancelled(); }
+
+    /**
+     * fcc-style live name map: get_info (0xE1) over every index 0..count to read the real parameter
+     * name straight from the board, building index→name. Mirrors fcc's C0046i loop but reuses our
+     * proven transport — ONE persistent 40008 inject socket for all requests (no per-request socket
+     * churn, the slow part before), replies collected by the running 40007 reader. So start() must be
+     * up and DJI Fly CLOSED (the scan reads on 40007). Retries up to 3× per index like fcc.
+     */
+    public java.util.LinkedHashMap<Integer, String> scanNames(int table, int count, ScanCb cb) {
+        java.util.LinkedHashMap<Integer, String> map = new java.util.LinkedHashMap<>();
+        if (!running || count <= 0) return map;
+        Socket s = new Socket();
+        try {
+            s.setTcpNoDelay(true);
+            s.connect(new InetSocketAddress("127.0.0.1", 40008), 1500);
+            OutputStream out = s.getOutputStream();
+            final int BATCH = 128;
+            for (int start = 0; start < count && running; start += BATCH) {
+                if (cb != null && cb.cancelled()) break;
+                int endIdx = Math.min(count, start + BATCH);
+                // indices we still need a reply for in this batch (empty slots simply never resolve)
+                java.util.HashSet<Integer> missing = new java.util.HashSet<>();
+                for (int i = start; i < endIdx; i++) missing.add(i);
+                // up to 2 pipelined passes: fire ALL missing back-to-back, then harvest by index
+                for (int pass = 0; pass < 2 && !missing.isEmpty() && running; pass++) {
+                    long mark; synchronized (ready) { mark = seqCounter; }
+                    for (int idx : new java.util.ArrayList<>(missing)) {
+                        byte[] p = { (byte) table, (byte) (table >> 8), (byte) idx, (byte) (idx >> 8) };
+                        try { out.write(build(SET, GET_INFO, p)); out.flush(); }
+                        catch (Throwable e) { Logger.w("[scan] write err: " + e); return map; }
+                        sleep(2);                                   // gentle pace so the router keeps up
+                    }
+                    // harvest: drain replies until the stream dries up (no new match for 450ms) or hard cap
+                    long lastGot = System.currentTimeMillis();
+                    long hardEnd = lastGot + missing.size() * 8L + 900;
+                    while (!missing.isEmpty() && System.currentTimeMillis() < hardEnd && running) {
+                        boolean got = false;
+                        synchronized (ready) {
+                            for (int k = ready.size() - 1; k >= 0; k--) {
+                                Reply m = ready.get(k);
+                                if (m.seq <= mark) break;
+                                if (m.set == SET && m.id == GET_INFO && missing.remove(m.index)) {
+                                    String nm = nameFromInfo(m.pl);
+                                    if (nm != null && !nm.isEmpty()) map.put(m.index, nm);
+                                    got = true;
+                                }
+                            }
+                        }
+                        if (got) lastGot = System.currentTimeMillis();
+                        else { if (System.currentTimeMillis() - lastGot > 450) break; sleep(8); }
+                    }
+                }
+                if (cb != null) cb.progress(endIdx, count, map.size());
+            }
+        } catch (Throwable e) {
+            Logger.w("[scan] socket err: " + e);
+        } finally { try { s.close(); } catch (Throwable t) {} }
+        return map;
+    }
+
+    /** Name = NUL-terminated ASCII at offset 22 of a get_info reply payload (fcc/2017 layout). */
+    static String nameFromInfo(byte[] pl) {
+        if (pl == null || pl.length <= 22) return "";
+        StringBuilder sb = new StringBuilder();
+        for (int i = 22; i < pl.length; i++) {
+            int c = pl[i] & 0xFF;
+            if (c == 0) break;
+            if (c >= 32 && c < 127) sb.append((char) c);
+        }
+        return sb.toString().trim();
+    }
+
     // ---- quick-param read/write (cmd_set 0x03 by-index) ----
     // Reply payload layout: <status:u32=0 OK><index:u16><value LE by type>. We work in `long`
     // (all quick params are integers); always verify the on-board name via get_info before a write
@@ -416,17 +491,55 @@ public final class Duml {
         return p;
     }
 
-    private static byte[] build(int cmdSet, int cmdId, byte[] payload) { return buildTo(cmdSet, cmdId, payload, FC); }
-    private static byte[] buildTo(int cmdSet, int cmdId, byte[] payload, int dst) {
+    private static byte[] build(int cmdSet, int cmdId, byte[] payload) { return frame(cmdSet, cmdId, payload, FC, APP, 0); }
+    // Full DUML v1 frame with explicit dst/src/seq. src=0x02 for the normal 40008 path, 0x0A for the
+    // 40009 inject path (fcc uses 0x0A there). CRC8 init 0x77 + CRC16 init 0x3692 (see tables below).
+    private static byte[] frame(int cmdSet, int cmdId, byte[] payload, int dst, int src, int seq) {
         int len = 13 + payload.length;
         byte[] b = new byte[len];
         b[0] = 0x55; b[1] = (byte) len; b[2] = (byte) ((1 << 2) | ((len >> 8) & 3));
         b[3] = (byte) crc8(b, 0, 3);
-        b[4] = APP; b[5] = (byte) dst; b[6] = 0; b[7] = 0; b[8] = 0x40; b[9] = (byte) cmdSet; b[10] = (byte) cmdId;
+        b[4] = (byte) src; b[5] = (byte) dst; b[6] = (byte) seq; b[7] = (byte) (seq >> 8);
+        b[8] = 0x40; b[9] = (byte) cmdSet; b[10] = (byte) cmdId;
         System.arraycopy(payload, 0, b, 11, payload.length);
         int c = crc16(b, 0, len - 2);
         b[len - 2] = (byte) c; b[len - 1] = (byte) (c >> 8);
         return b;
+    }
+
+    // rolling seq for coexist injects
+    private int seqCoexist = 0x0100;
+
+    /**
+     * "Coexist with DJI Fly" write: fire-and-forget write_value (0xE3) on the 40008 inject socket.
+     * One-shot connect→write→close, NO reader, NO readback. This is the write half of our normal path
+     * (40008 upstream inject, src=0x02) but WITHOUT opening the persistent 40007 reader — and it's the
+     * 40007 reader that churns DJI Fly's video mirror (§4), not the inject. So a brief write here should
+     * not disturb Fly. Uses 40008, NOT 40009: fcc writes on 40009, but 40009 only routes injects from a
+     * privileged uid — from our untrusted app the identical frame on 40009 is silently dropped, while
+     * 40008 routes fine (confirmed on LitoX1: forearm_led_ctrl idx 23 toggles via 40008).
+     *
+     * No confirmation is possible without the reader — returns true only if the frame was written to the
+     * socket. Does NOT require start() to be up. Hold the socket ~600ms before close so the router has
+     * time to forward the inject (a 150ms close was too short and dropped the frame).
+     */
+    public boolean writeOnceCoexist(int table, int index, String type, long value) {
+        byte[] pkt = frame(SET, WRITE_VAL, reqPayload(table, index, encodeInt(type, value)), FC, APP, seqCoexist++ & 0xFFFF);
+        Socket s = new Socket();
+        try {
+            s.setTcpNoDelay(true);
+            s.connect(new InetSocketAddress("127.0.0.1", 40008), 1500);
+            OutputStream out = s.getOutputStream();
+            out.write(pkt); out.flush();
+            Logger.i("[duml] coexist write (40008) idx=" + index + " val=" + value + " " + hex(pkt));
+            try { Thread.sleep(600); } catch (InterruptedException ie) { Thread.currentThread().interrupt(); }
+            return true;
+        } catch (Throwable e) {
+            Logger.w("[duml] coexist write idx=" + index + " send err: " + e);
+            return false;
+        } finally {
+            try { s.close(); } catch (Throwable t) {}
+        }
     }
 
     private static void sleep(long ms) { try { Thread.sleep(ms); } catch (InterruptedException e) {} }

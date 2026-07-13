@@ -9,6 +9,12 @@
 *.keystore
 *.jks
 
+# telemetry — code + secret kept private, OUT of version control
+src/com/djiparam/Telemetry.java
+assets/telemetry.b64
+telemetry.b64
+telemetry_secret*
+
 # local tooling config
 .env
 *.local

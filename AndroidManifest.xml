@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.djiparam"
-    android:versionCode="14"
-    android:versionName="0.14">
+    android:versionCode="15"
+    android:versionName="0.15">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="30" />
 
-    <!-- loopback TCP to the RC's DUML feeds (40007/40008) -->
+    <!-- loopback TCP to the RC's DUML feeds (40007/40008) + connection telemetry over HTTPS -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- gate telemetry on an available network (send later if offline) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- floating control overlay on top of DJI Fly (like the fcc gesture app) -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- self-update from GitHub releases -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <!-- Android 11 package visibility: we resolve these + open their App Info -->
     <queries>
         <package android:name="dji.go.v6" />
         <package android:name="dji.go.v5" />
+        <package android:name="com.dpad.fuli" />
     </queries>
 
     <application
@@ -32,5 +42,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".OverlayService"
+            android:exported="false" />
+        <receiver
+            android:name=".InstallReceiver"
+            android:exported="false" />
     </application>
 </manifest>
